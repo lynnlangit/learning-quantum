@@ -11,4 +11,10 @@ Study resources for learning quantum computing
 
 Examples from notebooks above
 
+#### Global Phase
+
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/global-phase.png" width=800>
+
+#### Hadamard Gate
+
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/hadamard.png" width=800>
