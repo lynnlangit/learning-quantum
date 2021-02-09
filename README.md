@@ -7,6 +7,8 @@ Study resources for learning quantum computing
 - Quatum Kata Notebooks (run in Binder from GitHub) - https://mybinder.org/v2/gh/Microsoft/QuantumKatas/master?filepath=index.ipynb
 - AWS Quantum papers - https://www.amazon.science/blog/aws-scientists-coauthor-13-qip-2021-quantum-computing-papers
 
+---
+
 ### WIP
 
 Examples from notebooks above
@@ -14,6 +16,8 @@ Examples from notebooks above
 #### Global Phase
 
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/global-phase.png" width=800>
+
+---
 
 #### Hadamard Gate
 
