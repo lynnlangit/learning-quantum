@@ -10,3 +10,5 @@ Study resources for learning quantum computing
 ### WIP
 
 Examples from notebooks above
+
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/global-phase.png" width=800>
