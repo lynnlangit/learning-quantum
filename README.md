@@ -6,6 +6,7 @@ Study resources for learning quantum computing
 - Quantum Katas - https://github.com/Microsoft/QuantumKatas/
 - Quatum Kata Notebooks (run in Binder from GitHub) - https://mybinder.org/v2/gh/Microsoft/QuantumKatas/master?filepath=index.ipynb
 - AWS Quantum papers - https://www.amazon.science/blog/aws-scientists-coauthor-13-qip-2021-quantum-computing-papers
+- Quantum Playground (fun viz!) - http://www.quantumplayground.net/
 
 ## ML
 
