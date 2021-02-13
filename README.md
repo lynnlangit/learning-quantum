@@ -7,6 +7,12 @@ Study resources for learning quantum computing
 - Quatum Kata Notebooks (run in Binder from GitHub) - https://mybinder.org/v2/gh/Microsoft/QuantumKatas/master?filepath=index.ipynb
 - AWS Quantum papers - https://www.amazon.science/blog/aws-scientists-coauthor-13-qip-2021-quantum-computing-papers
 
+## ML
+
+Penny Lane - PennyLane is a cross-platform Python library for differentiable programming of quantum computers. Train a quantum computer the same way as a neural network.
+- Github - https://github.com/PennyLaneAI/pennylane
+- Demos - https://pennylane.ai/qml/demos_basics.html
+
 ---
 
 ### WIP
