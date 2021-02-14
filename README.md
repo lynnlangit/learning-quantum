@@ -1,6 +1,8 @@
 # learning-quantum
 Study resources for learning quantum computing
 
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/qiskit.png" width=800>
+
 ## Links
 - Awesome Q# link list - https://github.com/ebraminio/awesome-qsharp
 - Quantum Katas - https://github.com/Microsoft/QuantumKatas/
