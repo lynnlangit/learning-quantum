@@ -32,3 +32,9 @@ Examples from notebooks above
 #### Hadamard Gate
 
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/hadamard.png" width=800>
+
+---
+
+Example from D-Wave Systems cloud at https://cloud.dwavesys.com/
+
+
