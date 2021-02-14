@@ -37,4 +37,4 @@ Examples from notebooks above
 
 Example from D-Wave Systems cloud at https://cloud.dwavesys.com/
 
-
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/dwave-ide.png" width=800>
