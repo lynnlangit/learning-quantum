@@ -8,7 +8,7 @@ Study resources for learning quantum computing
 Book club for ['Programming Quantum Computers'](https://learning.oreilly.com/library/view/programming-quantum-computers/9781492039679/) by Eric R. Johnston, Nic Harrigan & Mercedes Gimeno-Segovia
 - Slack - program-quantum.slack.com
 - YouTube channel - https://www.youtube.com/channel/UCSmWWIRx1dT2QO5gcCTjKYA
-- Author's Github - https://oreilly-qc.github.io/
+- Author's Github and programming environment - https://oreilly-qc.github.io/
 - Author's errata - http://oreilly.com/catalog/0636920167433/errata
 
 ## Links
