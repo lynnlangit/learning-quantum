@@ -1,7 +1,7 @@
 # learning-quantum
-Study resources for learning quantum computing
+Study resources for learning quantum computing. Example below from IBM Quantum Composer examples (Grover-example).
 
-<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/qiskit.png" width=800>
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/grover.png" width=800>
 
 ## Book Club
 
