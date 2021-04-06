@@ -11,6 +11,8 @@ Book club for ['Programming Quantum Computers'](https://learning.oreilly.com/lib
 - Author's Github and programming environment - https://oreilly-qc.github.io/
 - Author's errata - http://oreilly.com/catalog/0636920167433/errata
 
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/quantum.png" width=600>
+
 ## Links
 - Awesome Q# link list - https://github.com/ebraminio/awesome-qsharp
 - Quantum Katas - https://github.com/Microsoft/QuantumKatas/
