@@ -6,11 +6,11 @@
 
 ### Summary Table
 
-| Name   |      Type      |  Vendor | Notes |
-|----------|:-------------:|------:|------:|
-| QCEngine |  library | O'Reilly book | browser |
+| Name   |      Type      |  Vendor | Notes and Runtime Envs |
+|----------|:-------------:|:------:|:------:|
+| QCEngine |  library | O'Reilly book | browser --> https://oreilly-qc.github.io/ |
 | Qiskit |    library  |  IBM | Jupyter notebook |
-| OpenQASM | language |    IBM | IBM Quantum Composer |
+| OpenQASM | language |    IBM | IBM Quantum Composer --> https://quantum-computing.ibm.com/ |
 | Q# | language | Microsoft | Jupyter notebook |
 | Cirq | library | Google | Python env, includes quantum function libraries: qsim, qsimh... |
 | PennyLane | library | AWS Braket | uses examples on hardware from D-Wave, IonQ or Rigetti | 
