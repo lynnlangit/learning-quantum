@@ -11,6 +11,6 @@
 | QCEngine |  library | O'Reilly book | browser --> https://oreilly-qc.github.io/ |
 | Qiskit |    library  |  IBM | Jupyter notebook |
 | OpenQASM | language |    IBM | IBM Quantum Composer --> https://quantum-computing.ibm.com/ |
-| Q# | language | Microsoft | Jupyter notebook |
+| Q# | language | Microsoft | Jupyter notebook or VSCode --> https://docs.microsoft.com/en-us/azure/quantum/?view=qsharp-preview |
 | Cirq | library | Google | Python env, includes quantum function libraries: qsim, qsimh... |
 | PennyLane | library | AWS Braket | uses examples on hardware from D-Wave, IonQ or Rigetti | 
