@@ -5,7 +5,8 @@ Study resources for learning quantum computing. Example below from IBM Quantum C
 
 ## Book Club
 
-Book club for ['Programming Quantum Computers'](https://learning.oreilly.com/library/view/programming-quantum-computers/9781492039679/) by Eric R. Johnston, Nic Harrigan & Mercedes Gimeno-Segovia
+Book club for ['Programming Quantum Computers'](https://learning.oreilly.com/library/view/programming-quantum-computers/9781492039679/) by Eric R. Johnston, Nic Harrigan & Mercedes Gimeno-Segovia  
+- Jeremy's repo w/experiments - https://github.com/jeremybytes/quantum-programming-experiments
 - Slack - program-quantum.slack.com
 - YouTube channel - https://www.youtube.com/channel/UCSmWWIRx1dT2QO5gcCTjKYA
 - Author's Github and programming environment - https://oreilly-qc.github.io/
