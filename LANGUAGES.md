@@ -7,7 +7,7 @@
 ### Summary Table
 
 | Name   |      Type      |  Vendor | Notes and Runtime Envs |
-|----------|:-------------:|:------:|:------:|
+|----------|:-------------:|:------:|------:|
 | QCEngine |  library | O'Reilly book | browser --> https://oreilly-qc.github.io/ |
 | Qiskit |    library  |  IBM | Jupyter notebook |
 | OpenQASM | language |    IBM | IBM Quantum Composer --> https://quantum-computing.ibm.com/ |
