@@ -26,6 +26,7 @@ Amazon Braket is a fully managed quantum computing service that helps researcher
 
 - AWS Braket - https://aws.amazon.com/braket/
 - Pennylane.ai for QML on AWS Braket - https://pennylane.ai/qml/demos/braket-parallel-gradients.html
+- Learn more about AWS Braket - https://github.com/lynnlangit/Hello-AWS-Data-Services/tree/master/7_quantum-computing
 
 ## Azure
 
@@ -36,3 +37,11 @@ Microsoft is partnering with quantum hardware manufacturers IonQ, Honeywell, and
 - Azure Quantum preview - https://azure.microsoft.com/en-us/services/quantum/
 - Q# preview and samples - https://docs.microsoft.com/en-us/azure/quantum/?view=qsharp-preview
 - Microsoft QIO provider - https://docs.microsoft.com/en-us/azure/quantum/provider-microsoft-qio
+
+## IBM
+
+STATUS: AVAILABLE
+
+IBM's offer includes a number of tools, languages and simulators, including IBM Quantum Composer and IBM Quantum Lab
+
+- IBM Quantum computing - https://quantum-computing.ibm.com/

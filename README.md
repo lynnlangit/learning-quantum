@@ -1,7 +1,18 @@
 # learning-quantum
-Study resources for learning quantum computing
+Study resources for learning quantum computing. Example below from IBM Quantum Composer examples (Grover-example).
 
-<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/qiskit.png" width=800>
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/grover.png" width=800>
+
+## Book Club
+
+Book club for ['Programming Quantum Computers'](https://learning.oreilly.com/library/view/programming-quantum-computers/9781492039679/) by Eric R. Johnston, Nic Harrigan & Mercedes Gimeno-Segovia  
+- Jeremy's repo w/experiments - https://github.com/jeremybytes/quantum-programming-experiments
+- Slack - program-quantum.slack.com
+- YouTube channel - https://www.youtube.com/channel/UCSmWWIRx1dT2QO5gcCTjKYA
+- Author's Github and programming environment - https://oreilly-qc.github.io/
+- Author's errata - http://oreilly.com/catalog/0636920167433/errata
+
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/quantum.png" width=300>
 
 ## Links
 - Awesome Q# link list - https://github.com/ebraminio/awesome-qsharp
