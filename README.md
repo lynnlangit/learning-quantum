@@ -1,7 +1,15 @@
 # learning-quantum
-Study resources for learning quantum computing. D-Wave hardware shown below. Example below from IBM Quantum Composer examples (Grover-example).
+Study resources for learning quantum computing.
+
+## Hardware Example
+
+D-Wave hardware shown below. 
 
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/d-wave-hardware.png" width=600>
+
+## Software Example
+
+Example below from IBM Quantum Composer examples (Grover-example).
 
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/grover.png" width=800>
 
