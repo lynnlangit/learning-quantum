@@ -6,11 +6,11 @@
 
 ### Summary Table
 
-| Name   |      Type      |  Vendor | Notes and Runtime Envs |
-|----------|:-------------:|:------:|------:|
-| QCEngine |  library | O'Reilly book | browser --> https://oreilly-qc.github.io/ |
-| Qiskit |    library  |  IBM | Jupyter notebook |
-| OpenQASM | language |    IBM | IBM Quantum Composer --> https://quantum-computing.ibm.com/ |
-| Q# | language | Microsoft | Jupyter notebook or VSCode --> https://docs.microsoft.com/en-us/azure/quantum |
-| Cirq | library | Google | Python env, includes quantum function libraries: qsim, qsimh... |
-| PennyLane | library | AWS Braket | uses examples on hardware from D-Wave, IonQ or Rigetti | 
+| Name   |      Type      |  Vendor | Runtime Envs | Notes |
+|----------|:-------------:|:------:|------:|------:|
+| QCEngine |  library | O'Reilly book | browser --> https://oreilly-qc.github.io/ | multiple languages |
+| Qiskit |    library  |  IBM | Jupyter notebook | IBM SDK |
+| OpenQASM | language |    IBM | IBM Quantum Composer --> https://quantum-computing.ibm.com/ | IBM SDK |
+| Q# | language | Microsoft | Jupyter notebook or VSCode --> https://docs.microsoft.com/en-us/azure/quantum | n/a |
+| Cirq | library | Google | Colab or GCP / QCS | Python env, includes quantum function libraries: qsim, qsimh... |
+| PennyLane | library | AWS Braket | uses examples on hardware from D-Wave, IonQ or Rigetti | n/a |
