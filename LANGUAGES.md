@@ -13,4 +13,4 @@
 | OpenQASM | language |    IBM | IBM Quantum Composer --> [link](https://quantum-computing.ibm.com/) | IBM SDK |
 | Q# | language | Microsoft | Jupyter notebook or VSCode --> [link](https://docs.microsoft.com/en-us/azure/quantum) | n/a |
 | Cirq | library | Google | Colab or GCP / QCS | Python env, includes quantum function libraries: qsim, qsimh... |
-| PennyLane | library | AWS Braket | uses examples on hardware from D-Wave, IonQ or Rigetti | n/a |
+| PennyLane | library | AWS Braket | uses examples on hardware from D-Wave, IonQ or Rigetti | often used with ML (see below) |
