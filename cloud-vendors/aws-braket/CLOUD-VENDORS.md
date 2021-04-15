@@ -19,4 +19,6 @@ Amazon Braket is a fully managed quantum computing service that helps researcher
 - Pennylane.ai for QML on AWS Braket - https://pennylane.ai/qml/demos/braket-parallel-gradients.html
 - Learn more about AWS Braket - https://github.com/lynnlangit/Hello-AWS-Data-Services/tree/master/7_quantum-computing
 
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/aws-braket.png" width=600>
+
 
