@@ -15,3 +15,5 @@ STATUS: AVAILABLE
 IBM's offer includes a number of tools, languages and simulators, including IBM Quantum Composer and IBM Quantum Lab
 
 - IBM Quantum computing - https://quantum-computing.ibm.com/
+
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/ibm-quantum-composer.png" width=700>
