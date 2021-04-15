@@ -21,4 +21,10 @@ Amazon Braket is a fully managed quantum computing service that helps researcher
 
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/aws-braket.png" width=800>
 
+### PennyLane Library
+
+Image from QT Conference talk by PennyLane team member
+
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/penny-lane-ml.png" width=800>
+
 
