@@ -9,6 +9,6 @@ Problems quatum computing can address [from MSFT docs - here](https://docs.micro
 
 ---
 
-- Look in <<named>> cloud vendor folder for detail about that particular vendor's offering.  
+- Look in {named} cloud vendor folder for detail about that particular vendor's offering.  
 - IMPORTANT: this is a very active area of development, please do PRs to this repo if you notice new info
 
