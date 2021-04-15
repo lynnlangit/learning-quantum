@@ -10,4 +10,4 @@ qc.reset(1);         // allocate one qubit
 qc.write(0);         // write the value zero
 qc.had();            // place it into superposition of 0 and 1
 var result = qc.read();  // read the result as a digital bit
-qc.print(result + ' is the output\n');  
+qc.print('result: ' + result + '\n');
