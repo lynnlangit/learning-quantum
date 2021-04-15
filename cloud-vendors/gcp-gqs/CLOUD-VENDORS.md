@@ -18,3 +18,5 @@ STATUS: SIMULATORS
 - Cirq, open source python framework for programming Qsim - https://quantumai.google/cirq
 - cirq basics, example notebook - https://quantumai.google/cirq/tutorials/basics
 
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/gcp-qcs.png" width=700>
+
