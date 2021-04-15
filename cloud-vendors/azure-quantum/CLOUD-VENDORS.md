@@ -18,3 +18,5 @@ Microsoft is partnering with quantum hardware manufacturers IonQ, Honeywell, and
 - Q# preview and samples - https://docs.microsoft.com/en-us/azure/quantum/?view=qsharp-preview
 - Microsoft QIO provider - https://docs.microsoft.com/en-us/azure/quantum/provider-microsoft-qio
 
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/azure-quantum.png" width=800>
+
