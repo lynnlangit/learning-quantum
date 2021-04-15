@@ -20,3 +20,9 @@ Microsoft is partnering with quantum hardware manufacturers IonQ, Honeywell, and
 
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/azure-quantum.png" width=800>
 
+## Q# on Jupyter (Binder --> GKE)
+
+Rendered from Q# samples on GitHub
+
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/qsharp-jupyter.png" width=800>
+
