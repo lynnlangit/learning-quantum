@@ -14,7 +14,7 @@ This repo contains my study resources for learning quantum computing programming
 
 There are a number of quantum computing vendors.  They produce hardware which container qubits for quantum computing programming execution via QPUs.   
 
-One example is the [D-Wave](https://www.dwavesys.com/) company.  Shown here is one of their QPU units, which is hardware with qubits (image taken from D-Wave whitepaper). 
+One example is the [D-Wave](https://www.dwavesys.com/) company.  Shown here are photos from one of their quantum computers.  It contains QPU units, which is hardware with qubits (image taken from D-Wave whitepaper). 
 
 
 ---
