@@ -1,11 +1,12 @@
 # learning-quantum
-Study resources for learning quantum computing.
+Study resources for learning quantum computing.  Shown below is a conceptual rendering of a bit vs a qbit, which is a fundamental concept in quantum computing.
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/bit-vs-qbit.png" width=500>
 
 ## Hardware Example
 
 D-Wave hardware overview shown below (from D-Wave whitepaper). 
 
-<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/d-wave-hardware.png" width=600>
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/d-wave-hardware.png" width=700>
 
 ## Software Example
 
