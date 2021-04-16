@@ -1,7 +1,8 @@
 # learning-quantum
 
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/bit-vs-qbit.png" width=400 align=left>
-This repo contains my study resources for learning quantum computing programming.  Shown to the is a conceptual rendering of a bit vs a qbit, which is a fundamental concept in quantum computing.    
+
+This repo contains my study resources for learning quantum computing programming.  Shown to the left is a conceptual rendering of a bit vs a qubit, which is a fundamental concept or work in quantum computing.  A qubit is a two-state (or two-level) quantum-mechanical system, one of the simplest quantum systems displaying the peculiarity of quantum mechanics. 
 
 ## What is Here
 
@@ -14,9 +15,9 @@ In this Repo you will find info from the book club I started along with other re
 
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/d-wave-hardware.png" width=600 align=right>
 
-There are a number of quantum computing vendors.  They produce hardware which container qbits for quantum computing programming execution via QPUs.   
+There are a number of quantum computing vendors.  They produce hardware which container qubits for quantum computing programming execution via QPUs.   
 
-One example is the [D-Wave](https://www.dwavesys.com/) company.  Shown here is one of their QPU units, which is hardware with qbits (image taken from D-Wave whitepaper). 
+One example is the [D-Wave](https://www.dwavesys.com/) company.  Shown here is one of their QPU units, which is hardware with qubits (image taken from D-Wave whitepaper). 
 
 
 ---
