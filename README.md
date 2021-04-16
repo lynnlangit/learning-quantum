@@ -8,7 +8,7 @@ Here you will find info from the book club I started along with other resources,
 
 ## Hardware Example
 
-[D-Wave](https://www.dwavesys.com/) hardware overview shown below (image taken from D-Wave whitepaper). 
+There are a number of quantum computing vendors.  They produce hardware which container qbits for quantum computing programming execution. One example is the [D-Wave](https://www.dwavesys.com/) company.  Shown here is one of their QPU units, which is hardware with qbits (image taken from D-Wave whitepaper). 
 
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/d-wave-hardware.png" width=600 align=right>
 
