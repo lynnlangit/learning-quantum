@@ -3,16 +3,23 @@
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/bit-vs-qbit.png" width=400 align=left>
 This repo contains my study resources for learning quantum computing programming.  Shown to the is a conceptual rendering of a bit vs a qbit, which is a fundamental concept in quantum computing.    
 
-## contents
+## What is Here
 
-Here you will find info from the book club I started along with other resources, example code and links around this topic area.
+In this Repo you will find info from the book club I started along with other resources, example code and links around this topic area.
+
+---
 
 
 ## Hardware Example
 
-There are a number of quantum computing vendors.  They produce hardware which container qbits for quantum computing programming execution. One example is the [D-Wave](https://www.dwavesys.com/) company.  Shown here is one of their QPU units, which is hardware with qbits (image taken from D-Wave whitepaper). 
-
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/d-wave-hardware.png" width=600 align=right>
+
+There are a number of quantum computing vendors.  They produce hardware which container qbits for quantum computing programming execution via QPUs.   
+
+One example is the [D-Wave](https://www.dwavesys.com/) company.  Shown here is one of their QPU units, which is hardware with qbits (image taken from D-Wave whitepaper). 
+
+
+---
 
 ## Software Example
 
