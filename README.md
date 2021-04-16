@@ -18,7 +18,7 @@ There are a number of quantum computing vendors.  They produce hardware (quatum 
 
 The qubits are used by quantum computing programming languages or libraries for execution with QPUs.   
 
-One example is the [D-Wave](https://www.dwavesys.com/) company.  Shown here are photos from one of their quantum computers.  It contains QPU units, which is hardware with qubits (image taken from D-Wave whitepaper). 
+One example is the [D-Wave](https://www.dwavesys.com/) company.  Shown here are photos from one of D-Wave's quantum computers.  This computer contains QPU units, which is hardware with qubits (image taken from D-Wave whitepaper). 
 
 
 ---
