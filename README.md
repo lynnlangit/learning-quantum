@@ -4,9 +4,6 @@
 
 This repo contains my study resources for learning quantum computing programming.  Shown to the left is a conceptual rendering of a bit vs a qubit, which is a fundamental concept or work in quantum computing.  A qubit is a two-state (or two-level) quantum-mechanical system, one of the simplest quantum systems displaying the peculiarity of quantum mechanics. 
 
-## What is Here
-
-In this Repo you will find info from the book club I started along with other resources, example code and links around this topic area.
 
 ---
 
