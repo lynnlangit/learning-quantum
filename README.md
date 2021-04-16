@@ -1,5 +1,6 @@
 # learning-quantum
-Study resources for learning quantum computing.  Shown below is a conceptual rendering of a bit vs a qbit, which is a fundamental concept in quantum computing.
+Study resources for learning quantum computing.  Shown below is a conceptual rendering of a bit vs a qbit, which is a fundamental concept in quantum computing.  
+
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/bit-vs-qbit.png" width=500>
 
 ## Hardware Example
