@@ -14,7 +14,9 @@ A qubit is a two-state (or two-level) quantum-mechanical system, one of the simp
 
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/d-wave-hardware.png" width=600 align=right>
 
-There are a number of quantum computing vendors.  They produce hardware (quatum computers) which contain a particular number of qubits.  The qubits are used by quantum computing programming languages or libraries for execution with QPUs.   
+There are a number of quantum computing vendors.  They produce hardware (quatum computers) which contain a particular number of qubits.    
+
+The qubits are used by quantum computing programming languages or libraries for execution with QPUs.   
 
 One example is the [D-Wave](https://www.dwavesys.com/) company.  Shown here are photos from one of their quantum computers.  It contains QPU units, which is hardware with qubits (image taken from D-Wave whitepaper). 
 
