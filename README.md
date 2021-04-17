@@ -31,6 +31,8 @@ Sample from IBM Quantum Composer examples.  Example shown below is the `Grover-e
 
 ## Book Club
 
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/quantum.png" width=300 align=right>
+
 Book club for ['Programming Quantum Computers'](https://learning.oreilly.com/library/view/programming-quantum-computers/9781492039679/) by Eric R. Johnston, Nic Harrigan & Mercedes Gimeno-Segovia  
 - Jeremy's repo w/experiments - https://github.com/jeremybytes/quantum-programming-experiments
 - Slack - program-quantum.slack.com
@@ -38,7 +40,6 @@ Book club for ['Programming Quantum Computers'](https://learning.oreilly.com/lib
 - Author's Github and programming environment - https://oreilly-qc.github.io/
 - Author's errata - http://oreilly.com/catalog/0636920167433/errata
 
-<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/quantum.png" width=300>
 
 ## Links
 - Awesome Q# link list - https://github.com/ebraminio/awesome-qsharp
