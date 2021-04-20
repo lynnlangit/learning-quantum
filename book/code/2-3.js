@@ -4,11 +4,9 @@
 
 // To run this online, go to http://oreilly-qc.github.io?p=2-3
 
-// This sample demonstrates construction of a ROOTNOT operation
-// using HAD and PHASE operations.
-// It also demonstrates the built-in ROOTNOT operator to show
-// that it has the same effect. Note that applying ROOTNOT twice
-// is the equivalent of a single NOT operator.
+// demo constructs a ROOTNOT operation using HAD and PHASE operations.
+// shows the built-in ROOTNOT operator -- it has the same effect. 
+// Note that applying ROOTNOT twice is the equivalent of a single NOT operator.
 
 qc.reset(1);
 qc.write(0);
@@ -33,5 +31,5 @@ qc.nop()
 qc.rootnot();
 qc.label()
 
-var result = qc.read();  // read the result as a digital bit
+var result = qc.read();
 qc.print('result: ' + result + '\n');
