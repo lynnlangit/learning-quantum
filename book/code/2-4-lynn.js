@@ -57,8 +57,5 @@ qc.nop();
 if (send_had == recv_had)
     if (send_value != recv_val)
         qc.print('Caught a spy!\n');
-if (send_had == recv_had)
-    if (send_value != recv_val)
-        qc.print('Caught a spy!\n');
 else 
     qc.print('Kept the secret!\n');
