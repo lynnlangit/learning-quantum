@@ -54,8 +54,26 @@ qc.label('READ');
 recv_val = b.read();
 qc.nop();
 
-if (send_had == recv_had)
-    if (send_value != recv_val)
+if (send_had == recv_had) {
+    if (send_value != recv_val) {
         qc.print('Caught a spy!\n');
-else 
+    }
+    else {
     qc.print('Did not catch a spy!\n');
+    }
+}  else {
+    qc.print('Unclear\n');
+}
+    
+if (originalHad == receivedHad) {
+    if (originalValue != receivedValue) {
+        qc.print('Spy detected! \n');
+    }
+    else {
+        qc.print('Spy not detected\n');
+    }
+} 
+else {
+    qc.print('Unclear\n');
+}
+
