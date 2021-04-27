@@ -30,7 +30,7 @@ circuit.measure(qreg_fiber[0], creg_fval[0]) # READ Fiber qubit value into Fval
 circuit.reset(qreg_fiber[0])
 circuit.x(qreg_fiber[0]).c_if(creg_fval, 1)  # ??? the circuit and check if Fiber qubit is 1
 circuit.h(qreg_fiber[0])                     # HAD Fiber qubit
-circuit.barrier(qreg_alice[0], qreg_fiber[0], qreg_bob[0]) # ???
+circuit.barrier(qreg_alice[0], qreg_fiber[0], qreg_bob[0]) # PREVENT transformations accross this source line
 
 circuit.reset(qreg_bob[0])
 circuit.h(qreg_bob[0])                       # HAD Bob's qubit
