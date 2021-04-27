@@ -59,20 +59,9 @@ if (send_had == recv_had) {
         qc.print('Caught a spy!\n');
     }
     else {
-    qc.print('Did not catch a spy!\n');
+        qc.print('Did not catch a spy!\n');
     }
-}  else {
-    qc.print('Unclear\n');
-}
-    
-if (originalHad == receivedHad) {
-    if (originalValue != receivedValue) {
-        qc.print('Spy detected! \n');
-    }
-    else {
-        qc.print('Spy not detected\n');
-    }
-} 
+}  
 else {
     qc.print('Unclear\n');
 }
