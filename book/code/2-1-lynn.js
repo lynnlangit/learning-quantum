@@ -4,6 +4,8 @@
 
 // This sample generates a single random bit.
 
+qc.print(`${new Date()}\n\n`);
+
 qc.reset(1);
 qc.write(0);
 qc.had();
