@@ -12,10 +12,19 @@ var qubit3 = qint.new(1, 'qubit 3');
 qubit2.had();
 qubit3.had();
 
+// read it out
+//qc.read();
+
 // undo it to see more - nested order
-qubit3.had();
-qubit2.had();
+//qubit3.had();
+//qubit2.had();
 
 // undo it to see more - reverse order
 //qubit2.had();
 //qubit3.had();
+
+
+// HAD the register
+//qc.had();
+//qc.had();
+
