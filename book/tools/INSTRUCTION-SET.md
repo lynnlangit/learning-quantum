@@ -10,7 +10,7 @@
 | Z |  Z  | qc.phase(180,c)| relative phase rotation by 180°|
 | S |  S  | qc.phase(90,c)| relative phase rotation by 90°|
 | T |  T  | qc.phase(45,c)| relative phase rotation by 45°|
-| CPHASE |  CPHASE | qc.cphase(angle,c1|c2)| conditional phase rotation|
+| CPHASE |  CPHASE | qc.cphase(angle,c1\|c2)| conditional phase rotation|
 | CZ |  CZ  | qc.phase(180,c1\|c2)| conditional phase rotation by 180°|
 | READ |  READ  | val=qc.read(t)| read quibits|
 | WRITE |  WRITE  | qc.write(t,val)| write quibits|
