@@ -4,7 +4,7 @@
 | :---: |:---:|:---:|:---:|
 | NOT |  NOT (or X)  | qc.not(t)| logical bitwise NOT|
 | CNOT    | CNOT | qc.cnot(t,c)| controlled NOT, if (c) then NOT(t)| 
-| CCNOT    | CCNOT (Toffoli) | qc.cnot(t,c1|c2)| c, if (c1 AND c2) then NOT(t)| 
+| CCNOT    | CCNOT (Toffoli) | qc.cnot(t,c1`|`c2)| c, if (c1 AND c2) then NOT(t)| 
 | HAD |  HAD (Hamamard)  | qc.had(t)| Hadamard gate, superposition|
 | PHASE |  PHASE  | qc.phase(angle,c)| relative phase rotation|
 | Z |  Z  | qc.phase(180,c)| relative phase rotation by 180°|
