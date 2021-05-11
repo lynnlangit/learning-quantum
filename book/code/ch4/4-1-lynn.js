@@ -6,10 +6,11 @@ var a1 = 0;
 var a2 = 0;
 
 entangle();  // Works with entangle() and alice_prep() in either order. Swap them to verify this.
-alice_prep();
-alice_send();
-bob_receive();
-bob_verify();
+entangle();        // HAD CNOT
+alice_prep();      // HAD PHASE HAD
+alice_send();      // HAD READ READ
+bob_receive();     // NOT PHASE | CNOT CZ | NOT PHASE
+bob_verify();      // HAD PHASE HAD READ
 
 function entangle()
 {
