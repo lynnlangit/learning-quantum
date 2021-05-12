@@ -1,5 +1,7 @@
 # Quantum Computing Instructions
 
+Images and examples for study purposes from the O'Reilly book 'Programming Quantum Computers' by Johnston, Harrigan and Gimeno-Segovia
+
 ## Operators
 
 | Symbol | Name| Example| English| 
