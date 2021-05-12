@@ -1,5 +1,7 @@
 # Quantum Computing Instructions
 
+## Operators
+
 | Symbol | Name| Example| English| 
 | :---: |:---:|:---:|:---:|
 | <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/operators/NOT.png" width=50>|  NOT (or X)  | qc.not(t)| logical bitwise NOT|
@@ -24,3 +26,16 @@
 | :---: |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---: |
 | Radians |  0  | π/4| π/2|3π/4| π |5π/4|3π/2|7π/4|
 | Name    | n/a | T  | S  | n/a | Z | n/a | n/a | n/a |
+
+## Decomp Example - CCNOT / Toffoli Gate
+
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/operators/decomp.png" width=500>
+
+## Matrix Math for Operators
+
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/operators/gate-math.png" width=500>
+
+## Example Orchestration
+
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/operators/example.png" width=500>
+
