@@ -29,13 +29,13 @@
 
 ## Decomp Example - CCNOT / Toffoli Gate
 
-<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/operators/decomp.png" width=500>
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/operators/decomp.png" width=700>
 
 ## Matrix Math for Operators
 
-<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/operators/gate-math.png" width=500>
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/operators/gate-math.png" width=700>
 
 ## Example Orchestration
 
-<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/operators/example.png" width=500>
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/operators/example.png" width=700>
 
