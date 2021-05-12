@@ -2,7 +2,7 @@
 
 | Symbol | Name| Example| English| 
 | :---: |:---:|:---:|:---:|
-| <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/operators/NOT.png width=50">|  NOT (or X)  | qc.not(t)| logical bitwise NOT|
+| <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/operators/NOT.png">|  NOT (or X)  | qc.not(t)| logical bitwise NOT|
 | CNOT    | CNOT | qc.cnot(t,c)| controlled NOT, if (c) then NOT(t)| 
 | CCNOT    | CCNOT (Toffoli) | qc.cnot(t,c1\|c2)| c, if (c1 AND c2) then NOT(t)| 
 | HAD |  HAD (Hamamard)  | qc.had(t)| Hadamard gate, superposition|
