@@ -1,10 +1,10 @@
 qc_options.color_by_phase = true;
 qc_options.book_render = true;
 
-var num_qubits = 4;  // try 1, 2...6 to see QFT function
+var num_qubits = 4;        // try 1, 2...6 to see QFT function
 qc.reset(num_qubits);
 var signal = qint.new(num_qubits, 'signal')
-var which_signal = 'A';
+var which_signal = 'A';   // change from A to B then C
 
 qc.label('prepare');
 signal.write(0);
@@ -23,6 +23,6 @@ qc.label();
 qc.nop();
 
 qc.label('QFT');
-signal.QFT();
+signal.QFT();             // compute in superposition by easily preparing complex superpositions of a register
 qc.label();
 qc.nop();
