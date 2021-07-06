@@ -2,7 +2,7 @@
 
 Summary from 'Programming Quantum Computers' O'Reilly book
 
-- **AA** - Amplititude Amplification --> turn relative-phase differences into READable differences in magnitudes
+- **AA** - Amplititude Amplification --> turn relative-phase differences into READable differences in magnitudes (PREP | FLIP | MIRROR)
   - Extract information about discrete values encoded in the phases of our register
   - Converts phase differences into magnitude differences, 
   - Allows amplitude amplification from a QPU program to provide useful output relating to phase information from a state that would otherwise remain invisible
