@@ -12,11 +12,12 @@ Summary from 'Programming Quantum Computers' O'Reilly book
   - Extract information about patterns of information encoded in the QPU register
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/QFT.png" width=600>
 
-- **invQFT/inverse QFT** --> preparing states with given frequencie  s
+- **invQFT/inverse QFT** --> preparing states with given frequencies  
   - Takes as its input a qubit register representing frequency space, and returns as output a register showing the signal that this corresponds to.
   - Prepare a quantum register representing the state you need in frequency space
   - Prepare a QPU register that varies periodically in magnitude rather than relative phase
   - Alter their frequency information
+ <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/invQFT.png" width=600>
 
 - **PE/Quantum Phase Estimation** --> an attribute of an operation acting on a QPU register. 
   - Extracts information that QPU operations encode in the global phases of a register
