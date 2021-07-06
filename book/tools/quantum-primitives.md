@@ -19,11 +19,14 @@ Summary from 'Programming Quantum Computers' O'Reilly book
   - Alter their frequency information
  <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/invQFT.png" width=600>
 
-- **PE/Quantum Phase Estimation** --> an attribute of an operation acting on a QPU register. 
+- **PE/Quantum Phase Estimation** --> an attribute of an *operation* acting on a QPU register. 
   - Extracts information that QPU operations encode in the global phases of a register
   - By transforming the global phase information into relative phase information in a second quantum register...
   - and then applying invQFT to extract that information in a READable format
-    - **eigenphase/state** - xxx --> yyy
-    - **phase kickback** -->
-    - **construction of controlled unitaries** -->
+  - will help determine the eigenphases associated with the eigenstates of a QPU operation, returning a superposition of all the eigenphases
+    - **eigenstate** - states impervious to a certain QPU’s operation in this way (except for global phases) --> yyy
+    - **eigenphase** - global phase acquired by a particular eigenstate --> yyy
+    - **phase kickback** --> yyy
+    - **construction of controlled unitaries** --> yyy
     - **invQFT** --> used here
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/PE.png" width=600>
