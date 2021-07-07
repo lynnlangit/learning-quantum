@@ -10,7 +10,10 @@ Summary from 'Programming Quantum Computers' O'Reilly book
 
 - **QFT/Quantum Fourier Transform** --> enables ability to compute in superposition
   - Extract information about patterns of information encoded in the QPU register
-<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/QFT.png" width=600>
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/QFT.png" width=600>  
+
+  - The online tool "Quirk" has an animation of the QFT as well --> https://algassert.com/quirk
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/QFT-animated.png" width=700>
 
 - **invQFT/inverse QFT** --> preparing states with given frequencies  
   - Takes as its input a qubit register representing frequency space, and returns as output a register showing the signal that this corresponds to.
