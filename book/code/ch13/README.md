@@ -16,3 +16,7 @@ The techniques used are the following:
     - matrix condition number (amount of error)
     - matrix sparsity (# of non-zero entries)
     - required solution precision (values represented in amplitudes)
+
+## Examples
+
+On Qiskit - https://qiskit.org/textbook/ch-applications/hhl_tutorial.html
