@@ -27,3 +27,4 @@ The techniques used are the following:
 - On PennyLane site 
     - what is QML - https://pennylane.ai/qml/whatisqml.html
     - glossary - https://pennylane.ai/qml/glossary.html
+    - Advanced example "Learning to Learn" - https://pennylane.ai/qml/demos/learning2learn.html
