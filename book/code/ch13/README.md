@@ -21,6 +21,7 @@ The techniques used are the following:
 
 - On Qiskit 
     - Qiskit ML Tutorials - https://qiskit.org/documentation/machine-learning/tutorials/index.html
+    - Qiskit Textbook - https://qiskit.org/textbook/content/ch-ex/
     - HHL example - https://qiskit.org/textbook/ch-applications/hhl_tutorial.html  
     - On IBM Quantum Lab - https://quantum-computing.ibm.com/lab/files/qiskit-textbook/content/ch-applications/hhl_tutorial.ipynb
 - On PennyLane site 
