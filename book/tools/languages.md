@@ -1,6 +1,6 @@
 # Quantum Languages and Viz Tools
 
-The table below shows a sampling of available Quantum programming languages.
+The table below shows a sampling of available Quantum programming languages or libraries.
 
 | Dialect    | Name     | Vendor    |
 |------------|----------|-----------|
