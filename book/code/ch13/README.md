@@ -6,7 +6,7 @@ The book discusses three examples, but does NOT present any sample code for the 
 - Quantum Support Vector Machines
 
 The techniques used are the following:
-- HHL algorithm used to invert a normal matrix (best for sparse, well-conditioned Hermitian matrices)
+- HHL algorithm used to **invert** a normal matrix (best for sparse, well-conditioned Hermitian matrices)
     - efficiency of HHL / conjugate gradient descent method - can use `swap test`
     - uses eigendecomposition, writes out eigenvectors or uses eigenbasis to invert
     - inputs: scratch registers, amplitude encoding vector, QPU operation representing matrix A
