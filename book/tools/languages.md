@@ -1,5 +1,7 @@
 # Quantum Languages and Viz Tools
 
+## Languages
+
 The table below shows a sampling of available Quantum programming languages or libraries.
 
 | Dialect    | Name     | Vendor    |
@@ -10,6 +12,9 @@ The table below shows a sampling of available Quantum programming languages or l
 | Python     | Qiskit   | IBM       |
 | Python     | Cirq     | Google    |
 | Python     | Braket   | AWS       |
+| Python     | PennyLane| PennyLane for ML on AWS and others...       |
+
+## Visualization Tools
 
 The table below shows a sampling of available Quantum programming visualization tools.
 
