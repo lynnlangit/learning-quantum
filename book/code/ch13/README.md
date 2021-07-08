@@ -19,5 +19,5 @@ The techniques used are the following:
 
 ## Examples
 
-On Qiskit - https://qiskit.org/textbook/ch-applications/hhl_tutorial.html
-On IBM Quantum Lab - https://quantum-computing.ibm.com/lab/files/qiskit-textbook/content/ch-applications/hhl_tutorial.ipynb
+- On Qiskit - https://qiskit.org/textbook/ch-applications/hhl_tutorial.html  
+- On IBM Quantum Lab - https://quantum-computing.ibm.com/lab/files/qiskit-textbook/content/ch-applications/hhl_tutorial.ipynb
