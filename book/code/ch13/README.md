@@ -19,8 +19,10 @@ The techniques used are the following:
 
 ## Examples
 
-- On Qiskit - https://qiskit.org/textbook/ch-applications/hhl_tutorial.html  
-- On IBM Quantum Lab - https://quantum-computing.ibm.com/lab/files/qiskit-textbook/content/ch-applications/hhl_tutorial.ipynb
+- On Qiskit 
+    - Qiskit ML Tutorials - https://qiskit.org/documentation/machine-learning/tutorials/index.html
+    - HHL example - https://qiskit.org/textbook/ch-applications/hhl_tutorial.html  
+    - On IBM Quantum Lab - https://quantum-computing.ibm.com/lab/files/qiskit-textbook/content/ch-applications/hhl_tutorial.ipynb
 - On PennyLane site 
     - what is QML - https://pennylane.ai/qml/whatisqml.html
     - glossary - https://pennylane.ai/qml/glossary.html
