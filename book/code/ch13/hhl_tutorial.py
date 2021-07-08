@@ -213,6 +213,7 @@
 
 # In[1]:
 
+###### see this link to setup Qiskit --> https://qiskit.org/textbook/ch-prerequisites/setting-the-environment.html #####
 
 import numpy as np
 from qiskit.algorithms.linear_solvers.numpy_linear_solver import NumPyLinearSolver
