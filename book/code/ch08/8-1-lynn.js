@@ -19,7 +19,7 @@ function conditional_unitary(qcontrol, qtarget, control_count)
         qtarget.chad(null, ~0, qcontrol.bits(control_count));
 }
 
-function phase_estimation(q_in, q_out, cont_u)
+function phase_estimation(q_in, q_out, conditional_unitary)
 {
     q_out.had();
     for (var j = 0; j < q_out.numBits; j++)
