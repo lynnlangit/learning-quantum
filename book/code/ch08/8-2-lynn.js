@@ -23,17 +23,17 @@ function phase_estimation(q_in, q_out, conditional_unitary)
     q_out.invQFT();
 }
 
-function conditional_unitary(qcontrol, qtarget, control_count) {
-    // In this example, the unitary chosen is a simple one which
-    // should have an eigenphase of 150 degrees for all inputs.
-    // By enabling single_op, we can perform multiple applications simply
-    // by rotating the phase farther.
+function conditional_unitary(qcontrol, qtarget, control_count) 
+{
+    // The simple unitary should have an eigenphase of 150 degrees for all inputs.
+    // Using single_op, perform multiple apps by rotating the phase farther.
 
     // Perform the controlled unitary between q1 and q2 iter times
     var theta = 150;
     var single_op = true;
     var q1 = qcontrol.bits(control_count);
     var q2 = qtarget;
+
     if (single_op)
     {
         qc.phase(-theta / 2 * control_count, q2, q1);
