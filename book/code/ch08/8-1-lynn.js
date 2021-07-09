@@ -22,7 +22,7 @@ function conditional_unitary(qcontrol, qtarget, control_count)
 function phase_estimation(q_in, q_out, cont_u)
 {
     q_out.had();
-        for (var j = 0; j < q_out.numBits; j++)
+    for (var j = 0; j < q_out.numBits; j++)
         conditional_unitary(q_out, q_in, 1 << j);
     q_out.invQFT();
 }
