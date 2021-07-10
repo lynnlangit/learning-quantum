@@ -1,13 +1,9 @@
-// Set input vector length to a power of two
-var vector = [-1.0, 1.0, 1.0, 5.0, 5.0, 6.0, 6.0, 6.0];
-
-// Create register of right size to amplitude encode vector
-var num_qubits = Math.log2(vector.length);
+var inputVectorLengthPowerOfTwo = [-1.0, 1.0, 1.0, 5.0, 5.0, 6.0, 6.0, 6.0];
+var num_qubits = Math.log2(inputVectorLengthPowerOfTwo.length);
 qc.reset(num_qubits);
-var amp_enc_reg = qint.new(num_qubits, 'amp_enc_reg');
+var registerSizedForAmplititudeEncoding = qint.new(num_qubits, 'amp_enc_reg');
 
-// Generate amplitude encoding in amp_enc_reg
-amplitude_encode(vector, amp_enc_reg);
+amplitude_encode(inputVectorLengthPowerOfTwo, registerSizedForAmplititudeEncoding);
 
 function amplitude_encode(vec, qreg)
 {
@@ -17,10 +13,12 @@ function amplitude_encode(vec, qreg)
     var vec_mag_sqr = 0.0;
 
     for (var i = 0; i < vec.length; ++i)
+    {
         vec_mag_sqr += vec[i] * vec[i];
 
     var remaining_power = vec_mag_sqr;
     var first_phase = (vec[0] >= 0) ? 0 : 180;
+    }
 
     if (first_phase !== 0)
     {
@@ -29,7 +27,12 @@ function amplitude_encode(vec, qreg)
         qreg.not(1);
     }
 
-    for (var i = 1; i < vec.length; ++i)
+    doSomething();                          // not sure what is happening here
+}
+
+function doSomething() 
+{
+    for (var i = 1; i < vec.length; ++i)    // programming warning 'i aleady defined'
     {
         var power = vec[i] * vec[i];
 
