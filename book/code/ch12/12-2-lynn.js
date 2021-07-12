@@ -44,14 +44,14 @@ function ShorLogic(N, repeat_period_candidates, coprime)
     return factor_candidates;
 }
 
-function greatestCommonDivisor(a, b)
+function greatestCommonDivisor(Num, Divisor)
 {
-    while (b) {
-      var m = a % b;
-      a = b;
-      b = m;
+    while (Divisor) {
+      var m = Num % Divisor;
+      Num = Divisor;
+      Divisor = m;
     }
-    return a;
+    return Num;
 }
 
 function check_result(N, factor_candidates)
