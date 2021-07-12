@@ -1,9 +1,9 @@
-function shor_sample_classical()
+function shor_classical()
 {
     var N = 15;             
     var precision_bits = 4; 
     var coprime = 2;        
-    var result = Shor(N, precision_bits, coprime);
+    var result = ShorAlgo(N, precision_bits, coprime);
 
     if (result !== null)
         qc.print('Success! '+N+'='+result[0]+'*'+result[1]+'\n');
@@ -11,14 +11,14 @@ function shor_sample_classical()
         qc.print('Failure: No non-trivial factors were found.\n')
 }
 
-function Shor(N, precision_bits, coprime)
+function ShorAlgo(N, precision_bits, coprime)
 {
-    var repeat_period = ShorNoQPU(N, precision_bits, coprime); // quantum part
-    var factors = ShorLogic(N, repeat_period, coprime);      // classical part
+    var repeat_period = ShorWork(N, precision_bits, coprime); 
+    var factors = ShorLogic(N, repeat_period, coprime);      
     return check_result(N, factors);
 }
 
-function ShorNoQPU(N, precision_bits, coprime) {
+function ShorWork(N, precision_bits, coprime) {
     var work = 1;
     var max_loops = Math.pow(2, precision_bits);
     for (iter = 0; iter < max_loops; ++iter) {
@@ -70,6 +70,6 @@ function check_result(N, factor_candidates)
     return null;
 }
 
-shor_sample_classical();
+shor_classical();
 
 
