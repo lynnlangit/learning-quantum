@@ -1,4 +1,4 @@
-function shor_sample()
+function shor_sample_classical()
 {
     var N = 15;             
     var precision_bits = 4; 
@@ -16,22 +16,6 @@ function Shor(N, precision_bits, coprime)
     var repeat_period = ShorNoQPU(N, precision_bits, coprime); // quantum part
     var factors = ShorLogic(N, repeat_period, coprime);      // classical part
     return check_result(N, factors);
-}
-
-function check_result(N, factor_candidates)
-{
-    for (var i = 0; i < factor_candidates.length; ++i)
-    {
-        var factors = factor_candidates[i];
-        if (factors[0] * factors[1] == N)
-        {
-            if (factors[0] != 1 && factors[1] != 1)
-            {
-                return factors;
-            }
-        }
-    }
-    return null;
 }
 
 function ShorNoQPU(N, precision_bits, coprime) {
@@ -53,14 +37,14 @@ function ShorLogic(N, repeat_period_candidates, coprime)
     {
         var repeat_period = repeat_period_candidates[i];
         var ar2 = Math.pow(coprime, repeat_period / 2.0);
-        var factor1 = gcd(N, ar2 - 1);
-        var factor2 = gcd(N, ar2 + 1);
+        var factor1 = greatestCommonDivisor(N, ar2 - 1);
+        var factor2 = greatestCommonDivisor(N, ar2 + 1);
         factor_candidates.push([factor1, factor2]);
     }
     return factor_candidates;
 }
 
-function gcd(a, b)
+function greatestCommonDivisor(a, b)
 {
     while (b) {
       var m = a % b;
@@ -70,6 +54,22 @@ function gcd(a, b)
     return a;
 }
 
-shor_sample();
+function check_result(N, factor_candidates)
+{
+    for (var i = 0; i < factor_candidates.length; ++i)
+    {
+        var factors = factor_candidates[i];
+        if (factors[0] * factors[1] == N)
+        {
+            if (factors[0] != 1 && factors[1] != 1)
+            {
+                return factors;
+            }
+        }
+    }
+    return null;
+}
+
+shor_sample_classical();
 
 
