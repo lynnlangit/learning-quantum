@@ -13,12 +13,12 @@ function shor_classical()
 
 function ShorAlgo(N, precision_bits, coprime)
 {
-    var repeat_period = ShorCPU(N, precision_bits, coprime); 
-    var factors = ShorFactorCandidates(N, repeat_period, coprime);      
-    return check_result(N, factors);
+    var repeat_period = set_repeat_period(N, precision_bits, coprime); 
+    var factors = get_factor_candidates(N, repeat_period, coprime);      
+    return get_valid_factors(N, factors);
 }
 
-function ShorCPU(N, precision_bits, coprime) {
+function set_repeat_period(N, precision_bits, coprime) {
     var work = 1;
     var max_loops = Math.pow(2, precision_bits);
     for (iter = 0; iter < max_loops; ++iter) {
@@ -29,7 +29,7 @@ function ShorCPU(N, precision_bits, coprime) {
     return 0;
 }
 
-function ShorFactorCandidates(N, repeat_period_candidates, coprime)
+function get_factor_candidates(N, repeat_period_candidates, coprime)
 {
     qc.print('Repeat period candidates: '+repeat_period_candidates+'\n');
     var factor_candidates = [];
@@ -37,14 +37,14 @@ function ShorFactorCandidates(N, repeat_period_candidates, coprime)
     {
         var repeat_period = repeat_period_candidates[i];
         var ar2 = Math.pow(coprime, repeat_period / 2.0);
-        var factor1 = greatestCommonDivisor(N, ar2 - 1);
-        var factor2 = greatestCommonDivisor(N, ar2 + 1);
+        var factor1 = get_greatestCommonDivisor(N, ar2 - 1);
+        var factor2 = get_greatestCommonDivisor(N, ar2 + 1);
         factor_candidates.push([factor1, factor2]);
     }
     return factor_candidates;
 }
 
-function greatestCommonDivisor(Num, Divisor)
+function get_greatestCommonDivisor(Num, Divisor)
 {
     while (Divisor) {
       var m = Num % Divisor;
@@ -54,7 +54,7 @@ function greatestCommonDivisor(Num, Divisor)
     return Num;
 }
 
-function check_result(N, factor_candidates)
+function get_valid_factors(N, factor_candidates)
 {
     for (var i = 0; i < factor_candidates.length; ++i)
     {
