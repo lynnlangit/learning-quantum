@@ -14,15 +14,13 @@ function shor_quantum()
 function ShorAlgo(N, precision_bits, coprime)
 {
     var repeat_period = ShorQPU(N, precision_bits, coprime); // quantum part
-    var factors = ShorFactorCandidates(N, repeat_period, coprime);      // classical part
-    return check_result(N, factors);
+    var factors = get_factor_candidates(N, repeat_period, coprime); 
+    return get_valid_factors(N, factors);
 }
 
 function ShorQPU(N, precision_bits, coprime)
 {
-    setup_speed();
-    // Quantum part of Shor's algorithm
-    // For this implementation, the coprime must be 2.
+    set_setup_speed();
     coprime = 2;
 
     // For some numbers (like 15 and 21) the "mod" in a^xmod(N)
@@ -34,7 +32,7 @@ function ShorQPU(N, precision_bits, coprime)
         return ShorQPU_WithModulo(N, precision_bits, coprime)
 }
 
-function setup_speed()
+function set_setup_speed()
 {
     var increase_speed = false; // switch drawing off to increase sim speed
     if (increase_speed)
@@ -201,7 +199,7 @@ function ShorQPU_WithModulo(N, precision_bits, coprime)
     return repeat_period_candidates;
 }
 
-function ShorFactorCandidates(N, repeat_period_candidates, coprime)
+function get_factor_candidates(N, repeat_period_candidates, coprime)
 {
     qc.print('Repeat period candidates: '+repeat_period_candidates+'\n');
     factor_candidates = [];
@@ -209,14 +207,14 @@ function ShorFactorCandidates(N, repeat_period_candidates, coprime)
     {
         var repeat_period = repeat_period_candidates[i];
         var ar2 = Math.pow(coprime, repeat_period / 2.0);
-        var factor1 = greatestCommonDivisor(N, ar2 - 1);
-        var factor2 = greatestCommonDivisor(N, ar2 + 1);
+        var factor1 = get_greatestCommonDivisor(N, ar2 - 1);
+        var factor2 = get_greatestCommonDivisor(N, ar2 + 1);
         factor_candidates.push([factor1, factor2]);
     }
     return factor_candidates;
 }
 
-function greatestCommonDivisor(a, b)
+function get_greatestCommonDivisor(a, b)
 {
     while (b) {
       var m = a % b;
@@ -226,7 +224,7 @@ function greatestCommonDivisor(a, b)
     return a;
 }
 
-function check_result(N, factor_candidates)
+function get_valid_factors(N, factor_candidates)
 {
     for (var i = 0; i < factor_candidates.length; ++i)
     {
