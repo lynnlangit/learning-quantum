@@ -1,9 +1,9 @@
-function shor_sample_qpu()
+function shor_quantum()
 {
     var N = 35;             
     var precision_bits = 6; 
     var coprime = 2;        
-    var result = Shor(N, precision_bits, coprime);
+    var result = ShorAlgo(N, precision_bits, coprime);
 
     if (result !== null)
         qc.print('Success! '+N+'='+result[0]+'*'+result[1]+'\n');
@@ -11,10 +11,10 @@ function shor_sample_qpu()
         qc.print('Failure: No non-trivial factors were found.\n');
 }
 
-function Shor(N, precision_bits, coprime)
+function ShorAlgo(N, precision_bits, coprime)
 {
     var repeat_period = ShorQPU(N, precision_bits, coprime); // quantum part
-    var factors = ShorLogic(N, repeat_period, coprime);      // classical part
+    var factors = ShorFactorCandidates(N, repeat_period, coprime);      // classical part
     return check_result(N, factors);
 }
 
@@ -60,7 +60,6 @@ function ShorQPU_WithoutModulo(N, precision_bits, coprime)
     N_bits++;
     var total_bits = N_bits + precision_bits;
 
-    // Set up the QPU and the working registers
     qc.reset(total_bits);
     var num = qint.new(N_bits, 'work');
     var precision = qint.new(precision_bits, 'precision');
@@ -68,7 +67,7 @@ function ShorQPU_WithoutModulo(N, precision_bits, coprime)
     qc.label('init');
     num.write(1);
     precision.write(0);
-    precision.hadamard();
+    precision.had();
 
     // Perform 2^x for all possible values of x in superposition
     for (var iter = 0; iter < precision_bits; ++iter)
@@ -79,7 +78,7 @@ function ShorQPU_WithoutModulo(N, precision_bits, coprime)
         num_shifts %= num.numBits;
         num.rollLeft(num_shifts, condition);
     }
-    // Perform the QFT
+
     qc.label('QFT');
     precision.QFT();
     qc.label('');
@@ -147,7 +146,6 @@ function ShorQPU_WithModulo(N, precision_bits, coprime)
     scratch_bits = 1;
     var total_bits = N_bits + precision_bits + scratch_bits;
 
-    // Set up the QPU and the working registers
     qc.reset(total_bits);
     var num = qint.new(N_bits, 'work');
     var precision = qint.new(precision_bits, 'precision');
@@ -156,7 +154,7 @@ function ShorQPU_WithModulo(N, precision_bits, coprime)
     qc.label('init');
     num.write(1);
     precision.write(0);
-    precision.hadamard();
+    precision.had();
     scratch.write(0);
 
     var N_sign_bit_place = 1 << (N_bits - 1);
@@ -203,7 +201,7 @@ function ShorQPU_WithModulo(N, precision_bits, coprime)
     return repeat_period_candidates;
 }
 
-function ShorLogic(N, repeat_period_candidates, coprime)
+function ShorFactorCandidates(N, repeat_period_candidates, coprime)
 {
     qc.print('Repeat period candidates: '+repeat_period_candidates+'\n');
     factor_candidates = [];
@@ -246,7 +244,7 @@ function check_result(N, factor_candidates)
     return null;
 }
 
-shor_sample_qpu();
+shor_quantum();
 
 // Here are some values of N to try:
 // 15, 21, 35, 39, 51, 55, 69, 77, 85, 87, 91, 93, 95, 111, 115, 117,

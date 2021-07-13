@@ -13,12 +13,12 @@ function shor_classical()
 
 function ShorAlgo(N, precision_bits, coprime)
 {
-    var repeat_period = ShorWork(N, precision_bits, coprime); 
-    var factors = ShorLogic(N, repeat_period, coprime);      
+    var repeat_period = ShorCPU(N, precision_bits, coprime); 
+    var factors = ShorFactorCandidates(N, repeat_period, coprime);      
     return check_result(N, factors);
 }
 
-function ShorWork(N, precision_bits, coprime) {
+function ShorCPU(N, precision_bits, coprime) {
     var work = 1;
     var max_loops = Math.pow(2, precision_bits);
     for (iter = 0; iter < max_loops; ++iter) {
@@ -29,7 +29,7 @@ function ShorWork(N, precision_bits, coprime) {
     return 0;
 }
 
-function ShorLogic(N, repeat_period_candidates, coprime)
+function ShorFactorCandidates(N, repeat_period_candidates, coprime)
 {
     qc.print('Repeat period candidates: '+repeat_period_candidates+'\n');
     var factor_candidates = [];
