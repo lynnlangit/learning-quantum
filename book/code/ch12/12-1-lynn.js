@@ -47,14 +47,13 @@ function set_setup_speed()
     }
 }
 
-// Short/simple version of ShorQPU() performs a^x 
-// No need to perform a quantum int modulus
+// Performs a^x - no quantum modulo
 function ShorQPU_WithoutModulo(N, precision_bits, coprime)
 {
     var N_bits = 1;
     while ((1 << N_bits) < N)
     N_bits++;
-    if (N != 15) // For this implementation, numbers other than 15 need an extra bit
+    if (N != 15) // numbers other than 15 need an extra bit
     N_bits++;
     var total_bits = N_bits + precision_bits;
 
@@ -81,16 +80,14 @@ function ShorQPU_WithoutModulo(N, precision_bits, coprime)
     precision.QFT();
     qc.label('');
 
-    var read_result = read_unsigned(precision);
+    var read_result = convert_to_unsigned(precision);
     qc.print('QPU read result: '+read_result+'\n');
     var repeat_period_candidates = estimate_num_spikes(read_result, 1 << precision_bits);
 
     return repeat_period_candidates;
 }
 
-// In case our QPU read returns a "signed" negative value,
-// convert it to unsigned.
-function read_unsigned(qreg)
+function convert_to_unsigned(qreg)
 {
     var value = qreg.read();
     return value & ((1 << qreg.numBits) - 1);
@@ -126,9 +123,7 @@ function estimate_num_spikes(spike, range)
     return candidates;
 }
 
-// Complicated version of ShorQPU() 
-// Performs a quantum int modulus (complex operation)
-// Do the shifts one at a time
+// Performs a quantum int modulus, does shifts one at a time
 function ShorQPU_WithModulo(N, precision_bits, coprime)
 {
     var scratch = null;
