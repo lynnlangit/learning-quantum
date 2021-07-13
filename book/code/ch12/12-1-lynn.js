@@ -49,8 +49,8 @@ function setup_speed()
     }
 }
 
-// This is the short/simple version of ShorQPU() where we can perform a^x and
-// don't need to be concerned with performing a quantum int modulus.
+// Short/simple version of ShorQPU() performs a^x 
+// No need to perform a quantum int modulus
 function ShorQPU_WithoutModulo(N, precision_bits, coprime)
 {
     var N_bits = 1;
@@ -129,10 +129,9 @@ function estimate_num_spikes(spike, range)
     return candidates;
 }
 
-// This is the complicated version of ShorQPU() where we DO
-// need to be concerned with performing a quantum int modulus.
-// That's a complicated operation, and it also requires us to
-// do the shifts one at a time.
+// Complicated version of ShorQPU() 
+// Performs a quantum int modulus (complex operation)
+// Do the shifts one at a time
 function ShorQPU_WithModulo(N, precision_bits, coprime)
 {
     var scratch = null;
