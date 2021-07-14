@@ -1,10 +1,11 @@
-# Shor's Algo
+# Shor's Algorithm
 
-Core algo - can be implemented using classical algorithms only (for learning).  Optimization techniques are key to both classical and quantum implementations of Shor's Algorithm.
+- Core algo - can be implemented using classical algorithms only (for learning).  
+- Optimization techniques are key to both classical and quantum implementations of Shor's Algorithm.
 
 ## What is it?
 
-- Problem:Given an integer N, find its prime factors
+- Problem: Given an integer N, find its prime factors
 - The efficiency of Shor's algorithm is due to the efficiency of the quantum Fourier transform (QFT), and modular exponentiation by repeated squarings
 Wikipedia definition - [link](https://en.wikipedia.org/wiki/Shor%27s_algorithm)
 
