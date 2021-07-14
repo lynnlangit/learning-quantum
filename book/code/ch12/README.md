@@ -22,4 +22,4 @@ Fermat’s little theorem implies that...
 
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/fermat.png" width=300 align=left>
 
-This give us the hints that such exponents may have periods.
+This give us the hint that such exponents may have periods.  Potential factors are determined using classical methods, potential periods are found using quantum methods.
