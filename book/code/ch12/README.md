@@ -67,11 +67,11 @@ Explained in detail from - https://www.quantiki.org/wiki/shors-factoring-algorit
 The algorithm is composed of two parts. The first part of the algorithm turns the factoring problem into the problem of finding the period of a function, and may be implemented classically. The second part finds the period using the quantum Fourier transform, and is responsible for the quantum speedup.
 
 - Obtaining factors from period
-The integers less than N and coprime with N form a finite group under multiplication modulo N, which is typically denoted (Z/NZ)×. By the end of step 3, we have an integer a in this group. Since the group is finite, a must have a finite order r, the smallest positive integer such that
-    - ar ≡ 1 mod N. 
-    - Therefore, N | (a r − 1). Suppose we are able to obtain r, and it is even. Then
-        - ar − 1 = (ar/2 − 1)(ar/2 + 1) ≡ 0 mod N
-            - ⇒ N ∣(ar/2 − 1)(ar/2 + 1). 
+    - The integers less than N and coprime with N form a finite group under multiplication modulo N, which is typically denoted (Z/NZ)×. By the end of step 3, we have an integer a in this group. Since the group is finite, a must have a finite order r, the smallest positive integer such that
+        - ar ≡ 1 mod N. 
+        - Therefore, N | (a r − 1). Suppose we are able to obtain r, and it is even. Then
+            - ar − 1 = (ar/2 − 1)(ar/2 + 1) ≡ 0 mod N
+                - ⇒ N ∣(ar/2 − 1)(ar/2 + 1). 
 
     - r is the smallest positive integer such that a r ≡ 1, so N cannot divide (a r / 2 − 1). If N also does not divide (a r / 2 + 1), then N must have a nontrivial common factor with each of (a r / 2 − 1) and (a r / 2 + 1).
 
