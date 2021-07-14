@@ -18,8 +18,8 @@ Wikipedia definition - [link](https://en.wikipedia.org/wiki/Shor%27s_algorithm)
 
 ### Other Info
 
-Fermat’s little theorem implies that
+Fermat’s little theorem implies that...
 
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/fermat.png" width=300 align=left>
 
-This hints us that such exponents may have periods.
+This give us the hints that such exponents may have periods.
