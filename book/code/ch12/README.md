@@ -6,9 +6,10 @@
 ## What is it?
 
 - Problem: Given an odd integer N, find its prime factors (p,q)
-- Uses 'Period Finding' 
-- The efficiency of Shor's algorithm is due to the efficiency of the quantum Fourier transform (QFT), and modular exponentiation by repeated squarings
-Wikipedia definition - [link](https://en.wikipedia.org/wiki/Shor%27s_algorithm)
+- The algorithm is composed of two parts
+    - Classical part -  turns the factoring problem into the problem of finding the period of a function 
+    - Quantum speedup -  finds the period using the quantum Fourier transform (QFT) and modular exponentiation by repeated squarings
+- Wikipedia definition - [link](https://en.wikipedia.org/wiki/Shor%27s_algorithm)
 
 ## Learn More
 
