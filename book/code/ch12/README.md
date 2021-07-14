@@ -1,7 +1,8 @@
 # Shor's Algorithm
 
-- Core algo - can be implemented using classical algorithms only (for learning).  
+- Core algorithm - can be implemented using classical algorithms only (for learning).  
 - Optimization techniques are key to both classical and quantum implementations of Shor's Algorithm.
+- Wikipedia definition - [link](https://en.wikipedia.org/wiki/Shor%27s_algorithm)
 
 ## What is it?
 
@@ -9,7 +10,6 @@
 - The algorithm is composed of two parts
     - Classical part -  turns the factoring problem into the problem of finding the period of a function 
     - Quantum speedup -  finds the period using the quantum Fourier transform (QFT) and modular exponentiation by repeated squarings
-- Wikipedia definition - [link](https://en.wikipedia.org/wiki/Shor%27s_algorithm)
 
 ## Learn More
 
@@ -23,4 +23,4 @@ Fermat’s little theorem implies that...
 
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/fermat.png" width=300 align=left>
 
-This give us the hint that such exponents may have periods.  Potential factors are determined using classical methods, potential periods are found using quantum methods.
+This theorem gives us the hint that such exponents may have periods.  Potential factors are determined using classical methods, potential periods are found using quantum methods.
