@@ -1,17 +1,6 @@
-// Copyright (c) Microsoft Corporation. All rights reserved.
-// Licensed under the MIT license.
-
-//////////////////////////////////////////////////////////////////////
-// This file contains reference solutions to all tasks.
-// The tasks themselves can be found in Tasks.qs file.
-// We recommend that you try to solve the tasks yourself first,
-// but feel free to look up the solution if you get stuck.
-//////////////////////////////////////////////////////////////////////
-
 namespace Quantum.Kata.BasicGates {
     open Microsoft.Quantum.Intrinsic;
     open Microsoft.Quantum.Math;
-
 
     //////////////////////////////////////////////////////////////////
     // Part I. Single-Qubit Gates
@@ -27,7 +16,6 @@ namespace Quantum.Kata.BasicGates {
         X(q);
     }
 
-
     // Task 1.2. Basis change: |0⟩ to |+⟩ and |1⟩ to |-⟩ (and vice versa)
     // Input: A qubit in state |ψ⟩ = α |0⟩ + β |1⟩.
     // Goal: Change the state of the qubit as follows:
@@ -39,14 +27,12 @@ namespace Quantum.Kata.BasicGates {
         H(q);
     }
 
-
     // Task 1.3. Sign flip: |+⟩ to |-⟩ and vice versa.
     // Inputs: A qubit in state |ψ⟩ = α |0⟩ + β |1⟩.
     // Goal: Change the qubit state to α |0⟩ - β |1⟩ (flip the sign of |1⟩ component of the superposition).
     operation SignFlip_Reference (q : Qubit) : Unit is Adj+Ctl {
         Z(q);
     }
-
 
     // Task 1.4*. Amplitude change (|0⟩ to cos(alpha)*|0⟩ + sin(alpha)*|1⟩).
     // Inputs:
@@ -60,7 +46,6 @@ namespace Quantum.Kata.BasicGates {
         Ry(2.0 * alpha, q);
     }
 
-
     // Task 1.5. Phase flip
     // Input: A qubit in state |ψ⟩ = α |0⟩ + β |1⟩.
     // Goal:  Change the qubit state to α |0⟩ + iβ |1⟩ (flip the phase of |1⟩ component of the superposition).
@@ -68,7 +53,6 @@ namespace Quantum.Kata.BasicGates {
         S(q);
         // alternatively R1(0.5 * PI(), q);
     }
-
 
     // Task 1.6*. Phase change
     // Inputs:
@@ -97,7 +81,6 @@ namespace Quantum.Kata.BasicGates {
         // alternatively Z(qs[1]);
     }
 
-
     // Task 1.9. Bell state change - 2
     // Input: Two entangled qubits in Bell state |Φ⁺⟩ = (|00⟩ + |11⟩) / sqrt(2).
     // Goal:  Change the two-qubit state to |Ψ⁺⟩ = (|01⟩ + |10⟩) / sqrt(2).
@@ -105,7 +88,6 @@ namespace Quantum.Kata.BasicGates {
         X(qs[0]);
         // alternatively X(qs[1]);
     }
-
 
     // Task 1.10. Bell state change - 3
     // Input: Two entangled qubits in Bell state |Φ⁺⟩ = (|00⟩ + |11⟩) / sqrt(2).
