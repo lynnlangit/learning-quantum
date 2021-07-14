@@ -83,3 +83,8 @@ shor_classical();
 // N = 123   precision_bits >= 7
 // N = 341   precision_bits >= 8  time: about 6 seconds
 // N = 451   precision_bits >= 9  time: about 23 seconds
+
+// Notes
+// To obtain the final result as 3 and 5, greatest common divisor is used;
+// gcd(p,N) = gcd((a^(r/2)-1),N) = gcd(48,15) = 3
+// gcd(q,N) = gcd((a^(r/2)+1),N) = gcd(50,15) = 5
