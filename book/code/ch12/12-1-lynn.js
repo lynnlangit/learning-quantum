@@ -209,14 +209,14 @@ function get_factor_candidates(N, repeat_period_candidates, coprime)
     return factor_candidates;
 }
 
-function get_greatestCommonDivisor(a, b)
+function get_greatestCommonDivisor(Num1, Num2)
 {
-    while (b) {
-      var m = a % b;
-      a = b;
-      b = m;
+    while (Num2) {
+      var m = Num1 % Num2;
+      Num1 = Num2;
+      Num2 = m;
     }
-    return a;
+    return Num1;
 }
 
 function get_valid_factors(N, factor_candidates)
