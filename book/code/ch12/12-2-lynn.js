@@ -44,12 +44,12 @@ function get_factor_candidates(N, repeat_period_candidates, coprime)
     return factor_candidates;
 }
 
-function get_greatestCommonDivisor(Num, Divisor)
+function get_greatestCommonDivisor(Num1, Num2)
 {
-    while (Divisor) {
-      var m = Num % Divisor;
-      Num = Divisor;
-      Divisor = m;
+    while (Num2) {
+      var m = Num1 % Num2;
+      Num1 = Num2;
+      Num2 = m;
     }
     return Num;
 }
