@@ -18,14 +18,14 @@ function Shor(N, precision_bits, coprime)
     return check_result(N, factors);
 }
 
-function greatestCommonDivisor(a, b)
+function get_greatestCommonDivisor(Num1, Num2)
 {
-    while (b) {
-      var m = a % b;
-      a = b;
-      b = m;
+    while (Num2) {
+      var m = Num1 % Num2;
+      Num1 = Num2;
+      Num2 = m;
     }
-    return a;
+    return Num1;
 }
 
 function check_result(N, factor_candidates)
