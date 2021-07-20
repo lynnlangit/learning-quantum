@@ -51,7 +51,7 @@ function get_greatestCommonDivisor(Num1, Num2)
       Num1 = Num2;
       Num2 = m;
     }
-    return Num;
+    return Num1;
 }
 
 function get_valid_factors(N, factor_candidates)
