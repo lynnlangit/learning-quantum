@@ -52,8 +52,8 @@ function ShorLogic(N, repeat_period_candidates, coprime)
     {
         var repeat_period = repeat_period_candidates[i];
         var ar2 = Math.pow(coprime, repeat_period / 2.0);
-        var factor1 = greatestCommonDivisor(N, ar2 - 1);
-        var factor2 = greatestCommonDivisor(N, ar2 + 1);
+        var factor1 = get_greatestCommonDivisor(N, ar2 - 1);
+        var factor2 = get_greatestCommonDivisor(N, ar2 + 1);
         factor_candidates.push([factor1, factor2]);
     }
     return factor_candidates;
