@@ -6,9 +6,11 @@ function shor_classical()
     var result = ShorAlgo(N, precision_bits, coprime);
 
     if (result !== null)
-        qc.print('Success! '+N+'='+result[0]+'*'+result[1]+'\n');
+        //qc.print('Success! '+N+'='+result[0]+'*'+result[1]+'\n');
+        console.log('Success! '+N+'='+result[0]+'*'+result[1]+'\n');
     else
-        qc.print('Failure: No non-trivial factors were found.\n')
+        //qc.print('Failure: No non-trivial factors were found.\n')
+        console.log('Failure: No non-trivial factors were found.\n')
 }
 
 function ShorAlgo(N, precision_bits, coprime)
@@ -31,7 +33,8 @@ function set_repeat_period(N, precision_bits, coprime) {
 
 function get_factor_candidates(N, repeat_period_candidates, coprime)
 {
-    qc.print('Repeat period candidates: '+repeat_period_candidates+'\n');
+    //qc.print('Repeat period candidates: '+repeat_period_candidates+'\n');
+    console.log('Repeat period candidates: '+repeat_period_candidates+'\n');
     var factor_candidates = [];
     for (var i = 0; i < repeat_period_candidates.length; ++i)
     {
