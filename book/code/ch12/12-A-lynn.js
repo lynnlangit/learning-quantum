@@ -14,7 +14,7 @@ function estimate_num_spikes(spike, range)
     var e1 = 0;
     var e2 = 0;
     var actual = spike / range;
-    var candidates = []
+    var candidates = [];
     for (denom = 1.0; denom < spike; ++denom)
     {
         var numerator = Math.round(denom * actual);
