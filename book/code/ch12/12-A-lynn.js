@@ -1,9 +1,6 @@
 var spike_position = 8;
 var data_range = 16;
-
 var num_spikes = estimate_num_spikes(spike_position, data_range);
-
-qc.print('Estimated number of spikes: ' + num_spikes + '\n');
 
 function estimate_num_spikes(spike, range)
 {
@@ -23,6 +20,7 @@ function estimate_num_spikes(spike, range)
         e0 = e1;
         e1 = e2;
         e2 = error;
+        
         // Look for a local minimum which beats our current best error
         if (e1 <= best_error && e1 < e0 && e1 < e2)
         {
@@ -33,3 +31,6 @@ function estimate_num_spikes(spike, range)
     }
     return candidates;
 }
+
+//qc.print('Estimated number of spikes: ' + num_spikes + '\n');
+console.log('Estimated number of spikes: ' + num_spikes + '\n');
