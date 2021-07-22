@@ -33,9 +33,9 @@ function check_result(N, factor_candidates)
     for (var i = 0; i < factor_candidates.length; ++i)
     {
         var factors = factor_candidates[i];
-        if (factors[0] * factors[1] == N)
+        if (factors[0] * factors[1] === N)
         {
-            if (factors[0] != 1 && factors[1] != 1)
+            if (factors[0] !== 1 && factors[1] !== 1)
             {
                 return factors;
             }
@@ -70,7 +70,7 @@ function ShorQPU(N, precision_bits, coprime)
     // For some numbers (like 15 and 21) the "mod" in a^xmod(N)
     // is not needed, because a^x wraps neatly around. This makes the
     // code simpler, and much easier to follow.
-    if (N == 15 || N == 21)
+    if (N === 15 || N === 21)
         return ShorQPU_WithoutModulo(N, precision_bits, coprime)
     else
         return ShorQPU_WithModulo(N, precision_bits, coprime)
@@ -102,7 +102,7 @@ function ShorQPU_WithoutModulo(N, precision_bits, coprime)
     var N_bits = 1;
     while ((1 << N_bits) < N)
         N_bits++;
-    if (N != 15) // For this implementation, numbers other than 15 need an extra bit
+    if (N !== 15) // For this implementation, numbers other than 15 need an extra bit
         N_bits++;
     var total_bits = N_bits + precision_bits;
 
