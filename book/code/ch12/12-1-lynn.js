@@ -13,7 +13,7 @@ function shor_quantum()
 
 function ShorAlgo(N, precision_bits, coprime)
 {
-    var repeat_period = ShorQPU(N, precision_bits, coprime); // quantum part
+    var repeat_period = ShorQPU(N, precision_bits, coprime); 
     var factors = get_factor_candidates(N, repeat_period, coprime); 
     return get_valid_factors(N, factors);
 }
@@ -23,18 +23,16 @@ function ShorQPU(N, precision_bits, coprime)
     set_setup_speed();
     coprime = 2;
 
-    // For some numbers (like 15 and 21) the "mod" in a^xmod(N)
-    // is not needed, because a^x wraps neatly around. This makes the
-    // code simpler, and much easier to follow.
-    if (N == 15 || N == 21)
-        return ShorQPU_WithoutModulo(N, precision_bits, coprime)
+    
+    if (N == 15 || N == 21)         // For some numbers (like 15 and 21) the "mod" in a^xmod(N) is not needed
+        return ShorQPU_WithoutModulo(N, precision_bits, coprime);
     else
-        return ShorQPU_WithModulo(N, precision_bits, coprime)
+        return ShorQPU_WithModulo(N, precision_bits, coprime);
 }
 
 function set_setup_speed()
 {
-    var increase_speed = false; // switch drawing off to increase sim speed
+    var increase_speed = false;     // switch drawing off to increase sim speed
     if (increase_speed)
     {
         qc.disableRecording();
@@ -47,13 +45,12 @@ function set_setup_speed()
     }
 }
 
-// Performs a^x - no quantum modulo
 function ShorQPU_WithoutModulo(N, precision_bits, coprime)
 {
     var N_bits = 1;
     while ((1 << N_bits) < N)
     N_bits++;
-    if (N != 15) // numbers other than 15 need an extra bit
+    if (N != 15)                // numbers other than 15 need an extra bit
     N_bits++;
     var total_bits = N_bits + precision_bits;
 
@@ -66,7 +63,6 @@ function ShorQPU_WithoutModulo(N, precision_bits, coprime)
     precision.write(0);
     precision.had();
 
-    // Perform 2^x for all possible values of x in superposition
     for (var iter = 0; iter < precision_bits; ++iter)
     {
         qc.label('iter ' + iter);
@@ -111,8 +107,7 @@ function estimate_num_spikes(spike, range)
         e0 = e1;
         e1 = e2;
         e2 = error;
-        // Look for a local minimum which beats our
-        // current best error
+        // Look for a local minimum which beats our current best error
         if (e1 <= best_error && e1 < e0 && e1 < e2)
         {
             var repeat_period = denom - 1;
@@ -134,7 +129,7 @@ function ShorQPU_WithModulo(N, precision_bits, coprime)
     var scratch_bits = 0;
     while ((1 << N_bits) < N)
         N_bits++;
-    if (N != 15) // For this implementation, numbers other than 15 need an extra bit
+    if (N != 15)                // numbers other than 15 need an extra bit
         N_bits++;
     scratch_bits = 1;
     var total_bits = N_bits + precision_bits + scratch_bits;
@@ -142,7 +137,7 @@ function ShorQPU_WithModulo(N, precision_bits, coprime)
     qc.reset(total_bits);
     var num = qint.new(N_bits, 'work');
     var precision = qint.new(precision_bits, 'precision');
-    var scratch = qint.new(1, 'scratch');     // error 'scratch is already defined'
+    scratch = qint.new(1, 'scratch');           
 
     qc.label('init');
     num.write(1);
@@ -162,7 +157,7 @@ function ShorQPU_WithModulo(N, precision_bits, coprime)
         for (var sh = 0; sh < shifts; ++sh)
         {
             qc.label('num *= coprime');
-            num.rollLeft(1, condition);   // Multiply by the coprime
+            num.rollLeft(1, condition);                 // Multiply by the coprime
             max_value <<= 1;
             if (max_value >= N)
                 mod_engaged = true;
@@ -174,11 +169,11 @@ function ShorQPU_WithModulo(N, precision_bits, coprime)
                 wrap_mask_with_condition.orEquals(condition);
 
                 // Here's the modulo code.
-                num.subtract(N, condition); // subtract N, causing this to go negative if we HAVEN'T wrapped.
+                num.subtract(N, condition);              // subtract N, causing this to go negative if we HAVEN'T wrapped.
                 scratch.cnot(N_sign_bit_with_condition); // Skim off the sign bit
-                num.add(N, wrap_mask_with_condition); // If we went negative, undo the subtraction.
+                num.add(N, wrap_mask_with_condition);    // If we went negative, undo the subtraction
                 num.not(1);
-                scratch.cnot(num, 1, condition); // If it's odd, then we wrapped, so clear the wrap bit
+                scratch.cnot(num, 1, condition);         // If it's odd, then we wrapped, so clear the wrap bit
                 num.not(1);
             }
         }
@@ -228,12 +223,10 @@ function get_valid_factors(N, factor_candidates)
         {
             if (factors[0] != 1 && factors[1] != 1)
             {
-                // Success!
                 return factors;
             }
         }
     }
-    // Failure
     return null;
 }
 
