@@ -7,9 +7,7 @@ function estimate_num_spikes(spike, range)
     if (spike < range / 2)
         spike = range - spike;
     var best_error = 1.0;
-    var e0 = 0;
-    var e1 = 0;
-    var e2 = 0;
+    var e0 = 0, e1 = 0, e2 = 0;
     var actual = spike / range;
     var candidates = [];
     for (denom = 1.0; denom < spike; ++denom)
@@ -37,7 +35,7 @@ console.log('Estimated number of spikes: ' + num_spikes + ' for range: ' + data_
 
 
 // from the book...
-// This example returns two candidate results (4 and 8)
+// This example returns two candidate results (4 and 8) AFTER we READ
     // Check both to see whether they provide prime factors of 15
     // Use the method ShorLogic()...
         // implements the gcd equations that determine prime factors 
