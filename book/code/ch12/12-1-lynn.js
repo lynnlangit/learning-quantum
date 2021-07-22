@@ -23,7 +23,7 @@ function ShorQPU(N, precision_bits, coprime)
     set_setup_speed();
     coprime = 2;
     
-    if (N == 15 || N == 21)         // For some numbers (like 15 and 21) the "mod" in a^xmod(N) is not needed
+    if (N === 15 || N === 21)         // For some numbers (like 15 and 21) the "mod" in a^xmod(N) is not needed
         return ShorQPU_WithoutModulo(N, precision_bits, coprime);
     else
         return ShorQPU_WithModulo(N, precision_bits, coprime);
@@ -49,7 +49,7 @@ function ShorQPU_WithoutModulo(N, precision_bits, coprime)
     var N_bits = 1;
     while ((1 << N_bits) < N)
     N_bits++;
-    if (N != 15)                // numbers other than 15 need an extra bit
+    if (N !== 15)                // numbers other than 15 need an extra bit
     N_bits++;
     var total_bits = N_bits + precision_bits;
 
@@ -104,7 +104,7 @@ function estimate_num_spikes(spike, range)
         e0 = e1;
         e1 = e2;
         e2 = error;
-        
+
         // Look for a local minimum which beats our current best error
         if (e1 <= best_error && e1 < e0 && e1 < e2)
         {
@@ -127,7 +127,7 @@ function ShorQPU_WithModulo(N, precision_bits, coprime)
     var scratch_bits = 0;
     while ((1 << N_bits) < N)
         N_bits++;
-    if (N != 15)                // numbers other than 15 need an extra bit
+    if (N !== 15)                // numbers other than 15 need an extra bit
         N_bits++;
     scratch_bits = 1;
     var total_bits = N_bits + precision_bits + scratch_bits;
@@ -223,9 +223,9 @@ function get_valid_factors(N, factor_candidates)
     for (var i = 0; i < factor_candidates.length; ++i)
     {
         var factors = factor_candidates[i];
-        if (factors[0] * factors[1] == N)
+        if (factors[0] * factors[1] === N)
         {
-            if (factors[0] != 1 && factors[1] != 1)
+            if (factors[0] !== 1 && factors[1] !== 1)
             {
                 return factors;
             }
