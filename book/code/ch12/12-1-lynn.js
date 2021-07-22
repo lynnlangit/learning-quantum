@@ -98,7 +98,7 @@ function estimate_num_spikes(spike, range)
     var e1 = 0;
     var e2 = 0;
     var actual = spike / range;
-    var candidates = []
+    var candidates = [];
     for (var denom = 1.0; denom < spike; ++denom)
     {
         var numerator = Math.round(denom * actual);
@@ -202,6 +202,12 @@ function get_factor_candidates(N, repeat_period_candidates, coprime)
         factor_candidates.push([factor1, factor2]);
     }
     return factor_candidates;
+}
+
+function read_unsigned(qreg)
+{
+    var value = qreg.read();
+    return value & ((1 << qreg.numBits) - 1);
 }
 
 function get_greatestCommonDivisor(Num1, Num2)
