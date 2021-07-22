@@ -1,5 +1,5 @@
-var spike_position = 8;
-var data_range = 16;
+var spike_position = 8;         // start 8, try 4, 7, 10
+var data_range = 16;            // start 16, try 10, 100, 160
 var num_spikes = estimate_num_spikes(spike_position, data_range);
 
 function estimate_num_spikes(spike, range)
@@ -33,4 +33,4 @@ function estimate_num_spikes(spike, range)
 }
 
 //qc.print('Estimated number of spikes: ' + num_spikes + '\n');
-console.log('Estimated number of spikes: ' + num_spikes + '\n');
+console.log('Estimated number of spikes: ' + num_spikes + ' for range: ' + data_range + '\n');
