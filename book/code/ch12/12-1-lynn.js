@@ -22,7 +22,6 @@ function ShorQPU(N, precision_bits, coprime)
 {
     set_setup_speed();
     coprime = 2;
-
     
     if (N == 15 || N == 21)         // For some numbers (like 15 and 21) the "mod" in a^xmod(N) is not needed
         return ShorQPU_WithoutModulo(N, precision_bits, coprime);
@@ -94,9 +93,7 @@ function estimate_num_spikes(spike, range)
     if (spike < range / 2)
         spike = range - spike;
     var best_error = 1.0;
-    var e0 = 0;
-    var e1 = 0;
-    var e2 = 0;
+    var e0 = 0, e1 = 0, e2 = 0;
     var actual = spike / range;
     var candidates = [];
     for (var denom = 1.0; denom < spike; ++denom)
@@ -107,6 +104,7 @@ function estimate_num_spikes(spike, range)
         e0 = e1;
         e1 = e2;
         e2 = error;
+        
         // Look for a local minimum which beats our current best error
         if (e1 <= best_error && e1 < e0 && e1 < e2)
         {

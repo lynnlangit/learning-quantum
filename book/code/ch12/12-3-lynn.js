@@ -216,9 +216,7 @@ function estimate_num_spikes(spike, range)
     if (spike < range / 2)
         spike = range - spike;
     var best_error = 1.0;
-    var e0 = 0;
-    var e1 = 0;
-    var e2 = 0;
+    var e0 = 0, e1 = 0, e2 = 0;
     var actual = spike / range;
     var candidates = []
     for (denom = 1.0; denom < spike; ++denom)
