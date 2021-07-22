@@ -34,3 +34,21 @@ function estimate_num_spikes(spike, range)
 
 //qc.print('Estimated number of spikes: ' + num_spikes + '\n');
 console.log('Estimated number of spikes: ' + num_spikes + ' for range: ' + data_range + '\n');
+
+
+// from the book...
+// This example returns two candidate results (4 and 8)
+    // Check both to see whether they provide prime factors of 15
+    // Use the method ShorLogic()...
+        // implements the gcd equations that determine prime factors 
+        // from a given number of DFT spikes (example 12-1)
+        // Try the value 4 --> it returns the (factors) 3 and 5
+
+    // WARNING
+        // Not all of the available values will lead to a correct answer 
+            // What happens if we receive the value 0? 
+            // This is 25% likely, and in this case the estimate_num_spikes() function 
+            // returns no candidate values at all, so the program fails
+            // This is a common situation with quantum algorithms
+                // Check the validity of our answer quickly, if incorrect
+                // Re-run the program again, from the beginning
