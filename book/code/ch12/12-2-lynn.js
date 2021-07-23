@@ -15,12 +15,12 @@ function shor_classical()
 
 function ShorAlgo(N, precision_bits, coprime)
 {
-    var repeat_period = set_repeat_period(N, precision_bits, coprime);  // num of x's between repeats
-    var factors = get_factor_candidates(N, repeat_period, coprime);     // brute force, doesn't scale
-    return get_valid_factors(N, factors);                               // return valid factors (not 1)
+    var repeat_period = set_repeat_period_NoQPU(N, precision_bits, coprime);  // num of x's bet repeats - doesn't scale
+    var factors = get_factor_candidates(N, repeat_period, coprime);           // calc potential factors
+    return get_valid_factors(N, factors);                                     // return valid factors (not 1)
 }
 
-function set_repeat_period(N, precision_bits, coprime) {
+function set_repeat_period_NoQPU(N, precision_bits, coprime) {
     var work = 1;
     var max_loops = Math.pow(2, precision_bits);
     for (iter = 0; iter < max_loops; ++iter) {

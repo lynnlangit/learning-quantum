@@ -15,7 +15,7 @@ function ShorAlgo(N, precision_bits, coprime)
 {
     var repeat_period = ShorQPU(N, precision_bits, coprime); 
     var factors = get_factor_candidates(N, repeat_period, coprime); 
-    return get_valid_factors(N, factors);
+    return get_valid_factors(N, factors);                               // return valid factors (not 1)
 }
 
 function ShorQPU(N, precision_bits, coprime)
@@ -187,6 +187,12 @@ function ShorQPU_WithModulo(N, precision_bits, coprime)
     return repeat_period_candidates;
 }
 
+function read_unsigned(qreg)
+{
+    var value = qreg.read();
+    return value & ((1 << qreg.numBits) - 1);
+}
+
 function get_factor_candidates(N, repeat_period_candidates, coprime)
 {
     qc.print('Repeat period candidates: '+repeat_period_candidates+'\n');
@@ -200,12 +206,6 @@ function get_factor_candidates(N, repeat_period_candidates, coprime)
         factor_candidates.push([factor1, factor2]);
     }
     return factor_candidates;
-}
-
-function read_unsigned(qreg)
-{
-    var value = qreg.read();
-    return value & ((1 << qreg.numBits) - 1);
 }
 
 function get_greatestCommonDivisor(Num1, Num2)
