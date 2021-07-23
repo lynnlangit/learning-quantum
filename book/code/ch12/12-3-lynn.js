@@ -18,24 +18,18 @@ function Shor(N, precision_bits, coprime)
     return check_result(N, factors);                         // return valid factors (not 1)
 }
 
-
-
 function ShorQPU(N, precision_bits, coprime)
 {
-    var increase_speed = false; // switch drawing off to increase sim speed
+    var increase_speed = false; 
     setup_speed();
-    // Quantum part of Shor's algorithm
-    // For this implementation, the coprime must be 2.
     coprime = 2;
 
-    // For some numbers (like 15 and 21) the "mod" in a^xmod(N)
-    // is not needed, because a^x wraps neatly around. This makes the
-    // code simpler, and much easier to follow.
     if (N === 15 || N === 21)
         return ShorQPU_WithoutModulo(N, precision_bits, coprime)
     else
         return ShorQPU_WithModulo(N, precision_bits, coprime)
 }
+
 function setup_speed()
 {
     if (increase_speed)
@@ -189,8 +183,6 @@ function estimate_num_spikes(spike, range)
         e1 = e2;
         e2 = error;
         
-        // Look for a local minimum 
-        // which beats our current best error
         if (e1 <= best_error && e1 < e0 && e1 < e2)
         {
             var repeat_period = denom - 1;
