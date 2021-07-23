@@ -15,8 +15,8 @@ function shor_classical()
 
 function ShorAlgo(N, precision_bits, coprime)
 {
-    var repeat_period = set_repeat_period(N, precision_bits, coprime); 
-    var factors = get_factor_candidates(N, repeat_period, coprime);      
+    var repeat_period = set_repeat_period(N, precision_bits, coprime);  // num of x's between repeats
+    var factors = get_factor_candidates(N, repeat_period, coprime);     // brute force, doesn't scale
     return get_valid_factors(N, factors);                               // return valid factors (not 1)
 }
 
