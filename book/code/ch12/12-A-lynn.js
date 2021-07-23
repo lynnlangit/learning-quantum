@@ -19,7 +19,8 @@ function estimate_num_spikes(spike, range)
         e1 = e2;
         e2 = error;
         
-        // Look for a local minimum which beats our current best error
+        // Look for a local minimum 
+        // which beats our current best error
         if (e1 <= best_error && e1 < e0 && e1 < e2)
         {
             var repeat_period = denom - 1;
