@@ -13,8 +13,8 @@ function shor_quantum()
 
 function ShorAlgo(N, precision_bits, coprime)
 {
-    var repeat_period = ShorQPU(N, precision_bits, coprime); 
-    var factors = get_factor_candidates(N, repeat_period, coprime); 
+    var repeat_period = ShorQPU(N, precision_bits, coprime);            // qunatum - use QFT to produce x's
+    var factors = get_factor_candidates(N, repeat_period, coprime);     // classical - factor candidates
     return get_valid_factors(N, factors);                               // return valid factors (not 1)
 }
 
@@ -23,7 +23,7 @@ function ShorQPU(N, precision_bits, coprime)
     set_setup_speed();
     coprime = 2;
     
-    if (N === 15 || N === 21)         // For some numbers (like 15 and 21) the "mod" in a^xmod(N) is not needed
+    if (N === 15 || N === 21)                                           // For 15 & 21 "mod" in a^xmod(N) isn't needed
         return ShorQPU_WithoutModulo(N, precision_bits, coprime);
     else
         return ShorQPU_WithModulo(N, precision_bits, coprime);
@@ -49,7 +49,7 @@ function ShorQPU_WithoutModulo(N, precision_bits, coprime)
     var N_bits = 1;
     while ((1 << N_bits) < N)
     N_bits++;
-    if (N !== 15)                // numbers other than 15 need an extra bit
+    if (N !== 15)                
     N_bits++;
     var total_bits = N_bits + precision_bits;
 
