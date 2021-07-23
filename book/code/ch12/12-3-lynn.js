@@ -15,49 +15,10 @@ function Shor(N, precision_bits, coprime)
 {
     var repeat_period = ShorQPU(N, precision_bits, coprime); // quantum part
     var factors = ShorLogic(N, repeat_period, coprime);      // classical part
-    return check_result(N, factors);
+    return check_result(N, factors);                         // return valid factors (not 1)
 }
 
-function get_greatestCommonDivisor(Num1, Num2)
-{
-    while (Num2) {
-      var m = Num1 % Num2;
-      Num1 = Num2;
-      Num2 = m;
-    }
-    return Num1;
-}
 
-function check_result(N, factor_candidates)
-{
-    for (var i = 0; i < factor_candidates.length; ++i)
-    {
-        var factors = factor_candidates[i];
-        if (factors[0] * factors[1] === N)
-        {
-            if (factors[0] !== 1 && factors[1] !== 1)
-            {
-                return factors;
-            }
-        }
-    }
-    return null;
-}
-
-function ShorLogic(N, repeat_period_candidates, coprime)
-{
-    qc.print('Repeat period candidates: '+repeat_period_candidates+'\n');
-    var factor_candidates = [];
-    for (var i = 0; i < repeat_period_candidates.length; ++i)
-    {
-        var repeat_period = repeat_period_candidates[i];
-        var ar2 = Math.pow(coprime, repeat_period / 2.0);
-        var factor1 = get_greatestCommonDivisor(N, ar2 - 1);
-        var factor2 = get_greatestCommonDivisor(N, ar2 + 1);
-        factor_candidates.push([factor1, factor2]);
-    }
-    return factor_candidates;
-}
 
 function ShorQPU(N, precision_bits, coprime)
 {
@@ -227,8 +188,9 @@ function estimate_num_spikes(spike, range)
         e0 = e1;
         e1 = e2;
         e2 = error;
-        // Look for a local minimum which beats our
-        // current best error
+        
+        // Look for a local minimum 
+        // which beats our current best error
         if (e1 <= best_error && e1 < e0 && e1 < e2)
         {
             var repeat_period = denom - 1;
@@ -237,6 +199,47 @@ function estimate_num_spikes(spike, range)
         }
     }
     return candidates;
+}
+
+function ShorLogic(N, repeat_period_candidates, coprime)
+{
+    qc.print('Repeat period candidates: '+repeat_period_candidates+'\n');
+    var factor_candidates = [];
+    for (var i = 0; i < repeat_period_candidates.length; ++i)
+    {
+        var repeat_period = repeat_period_candidates[i];
+        var ar2 = Math.pow(coprime, repeat_period / 2.0);
+        var factor1 = get_greatestCommonDivisor(N, ar2 - 1);
+        var factor2 = get_greatestCommonDivisor(N, ar2 + 1);
+        factor_candidates.push([factor1, factor2]);
+    }
+    return factor_candidates;
+}
+
+function get_greatestCommonDivisor(Num1, Num2)
+{
+    while (Num2) {
+      var m = Num1 % Num2;
+      Num1 = Num2;
+      Num2 = m;
+    }
+    return Num1;
+}
+
+function check_result(N, factor_candidates)
+{
+    for (var i = 0; i < factor_candidates.length; ++i)
+    {
+        var factors = factor_candidates[i];
+        if (factors[0] * factors[1] === N)
+        {
+            if (factors[0] !== 1 && factors[1] !== 1)
+            {
+                return factors;
+            }
+        }
+    }
+    return null;
 }
 
 shor_sample_steps();
