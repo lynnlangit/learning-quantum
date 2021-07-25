@@ -1,15 +1,10 @@
 # Quatum Computing Cloud Vendors - AWS
 
-Problems quatum computing can address [from MSFT docs - here](https://docs.microsoft.com/en-us/azure/quantum/overview-qdk)
-- simulation
-- cryptography
-- search
-- optimization
-- ML (supervised classification)
+The AWS Braket service offers quantum computing as a cloud service.
 
----
+## AWS Braket
 
-## AWS
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/aws-braket-arch.png" width=800>
 
 STATUS: AVAILABLE
 
@@ -24,7 +19,7 @@ Amazon Braket is a fully managed quantum computing service that helps researcher
 
 ### PennyLane Library
 
-Image from QT Conference talk by PennyLane team member
+Image from QT Conference talk by PennyLane team member. The PennyLane quantum machine learning library is compatible with the AWS Braket service.
 
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/penny-lane-ml.png" width=800>
 
