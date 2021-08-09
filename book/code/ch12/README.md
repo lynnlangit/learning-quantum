@@ -32,7 +32,7 @@ Explained in detail from - https://www.quantiki.org/wiki/shors-factoring-algorit
 ## The Classical Part
 
 - Pick a pseudo-random odd number a < N
-- Compute `gcd(a, N)`. This may be done using the Euclidean algorithm.
+- Compute `gcd(a, N)`. This may be done using the [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm).
 - If gcd(a, N) ≠ 1, then there is a nontrivial factor of N, so we are done.
 - Otherwise, use the period-finding subroutine (below) to find r, the period of the following function:
     - f(x) = ax mod N  //i.e. the smallest integer r for which f(x + r) = f(x).
