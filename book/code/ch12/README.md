@@ -1,9 +1,5 @@
 # Shor's Algorithm
 
-- Core algorithm - can be implemented using classical algorithms only (for learning).  
-- Optimization techniques are key to both classical and quantum implementations of Shor's Algorithm.
-- Wikipedia definition - [link](https://en.wikipedia.org/wiki/Shor%27s_algorithm)
-
 ## What is it?
 
 - Problem: Given an integer N, find its prime factors (p,q). 
