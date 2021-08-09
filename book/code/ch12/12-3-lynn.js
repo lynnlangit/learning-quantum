@@ -236,14 +236,4 @@ function check_result(N, factor_candidates)
 
 shor_sample_steps();
 
-// Here are some values of N to try:
-// 15, 21, 35, 39, 51, 55, 69, 77, 85, 87, 91, 93, 95, 111, 115, 117,
-// 119, 123, 133, 155, 187, 203, 221, 247, 259, 287, 341, 451
 
-// Larger numbers require more bits of precision.
-// N = 15    precision_bits >= 4
-// N = 21    precision_bits >= 5
-// N = 35    precision_bits >= 6
-// N = 123   precision_bits >= 7
-// N = 341   precision_bits >= 8  time: about 6 seconds
-// N = 451   precision_bits >= 9  time: about 23 seconds
