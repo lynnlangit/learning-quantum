@@ -8,14 +8,18 @@
 - The algorithm is composed of two parts
     - Classical part -  turns the factoring problem into the problem of finding the period of a function 
     - Quantum speedup -  finds the period using the quantum Fourier transform (QFT) and modular exponentiation by repeated squarings
+        -  Uses QFT to 'learn' the function's periodicity 
+- Why does it matter? 
+    - RSA public-key encryption (and other methods) rely on the current INABILITY to quickly factorize large numbers
+    - Being able to quickly determine the *complex periodicity* of a function has a number of potential applications
 
-## Learn More
+## Examples and Info
 
 - Qiskit textbook - [link](https://qiskit.org/textbook/ch-algorithms/shor.html#1.-The-Problem:-Period-Finding)
 - Classical example notebook - [link](https://github.com/PotatoDrug/Quantum-Cryptography/blob/master/Shor/Shor's%20Algorithm.ipynb)
 - Medium Article - [link](https://towardsdatascience.com/quantum-factorization-b3f44be9d738)
 
-### Other Info
+### Detail about the Algorithm
 
 Fermat’s little theorem implies that...
 
