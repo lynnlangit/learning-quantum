@@ -2,8 +2,8 @@
 
 The book discusses three examples, but does NOT present any sample code for the examples  
 - solving systems of linear equations
-- Quantum Principal Component Analysis
-- Quantum Support Vector Machines
+- Quantum Principal Component Analysis (PCA)
+- Quantum Support Vector Machines (SVM)
 
 The techniques used are the following:
 - HHL algorithm used to **invert** a normal matrix (best for sparse, well-conditioned Hermitian matrices)
