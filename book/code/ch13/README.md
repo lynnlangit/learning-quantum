@@ -19,7 +19,7 @@ The techniques used are the following:
 
 ## Examples
 
-- On Qiskit 
+- On Qiskit site
     - Qiskit ML Tutorials - https://qiskit.org/documentation/machine-learning/tutorials/index.html
     - Qiskit Textbook - https://qiskit.org/textbook/content/ch-ex/
     - HHL example - https://qiskit.org/textbook/ch-applications/hhl_tutorial.html  
@@ -28,3 +28,5 @@ The techniques used are the following:
     - what is QML - https://pennylane.ai/qml/whatisqml.html
     - glossary - https://pennylane.ai/qml/glossary.html
     - Advanced example "Learning to Learn" - https://pennylane.ai/qml/demos/learning2learn.html
+- On TensorFlow site
+    -  TensorFlow Quantum example "Hello many worlds" - https://www.tensorflow.org/quantum/tutorials/hello_many_worlds
