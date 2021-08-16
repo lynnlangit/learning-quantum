@@ -1,0 +1,26 @@
+QML in pictures
+
+Sci-kit learn - https://scikit-learn.org/stable/index.html
+QML types - https://miro.medium.com/max/1400/1*zmOwqdLsaaa_eKTmARG4TQ.png
+MVP NN - https://victorzhou.com/media/neural-network-post/network3.png
+NN layer types - https://www.verypossible.com/hs-fs/hubfs/neural-networks-layers.jpg?width=1200&name=neural-networks-layers.jpg
+NN types - https://i.redd.it/x5tbb33fr8c41.png
+mnist CNN - https://miro.medium.com/max/1872/1*SGPGG7oeSvVlV5sOSQ2iZw.png
+TF Board - https://pbs.twimg.com/media/Cf6bP00WcAA4gNY.jpg
+NN with photo - https://i1.wp.com/bdtechtalks.com/wp-content/uploads/2019/02/neural-networks-deep-learning-artificial-intelligence.png?resize=696%2C542&ssl=1
+Quantum Cat - https://pennylane.ai/qml/_images/trainable_circuit.png
+Why QPU - https://image.slidesharecdn.com/pragmatic-quantum-machine-lear-6d9e3ec0-511f-4154-97ed-d08a31cf5492-509178708-181129034300/95/pragmatic-quantum-machine-learning-today-ais308-aws-reinvent-2018-5-638.jpg?cb=1543462997
+QPU internals - https://www.techexplorist.com/wp-content/uploads/2019/07/state-of-an-open-quantum-system.jpg
+QPU ops - https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41467-020-14454-2/MediaObjects/41467_2020_14454_Fig1_HTML.png
+Image CNN + QPU - https://www.swissquantumhub.com/wp-content/uploads/2020/11/Capture-decran-2020-11-24-a-09.02.05.png
+Hilbert Space - https://1.bp.blogspot.com/-YTYoa70wmQI/YNI5LbKYWvI/AAAAAAAAHv4/chQCZqtHBBIboAApvTYe5fk-59t4GWjUQCLcBGAsYHQ/s1999/image2.png
+TF Quantum - https://1.bp.blogspot.com/-GrKeW5muOdo/XmKfETB0-AI/AAAAAAAAFZw/qct9L-0QI2kMOsuB1i75exhAyGLYOCaMwCLcBGAsYHQ/s1600/image2.png
+Research results - https://www.medrxiv.org/content/10.1101/2020.06.21.20136655v1.full.pdf
+
+QML code examples
+
+TF Hello Many Worlds - https://colab.research.google.com/github/tensorflow/quantum/blob/master/docs/tutorials/hello_many_worlds.ipynb
+Qiskit QNN - https://qiskit.org/textbook/ch-machine-learning/machine-learning-qiskit-pytorch.html#how
+Qiskit CircuitQNN - https://qiskit.org/documentation/machine-learning/tutorials/02_neural_network_classifier_and_regressor.html
+PennyLane Multiclass Classifier - https://pennylane.ai/qml/demos/tutorial_multiclass_classification.html
+PennyLane QNN - https://pennylane.ai/qml/demos/tutorial_quanvolution.html
