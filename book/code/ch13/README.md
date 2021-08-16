@@ -30,3 +30,5 @@ The techniques used are the following:
     - Advanced example "Learning to Learn" - https://pennylane.ai/qml/demos/learning2learn.html
 - On TensorFlow site
     -  TensorFlow Quantum example "Hello many worlds" - https://www.tensorflow.org/quantum/tutorials/hello_many_worlds
+
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/book/code/ch13/burst-to-qpu-viz.png" width=600>
