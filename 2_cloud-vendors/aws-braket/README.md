@@ -1,6 +1,7 @@
 # Quatum Computing Cloud Vendors - AWS
 
 The AWS Braket service offers quantum computing as a cloud service.
+- Example notebooks here --> https://github.com/aws/amazon-braket-examples
 
 ## AWS Braket
 
