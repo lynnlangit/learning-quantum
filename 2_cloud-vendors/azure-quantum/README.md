@@ -20,6 +20,7 @@ Microsoft is partnering with quantum hardware manufacturers IonQ, Honeywell, and
 
 ## Q# Resources
 - Q# preview and samples - https://docs.microsoft.com/en-us/azure/quantum/?view=qsharp-preview
+- Q# samples on Binder - https://docs.microsoft.com/en-us/azure/quantum/install-binder-qdk
 - Azure Fridays screencast "Q#" - https://www.youtube.com/watch?v=c9Df90CVHkc
 - Q# Community - https://qsharp.community/
 
