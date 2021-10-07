@@ -20,13 +20,9 @@ Microsoft is partnering with quantum hardware manufacturers IonQ, Honeywell, and
 
 ## Q# Resources
 - Q# preview and samples - https://docs.microsoft.com/en-us/azure/quantum/?view=qsharp-preview
-- Q# samples on Binder - https://docs.microsoft.com/en-us/azure/quantum/install-binder-qdk
+- Q# samples on Binder - https://docs.microsoft.com/en-us/azure/quantum/install-binder-qdk - shown below
 - Azure Fridays screencast "Q#" - https://www.youtube.com/watch?v=c9Df90CVHkc
 - Q# Community - https://qsharp.community/
-
-### Q# on Jupyter (Binder --> GKE)
-
-Rendered from Q# samples on GitHub - use this [link](https://mybinder.org/v2/gh/Microsoft/QuantumKatas/main?filepath=index.ipynb) to generate GKE instance 
 
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/qsharp-samples.png" width=800>
 
