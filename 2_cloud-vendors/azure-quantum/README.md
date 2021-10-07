@@ -28,5 +28,5 @@ Microsoft is partnering with quantum hardware manufacturers IonQ, Honeywell, and
 
 Rendered from Q# samples on GitHub - use this [link](https://mybinder.org/v2/gh/Microsoft/QuantumKatas/main?filepath=index.ipynb) to generate GKE instance 
 
-<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/qsharp-jupyter.png" width=800>
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/qsharp-samples.png" width=800>
 
