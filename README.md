@@ -10,7 +10,7 @@ A qubit is a two-state (or two-level) quantum-mechanical system, one of the simp
 ---
 
 
-## Hardware Example
+## QPUs - Hardware Example
 
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/d-wave-hardware.png" width=600 align=right>
 
@@ -23,7 +23,7 @@ One example is the [D-Wave](https://www.dwavesys.com/) company.  Shown here are 
 
 ---
 
-## Software Example
+## Quantum Programs - Software Example
 
 Sample from IBM Quantum Composer examples.  Example shown below is the `Grover-example`.
 
