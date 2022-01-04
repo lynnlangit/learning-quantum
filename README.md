@@ -42,12 +42,12 @@ One example is the [D-Wave](https://www.dwavesys.com/) company.  Shown here are 
 
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/quantum.png" width=300 align=right>
 
-Book club for ['Programming Quantum Computers'](https://learning.oreilly.com/library/view/programming-quantum-computers/9781492039679/) by Eric R. Johnston, Nic Harrigan & Mercedes Gimeno-Segovia  
+We ran a 15-week long book club which covered the book ['Programming Quantum Computers'](https://learning.oreilly.com/library/view/programming-quantum-computers/9781492039679/) by Eric R. Johnston, Nic Harrigan & Mercedes Gimeno-Segovia. Resources are in the `o-reilly-book` folder of this Repo and linked via the following locations:  
 - Jeremy's repo w/experiments - https://github.com/jeremybytes/quantum-programming-experiments
-- Slack - program-quantum.slack.com
-- YouTube channel - https://www.youtube.com/channel/UCSmWWIRx1dT2QO5gcCTjKYA
-- Author's Github and programming environment - https://oreilly-qc.github.io/
-- Author's errata - http://oreilly.com/catalog/0636920167433/errata
+- Our Slack - `program-quantum.slack.com`
+- Our YouTube channel - https://www.youtube.com/channel/UCSmWWIRx1dT2QO5gcCTjKYA
+- Book Author's Github and programming environment - https://oreilly-qc.github.io/
+- Book Author's errata - http://oreilly.com/catalog/0636920167433/errata
 
 
 ## Links and Example Notebooks
