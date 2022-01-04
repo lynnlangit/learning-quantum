@@ -23,17 +23,20 @@ There are a number of quantum computing vendors.  They produce hardware (quatum 
 
 The qubits are used by quantum computing programming languages or libraries for execution with QPUs.   
 
-One example is the [D-Wave](https://www.dwavesys.com/) company.  Shown here are photos from one of D-Wave's quantum computers.  This computer contains QPU units, which is hardware with qubits (image taken from D-Wave whitepaper). 
+One example is the [D-Wave](https://www.dwavesys.com/) company.  Shown here are photos from one of D-Wave's quantum computers.  This computer contains QPU units, which is hardware with qubits (image taken from D-Wave whitepaper). To run quantum programs on quantum hardware, use quantum languages or libraries.  Generally quantum programs are run on quantum simulators prior to being run on quantum hardware due to the cost and time run on live QPUs.
 
 
 ---
 
-## Quantum Programs - Visualization Tools
+## Quantum Programs by Example
 
-Sample from IBM Quantum Composer examples.  Example shown below is the `Grover-example`.  
-Another example of a quantum program visualizaiton tools is the `Quantum Playground` - http://www.quantumplayground.net/
+- The first sample shown below is from the IBM Quantum Composer examples.  It implements the `Grover-example`.  
+- The second sample is from from D-Wave Systems cloud at https://cloud.dwavesys.com/ and is using VSCode as an IDE
+- Another example of a quantum program visualization tools is the `Quantum Playground` - http://www.quantumplayground.net/
 
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/grover.png" width=800>
+
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/dwave-ide.png" width=800>
 
 ## Book Club
 
@@ -63,6 +66,4 @@ Examples from notebooks linked below, using Q# on Jupyter
 
 ---
 
-Example from D-Wave Systems cloud at https://cloud.dwavesys.com/
 
-<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/dwave-ide.png" width=800>
