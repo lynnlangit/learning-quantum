@@ -6,6 +6,11 @@ This repo contains my study resources for learning quantum computing programming
 
 A qubit is a two-state (or two-level) quantum-mechanical system, one of the simplest quantum systems displaying the peculiarity of quantum mechanics. 
 
+This Repo is organized by folder as follows:
+- `concepts` - quantum languages, libraries, operations and notation
+- `cloud-vendors` - quantum runtime environments (and simulators) organized by cloud vendor
+- `whitepapers` - academic research papers of interest using quantum programming
+- `o-reilly-book` - code examples, slides and link from bookclub (see section below)
 
 ---
 
