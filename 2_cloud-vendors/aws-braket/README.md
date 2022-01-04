@@ -13,6 +13,7 @@ Amazon Braket is a fully managed quantum computing service that helps researcher
 
 - AWS Braket - https://aws.amazon.com/braket/
 - AWS Quantum blog - https://aws.amazon.com/blogs/quantum-computing
+- AWS Quantum papers - https://www.amazon.science/blog/aws-scientists-coauthor-13-qip-2021-quantum-computing-papers
 - Pennylane.ai for QML on AWS Braket - https://pennylane.ai/qml/demos/braket-parallel-gradients.html
 - Learn more about AWS Braket - https://github.com/lynnlangit/Hello-AWS-Data-Services/tree/master/7_quantum-computing
 
