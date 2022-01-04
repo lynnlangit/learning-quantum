@@ -50,9 +50,8 @@ Book club for ['Programming Quantum Computers'](https://learning.oreilly.com/lib
 - Awesome Q# link list - https://github.com/ebraminio/awesome-qsharp
 - Quantum Katas - https://github.com/Microsoft/QuantumKatas/
 - Quatum Kata Notebooks (run in Binder from GitHub) - https://mybinder.org/v2/gh/Microsoft/QuantumKatas/master?filepath=index.ipynb
-- AWS Quantum papers - https://www.amazon.science/blog/aws-scientists-coauthor-13-qip-2021-quantum-computing-papers
 - Quantum Playground (fun viz!) - http://www.quantumplayground.net/
-- Qiskit textbook - https://qiskit.org/textbook/ch-states/introduction.html
+
 
 ---
 
