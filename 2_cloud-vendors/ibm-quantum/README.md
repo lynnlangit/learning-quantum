@@ -1,19 +1,12 @@
 # Quatum Computing Cloud Vendors - IBM
 
-Problems quatum computing can address [from MSFT docs - here](https://docs.microsoft.com/en-us/azure/quantum/overview-qdk)
-- simulation
-- cryptography
-- search
-- optimization
-- ML (supervised classification)
-
----
-## IBM
-
 STATUS: AVAILABLE
 
-IBM's offer includes a number of tools, languages and simulators, including IBM Quantum Composer and IBM Quantum Lab
+IBM's offer includes a number of tools, languages and simulators, including IBM Quantum Composer and IBM Quantum Lab.
+Languages include OPENQASM and Qiskit.
 
 - IBM Quantum computing - https://quantum-computing.ibm.com/
+- Qiskit textbook - https://qiskit.org/textbook/ch-states/introduction.html
+
 
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/ibm-quantum-composer.png" width=700>
