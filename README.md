@@ -47,22 +47,15 @@ Book club for ['Programming Quantum Computers'](https://learning.oreilly.com/lib
 - Author's errata - http://oreilly.com/catalog/0636920167433/errata
 
 
-## Links
+## Links and Example Notebooks
+Examples from notebooks linked below, using Q# on Jupyter  
 - Awesome Q# link list - https://github.com/ebraminio/awesome-qsharp
 - Quantum Katas - https://github.com/Microsoft/QuantumKatas/
 - Quatum Kata Notebooks (run in Binder from GitHub) - https://mybinder.org/v2/gh/Microsoft/QuantumKatas/master?filepath=index.ipynb
 
----
-
-### WIP
-
-Examples from notebooks above
-
 #### Global Phase
 
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/global-phase.png" width=800>
-
----
 
 #### Hadamard Gate
 
