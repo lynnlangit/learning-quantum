@@ -28,9 +28,10 @@ One example is the [D-Wave](https://www.dwavesys.com/) company.  Shown here are 
 
 ---
 
-## Quantum Programs - Example
+## Quantum Programs - Visualization Tools
 
-Sample from IBM Quantum Composer examples.  Example shown below is the `Grover-example`.
+Sample from IBM Quantum Composer examples.  Example shown below is the `Grover-example`.  
+Another example of a quantum program visualizaiton tools is the `Quantum Playground` - http://www.quantumplayground.net/
 
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/grover.png" width=800>
 
@@ -50,8 +51,6 @@ Book club for ['Programming Quantum Computers'](https://learning.oreilly.com/lib
 - Awesome Q# link list - https://github.com/ebraminio/awesome-qsharp
 - Quantum Katas - https://github.com/Microsoft/QuantumKatas/
 - Quatum Kata Notebooks (run in Binder from GitHub) - https://mybinder.org/v2/gh/Microsoft/QuantumKatas/master?filepath=index.ipynb
-- Quantum Playground (fun viz!) - http://www.quantumplayground.net/
-
 
 ---
 
