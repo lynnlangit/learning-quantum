@@ -38,7 +38,7 @@ One example is the [D-Wave](https://www.dwavesys.com/) company.  Shown here are 
 
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/dwave-ide.png" width=800>
 
-## Book Club
+### Book Club
 
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/quantum.png" width=300 align=right>
 
@@ -50,8 +50,8 @@ We ran a 15-week long book club which covered the book ['Programming Quantum Com
 - Book Author's errata - http://oreilly.com/catalog/0636920167433/errata
 
 
-## Links and Example Notebooks
-Examples from notebooks linked below, using Q# on Jupyter  
+### Links and Example Notebooks
+Additional examples from notebooks (Microsoft Quantum Kata), which are linked below and use Q# running on Jupyter Notebooks.  
 - Awesome Q# link list - https://github.com/ebraminio/awesome-qsharp
 - Quantum Katas - https://github.com/Microsoft/QuantumKatas/
 - Quatum Kata Notebooks (run in Binder from GitHub) - https://mybinder.org/v2/gh/Microsoft/QuantumKatas/master?filepath=index.ipynb
