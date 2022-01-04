@@ -54,12 +54,6 @@ Book club for ['Programming Quantum Computers'](https://learning.oreilly.com/lib
 - Quantum Playground (fun viz!) - http://www.quantumplayground.net/
 - Qiskit textbook - https://qiskit.org/textbook/ch-states/introduction.html
 
-## ML
-
-Penny Lane - PennyLane is a cross-platform Python library for differentiable programming of quantum computers. Train a quantum computer the same way as a neural network.
-- Github - https://github.com/PennyLaneAI/pennylane
-- Demos - https://pennylane.ai/qml/demos_basics.html
-
 ---
 
 ### WIP
