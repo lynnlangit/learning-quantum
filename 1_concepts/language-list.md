@@ -4,15 +4,15 @@
 
 The table below shows a sampling of available Quantum programming languages or libraries.
 
-| Lang or Lib| Dialect  | Vendor    |
-|------------|----------|-----------|
-| QCEngine   | Javascript | book      |
-| Q#         | C#       | Microsoft |
-| OpenQASM   | C++      | IBM       |
-| Qiskit     | Python   | IBM       |
-| Cirq       | Python   | Google    |
-| Braket     | Python   | AWS       |
-| PennyLane  | Python| PennyLane for ML on AWS and others...       |
+| Lang or Lib| Dialect  | Vendor    | Simulators   |
+|------------|----------|-----------|--------------|
+| QCEngine   | Javascript | book    |none          |
+| Q#         | C#       | Microsoft |local+Azure   |
+| OpenQASM   | C++      | IBM       |IBM cloud     |
+| Qiskit     | Python   | IBM       |IBM cloud     |
+| Cirq       | Python   | Google    |GCP (vendor)  |
+| Braket     | Python   | AWS       |3 local by type|
+| PennyLane  | Python| PennyLane for ML on AWS++    |by vendor |
 
 ## Visualization Tools
 
