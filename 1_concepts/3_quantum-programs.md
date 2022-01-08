@@ -2,7 +2,11 @@
 
 Types of problems for QPUs include cryptography, search, system simulations, general machine learning, computational biology, and generative chemistry.  
 
-- **Random Number Generator** --> entangle 2 or more qubits and read the result
+- **Hello World(s)** --> entangle 2 or more qubits and read the result from the histogram of the shots run
+  - H and CNOT to entangle
+  - READ to get value
+
+- **Random Number Generator** --> entangle 2 or more qubits and read the results
   - H and CNOT to entangle
   - READ to get value
 
