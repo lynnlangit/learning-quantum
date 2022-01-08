@@ -51,7 +51,7 @@ We ran a 15-week long book club which covered the book ['Programming Quantum Com
 
 
 ### Links and Example Notebooks
-Additional examples from notebooks (Microsoft Quantum Kata), which are linked below and use Q# running on Jupyter Notebooks.  
+Additional examples from notebooks (Microsoft Quantum Katas), which are linked below and use Q# running on Jupyter Notebooks.  
 - Awesome Q# link list - https://github.com/ebraminio/awesome-qsharp
 - Quantum Katas - https://github.com/Microsoft/QuantumKatas/
 - Quatum Kata Notebooks (run in Binder from GitHub) - https://mybinder.org/v2/gh/Microsoft/QuantumKatas/master?filepath=index.ipynb
