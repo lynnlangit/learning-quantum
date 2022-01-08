@@ -1,6 +1,6 @@
 # Quantum Programs
 
-Summary from 'Programming Quantum Computers' O'Reilly book
+Types of problems for QPUs include cryptography, search, system simulations, general machine learning, computational biology, and generative chemistry.  
 
 - **Random Number Generator** --> entangle 2 or more qubits and read the result
   - H and CNOT to entangle
