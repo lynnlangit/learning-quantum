@@ -30,9 +30,11 @@ One example is the [D-Wave](https://www.dwavesys.com/) company.  Shown here are 
 
 ## Quantum Programs by Example
 
-- The first sample shown below is from the IBM Quantum Composer examples.  It implements the `Grover-example`.  
-- The second sample is from from D-Wave Systems cloud at https://cloud.dwavesys.com/ and is using VSCode as an IDE
-- Another example of a quantum program visualization tools is the `Quantum Playground` - http://www.quantumplayground.net/
+Shown below are screenshots from a couple of quantum programming environments.  This is just a small subset of the available options.  
+
+- The first example shown below is from the IBM Quantum Composer examples.  It implements the `Grover-example`.  
+- The second example is from from D-Wave Systems cloud at https://cloud.dwavesys.com/ and is using VSCode as an IDE
+- Yet another example of a quantum program visualization tools is the `Quantum Playground` - http://www.quantumplayground.net/
 
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/grover.png" width=800>
 
