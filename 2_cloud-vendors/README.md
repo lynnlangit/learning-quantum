@@ -1,16 +1,9 @@
-# Quatum Computing Cloud Vendors
+# Quantum Computing Cloud Vendors
 
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/all.png" width=900>
 
-Problems quatum computing can address [from MSFT docs - here](https://docs.microsoft.com/en-us/azure/quantum/overview-qdk)
-- simulation
-- cryptography
-- search
-- optimization
-- ML (supervised classification)
-
----
+All major cloud vendors have quantum computing services.  Service offerings vary widely, as the underlying hardware differs depending on which types of quantum computer the particular vendor offers.
 
 - Look in each cloud vendor's folder (i.e. Azure, AWS, etc...) for detail about that particular vendor's offering.  
-- IMPORTANT: this is a very active area of development, please do PRs to this repo if you notice new info
+- IMPORTANT: this section is a very active area of development, please do PRs if you notice new capabilities for a quantum service provided by one these vendors
 
