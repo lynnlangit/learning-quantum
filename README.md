@@ -42,16 +42,18 @@ One example is the [D-Wave](https://www.dwavesys.com/) company.  Shown here are 
 
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/quantum.png" width=300 align=right>
 
-We ran a 15-week long book club which covered the book ['Programming Quantum Computers'](https://learning.oreilly.com/library/view/programming-quantum-computers/9781492039679/) by Eric R. Johnston, Nic Harrigan & Mercedes Gimeno-Segovia. Resources are in the `o-reilly-book` folder of this Repo and linked via the following locations:  
+A small group of developers participated a 15-week long book club where we studied the book ['Programming Quantum Computers'](https://learning.oreilly.com/library/view/programming-quantum-computers/9781492039679/) by Eric R. Johnston, Nic Harrigan & Mercedes Gimeno-Segovia. Resources are in the `o-reilly-book` folder of this Repo and linked via the following locations:  
+
+- Our YouTube channel - https://www.youtube.com/channel/UCSmWWIRx1dT2QO5gcCTjKYA
 - Jeremy's repo w/experiments - https://github.com/jeremybytes/quantum-programming-experiments
 - Our Slack - `program-quantum.slack.com`
-- Our YouTube channel - https://www.youtube.com/channel/UCSmWWIRx1dT2QO5gcCTjKYA
 - Book Author's Github and programming environment - https://oreilly-qc.github.io/
 - Book Author's errata - http://oreilly.com/catalog/0636920167433/errata
 
+---
 
 ### Links and Example Notebooks
-Additional examples from notebooks (Microsoft Quantum Katas), which are linked below and use Q# running on Jupyter Notebooks.  
+Additional quantum programming examples from Jupyter notebooks (Microsoft Quantum Katas), which are linked below and use Q# running on Jupyter Notebooks.  
 - Awesome Q# link list - https://github.com/ebraminio/awesome-qsharp
 - Quantum Katas - https://github.com/Microsoft/QuantumKatas/
 - Quatum Kata Notebooks (run in Binder from GitHub) - https://mybinder.org/v2/gh/Microsoft/QuantumKatas/master?filepath=index.ipynb
