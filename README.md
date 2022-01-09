@@ -28,19 +28,22 @@ One example is the [D-Wave](https://www.dwavesys.com/) company.  Shown here are 
 
 ---
 
-## Quantum Programs by Example
+## Quantum Programs and IDEs
 
-Shown below are screenshots from a couple of quantum programming environments.  This is just a small subset of the available options.  
+Shown below are screenshots from a couple of quantum programming development environments.  This is just a small subset of the available options.  Generally these IDEs are either cloud-based (IBM Composer) or downloadable via a SDK (D-Wave).  
 
-- The first example shown below is from the IBM Quantum Composer examples.  It implements the `Grover-example`.  
-- The second example is from from D-Wave Systems cloud at https://cloud.dwavesys.com/ and is using VSCode as an IDE
-- Yet another example of a quantum program visualization tools is the `Quantum Playground` - http://www.quantumplayground.net/
-
+- The first example (shown below) shows running a quantum program in the IBM Quantum Composer IDE.  This example runs the `Grover-example` quantum program. The visual environment includes the composer, which shows quantum operations and a number of other visualization tools. 
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/grover.png" width=800>
+
+- The second example (shown below) is from from D-Wave Systems cloud at https://cloud.dwavesys.com/ and is being run using VSCode as an IDE.  The sample shows a path optimization solver and is called `path` in the D-Wave examples. This IDE is a more traditional environment and doesn't include as many visualization tools for the state of the qubits used in computation.
 
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/dwave-ide.png" width=800>
 
-### Book Club
+- Yet another example of a quantum program visualization tools is the `Quantum Playground` - http://www.quantumplayground.net/
+
+---
+
+## Book Club
 
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/quantum.png" width=300 align=right>
 
