@@ -1,20 +1,16 @@
-# Quatum Computing Cloud Vendors - Azure
+# Quantum Computing on Azure
 
-Problems quatum computing can address [from MSFT docs - here](https://docs.microsoft.com/en-us/azure/quantum/overview-qdk)
-- simulation
-- cryptography
-- search
-- optimization
-- ML (supervised classification)
-
----
-## Azure Quantum
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/azure-hardware.png" width=300 align=right>
 
 STATUS: PREVIEW 
 
-Microsoft is partnering with quantum hardware manufacturers IonQ, Honeywell, and QCI to make quantum computers accessible to developers in the future.
+Microsoft is partnering with quantum hardware manufacturers such as  IonQ, Honeywell, and QCI (and others) to make quantum computers accessible to developers in the future (shown left). 
+
+Microsoft has created a programming language, Q#, to write quantum programs which run on Microsoft Azure using partner qubits and QPUs.  
 - Azure Quantum preview - https://azure.microsoft.com/en-us/services/quantum/
 - Microsoft QIO provider - https://docs.microsoft.com/en-us/azure/quantum/provider-microsoft-qio
+
+---
 
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/azure-quantum.png" width=800>
 
