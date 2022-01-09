@@ -28,3 +28,20 @@ Microsoft is partnering with quantum hardware manufacturers IonQ, Honeywell, and
 
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/qsharp-samples.png" width=800>
 
+### Links and Example Notebooks
+Additional quantum programming examples from Jupyter notebooks (Microsoft Quantum Katas), which are linked below and use Q# running on Jupyter Notebooks.  
+- Awesome Q# link list - https://github.com/ebraminio/awesome-qsharp
+- Quantum Katas - https://github.com/Microsoft/QuantumKatas/
+- Quatum Kata Notebooks (run in Binder from GitHub) - https://mybinder.org/v2/gh/Microsoft/QuantumKatas/master?filepath=index.ipynb
+
+#### Global Phase
+
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/global-phase.png" width=800>
+
+#### Hadamard Gate
+
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/hadamard.png" width=800>
+
+---
+
+
