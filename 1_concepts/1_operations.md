@@ -35,7 +35,7 @@ Images and examples for study purposes from the O'Reilly book 'Programming Quant
 
 ## Matrix Math for Operators
 
-Great short article about the math of basic quantum operations - [link](https://towardsdatascience.com/introduction-to-quantum-programming-a19aa0b923a9)  
+Great short article about the math of basic quantum operations "Intro to Quantum Programming" - [link](https://towardsdatascience.com/introduction-to-quantum-programming-a19aa0b923a9)  
 
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/operators/gate-math.png" width=700>
 
