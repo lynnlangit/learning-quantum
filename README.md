@@ -8,9 +8,9 @@ A qubit is a two-state (or two-level) quantum-mechanical system, one of the simp
 
 This Repo is organized by folder as follows:
 - [`concepts`](https://github.com/lynnlangit/learning-quantum/tree/main/1_concepts) - info about quantum languages, libraries, operations and notation
-- `cloud-vendors` - info about quantum runtime environments (and simulators) organized by cloud vendor (AWS, Azure, GCP and IBM)
-- `whitepapers` - academic research papers of interest including quantum programming algorithms and examples
-- `o-reilly-book` - code examples, slides and link from a 15 week-long bookclub covering the referenced book on quantum programming
+- [`cloud-vendors`](https://github.com/lynnlangit/learning-quantum/tree/main/2_cloud-vendors) - info about quantum runtime environments (and simulators) organized by cloud vendor (AWS, Azure, GCP and IBM)
+- [`whitepapers`](https://github.com/lynnlangit/learning-quantum/tree/main/3_whitepapers) - academic research papers of interest including quantum programming algorithms and examples
+- [`o-reilly-book`](https://github.com/lynnlangit/learning-quantum/tree/main/4_oreilly-book) - code examples, slides and link from a 15 week-long bookclub covering the referenced book on quantum programming
 
 ---
 
