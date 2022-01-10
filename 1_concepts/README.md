@@ -3,8 +3,8 @@
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/1_concepts/images/bloch.png" width=200 align=right>
 
 - QPUs (qubits) are the units of computation for quantum programs.  
-- A [Bloch sphere](https://en.wikipedia.org/wiki/Bloch_sphere), shown to the right is typically used to visualize the state(s) of the associated qubits when running a quantum program.
-- The north and south poles of the Bloch sphere are typically chosen to correspond to the standard basis vectors |0>  and |1>
+- A [Bloch sphere](https://en.wikipedia.org/wiki/Bloch_sphere), shown to the right is usually used to visualize the state(s) of the associated qubits when running a quantum program.
+- The north and south poles of the Bloch sphere are typically chosen to correspond to the standard basis vectors |0>  and |1> (on the Z-axis).
 
 ## Quantum Computing Languages and Libraries
 
