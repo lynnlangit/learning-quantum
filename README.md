@@ -2,7 +2,7 @@
 
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/bit-vs-qubit.png" width=250 align=left>
 
-This repo contains my study resources for learning cloud quantum computing programming.  Shown to the left is a conceptual rendering of a bit vs a qubit, which is a fundamental concept or work in quantum computing.    
+This repo contains my study resources for learning cloud quantum computing programming.  Shown to the left is a conceptual rendering of a bit vs a qubit, which is a fundamental concept of work in quantum computing.    
 
 A **qubit** is a two-state (or two-level) quantum-mechanical system, one of the simplest quantum systems displaying the peculiarity of quantum mechanics. A quantum computer performs quantum computations using the principles of quantum mechanics. The quantum processing units (QPUs) manipulate the quantum states of qubits in a controlled way to perform computations, such as algorithms. A qubit is a quantum bit of information.
 
