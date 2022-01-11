@@ -5,6 +5,7 @@
 - QPUs (qubits) are the units of computation for quantum programs.  
 - A [Bloch sphere](https://en.wikipedia.org/wiki/Bloch_sphere), shown to the right is usually used to visualize the state(s) of the associated qubits when running a quantum program.
 - The north and south poles of the Bloch sphere are typically chosen to correspond to the standard basis vectors |0>  and |1> (on the Z-axis).
+- Video - "How do you make a Quantum Bit[quibit]?" (Veritasium) - [link](https://www.youtube.com/watch?v=zNzzGgr2mhk)
 - Great animated video on quantum superposition and decoherence - [link](https://www.youtube.com/watch?v=7B1llCxVdkE)
 
 ## Quantum Computing Languages and Libraries
