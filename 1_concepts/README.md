@@ -29,5 +29,7 @@ QPUs or quantum processor units which act on qubits are the units of computation
 
 <img src=https://github.com/lynnlangit/learning-quantum/blob/main/images/penny-lane-ml.png width=700>
 
+---
+
 ### Conceptual Talks and Papers
 - Video: "Lunch & Learn: Quantum Computing" 40 min talk -[link](https://www.youtube.com/watch?v=7susESgnDv8)
