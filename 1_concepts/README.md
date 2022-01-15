@@ -27,8 +27,6 @@ QPUs or quantum processor units which act on qubits are the units of computation
 | Cirq | library | Google | Colab or GCP / QCS | Python env, includes quantum function libraries: qsim, qsimh... |
 | PennyLane | library | AWS Braket SDK and others | uses examples on hardware from D-Wave, IonQ or Rigetti | often used with ML (see below) |
 
-<img src=https://github.com/lynnlangit/learning-quantum/blob/main/images/penny-lane-ml.png width=700>
-
 ---
 
 ### Conceptual Talks and Papers
