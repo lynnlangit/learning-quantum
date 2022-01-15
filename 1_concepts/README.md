@@ -28,3 +28,6 @@ QPUs or quantum processor units which act on qubits are the units of computation
 | PennyLane | library | AWS Braket SDK and others | uses examples on hardware from D-Wave, IonQ or Rigetti | often used with ML (see below) |
 
 <img src=https://github.com/lynnlangit/learning-quantum/blob/main/images/penny-lane-ml.png width=700>
+
+### Conceptual Talks and Papers
+- Video: "Lunch & Learn: Quantum Computing" 40 min talk -[link](https://www.youtube.com/watch?v=7susESgnDv8)
