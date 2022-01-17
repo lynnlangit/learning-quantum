@@ -23,14 +23,15 @@ This Repo is organized by folder as follows:
 ---
 
 
-## QPUs - Quantum Hardware 
+## Quantum Computer Example
 
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/d-wave-hardware.png" width=600 align=right>
 
-There are a number of quantum computing vendors.  They produce hardware (quantum computers) which contain a particular number of qubits.    
-The qubits are used by quantum computing programming languages or libraries for execution with QPUs.   
+There are a number of quantum computer vendors.  They produce hardware (quantum computers) which contains a particular number of qubits and QPUs.   
 
-One example is the [D-Wave](https://www.dwavesys.com/) company.  Shown here are photos from one of D-Wave's quantum computers.  This computer contains QPU units, which is hardware with qubits (image taken from D-Wave whitepaper). To run quantum programs on quantum hardware, use quantum languages or libraries.  Generally quantum programs are run on quantum simulators prior to being run on quantum hardware due to the cost and time run on live QPUs.
+One example is the [D-Wave](https://www.dwavesys.com/) company.  Shown to the right are photos from one of D-Wave's quantum computers.  This computer contains QPU units, which is hardware with qubits (image taken from D-Wave whitepaper). To run quantum programs on quantum hardware, use quantum languages or libraries.    
+
+NOTE: Generally quantum programs are run on quantum simulators prior to being run on quantum hardware due to the cost and time run on live QPUs.
 
 
 ---
@@ -39,10 +40,10 @@ One example is the [D-Wave](https://www.dwavesys.com/) company.  Shown here are 
 
 Shown below are screenshots from a couple of quantum programming development environments.  This is just a small subset of the available options.  Generally these IDEs are either cloud-based (IBM Composer) or downloadable via a SDK (D-Wave).  
 
-- The first example (shown below) shows running a quantum program in the IBM Quantum Composer IDE.  This example runs the `Grover-example` quantum program. The visual environment includes the composer, which shows quantum operations and a number of other visualization tools. 
+- The first example (shown below) shows running a quantum program in the IBM Quantum Composer IDE.  This example runs the `Grover-example` quantum program. The visual environment includes the composer, which shows quantum operations written in the OPENQASM quantum programming language and a number of other visualization tools. 
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/grover.png" width=800>
 
-- The second example (shown below) is from from D-Wave Systems cloud at https://cloud.dwavesys.com/ and is being run using VSCode as an IDE.  The sample shows a path optimization solver and is called `path` in the D-Wave examples. This IDE is a more traditional environment and doesn't include as many visualization tools for the state of the qubits used in computation.
+- The second example (shown below) is from from D-Wave Systems cloud at https://cloud.dwavesys.com/ and is being run using VSCode as an IDE.  The sample shows a path optimization solver and is called `path` in the D-Wave examples. The program is written using the D-Wave Python-like quantum programming library. This IDE is a more traditional environment and doesn't include as many visualization tools for the state of the qubits used in computation.
 
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/dwave-ide.png" width=800>
 
