@@ -47,7 +47,9 @@ Shown below are screenshots from a couple of quantum programming development env
 
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/dwave-ide.png" width=800>
 
-- Yet another example of a quantum program visualization tools is the `Quantum Playground` - http://www.quantumplayground.net/
+- Yet another example of a quantum program visualization tools is the browser-based `Quantum Playground` - http://www.quantumplayground.net/.  Shown below is an example of animated output using the H gate example code.  This is a particularly good tool for gaining an intuition into key quantum operations and program examples.
+
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/quantum-playground.png" width=800>
 
 ---
 
