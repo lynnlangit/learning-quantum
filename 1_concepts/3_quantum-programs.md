@@ -38,7 +38,7 @@ NOTE: This `hello-worlds` program is a kind of a random number generator
     - Final measurement  
     
   
-NOTE: Grover's diffusion operator (also called amplitude purification)  calculates the mean probability amplitude \muμ of all states and inverts the probability amplitudes around this mean. 
+NOTE: Grover's diffusion operator (also called amplitude purification)  calculates the mean probability amplitude μ of all states and inverts the probability amplitudes around this mean. 
 
 ----
 
