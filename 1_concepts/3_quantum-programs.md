@@ -23,6 +23,14 @@ NOTE: This `hello-worlds` program is a kind of a random number generator
   - H and CNOT to entangle
   - AA and QFT
 
+----
+
+- **Grovers's Algorithm** --> solves unstructured search
+  - H and CNOT to entangle
+  - AA and QFT
+
+----
+
 - **MNIST using a QNN** --> digit classification using a quantum neural network
   - H and CNOT to entangle
   - AA and QFT
