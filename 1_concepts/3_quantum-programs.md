@@ -4,6 +4,8 @@ Types of problems for quantum computers include cryptography, search, system sim
 
 ---
 
+## Superposition and Entangelement
+
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/h-op.png" width=500 align=right>
 
 
@@ -19,30 +21,48 @@ NOTE: This `hello-worlds` program is a kind of a random number generator
 
 ---
 
+## Factoring (Shor's Algo)
+
 - **Shor's Algorithm** --> factoring problem
   - H and CNOT to entangle
   - AA and QFT
 
 ----
 
+## Search (Grover's Algo)
+
+Solves unstructured search. Grover's algorithm uses a diffusion operator (also called amplitude purification)  calculates the mean probability amplitude μ of all states and inverts the probability amplitudes around this mean. 
+
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/grovers-op.png" width=550 align=right>
 
-- **Grovers's Algorithm** --> solves unstructured search (explained in the note below)  
-  - Runnable example from `quantum-inspire`(in-browser site) - [link](https://www.quantum-inspire.com/kbase/grover-algorithm/)
-  - The algorithm (see code to the right) consists of the following steps:
+- **Grovers's Algorithm** --> example 1 from `quantum-inspire`(in-browser site) - [link](https://www.quantum-inspire.com/kbase/grover-algorithm/)
+  - The example (see code to the right) consists of the following steps:
+    - Uses 3 qubits
     - Initialization of the qubits in the ∣0⟩ state and creation of a uniform superposition of all basis inputs
     - Execution of the Oracle 
       - a function that returns 'zero' for all possible input states, except one input state
     - Application of Grover's diffusion operator (inversion about the mean)
-    - Repetitions of step 2 and 3
+      - Repetitions of step 2 and 3
     - Final measurement  
     
-  
-NOTE: Grover's diffusion operator (also called amplitude purification)  calculates the mean probability amplitude μ of all states and inverts the probability amplitudes around this mean. 
+---
+
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/grover.png" width=625 align=right>
+
+- **Grovers's Algorithm** --> example 2 from `IBM Quantum` runtime environment and examples
+  - The second example shown to the right is also an implementation of `grovers-algorithm'
+    - Uses 2 qubits
+    - The example is written in OPENQASM
+    - Note that the measurement operation (`Z`) is shown at the end of the program visualization
+    - Also the IBM `Q-Sphere` visualizer and the IBM `Probabilities` (results) windows are included in this development environment
+
+
 
 ----
 
-- **MNIST using a QNN** --> digit classification using a quantum neural network
+## Classification - QCNN
+
+- **MNIST using a QCNN** --> digit classification using a quantum neural network
   - H and CNOT to entangle
   - AA and QFT
 
