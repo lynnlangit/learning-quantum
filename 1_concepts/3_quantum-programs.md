@@ -4,7 +4,7 @@ Types of problems for QPUs include cryptography, search, system simulations, gen
 
 ---
 
-<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/h-op.png" width=550 align=right>
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/h-op.png" width=525 align=right>
 
 
 - **Hello World(s)** --> entangle 2 or more qubits and read the result from the histogram of the shots run. Runnable example written in cQASM on `quantum-inspire` shown to the right - [link](https://www.quantum-inspire.com/kbase/hello-quantum-world/)
