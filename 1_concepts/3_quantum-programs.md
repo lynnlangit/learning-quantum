@@ -24,11 +24,21 @@ NOTE: This `hello-worlds` program is a kind of a random number generator
   - AA and QFT
 
 ----
-<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/grovers-op.png">
 
-- **Grovers's Algorithm** --> solves unstructured search
-  - H and CNOT to entangle
-  - AA and QFT
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/grovers-op.png" width=550 align=right>
+
+- **Grovers's Algorithm** --> solves unstructured search (explained in the note below)  
+  - Runnable example from `quantum-inspire`(in-browser site) - [link](https://www.quantum-inspire.com/kbase/grover-algorithm/)
+  - The algorithm (see code to the right) consists of the following steps:
+    - Initialization of the qubits in the ∣0⟩ state and creation of a uniform superposition of all basis inputs
+    - Execution of the Oracle 
+      - a function that returns 'zero' for all possible input states, except one input state
+    - Application of Grover's diffusion operator (inversion about the mean)
+    - Repetitions of step 2 and 3
+    - Final measurement  
+    
+  
+NOTE: Grover's diffusion operator (also called amplitude purification)  calculates the mean probability amplitude \muμ of all states and inverts the probability amplitudes around this mean. 
 
 ----
 
