@@ -9,7 +9,8 @@ Types of problems for QPUs include cryptography, search, system simulations, gen
 
 - **Hello World(s)** --> entangle 2 or more qubits and read the result from the histogram of the shots run. Runnable example written in cQASM on `quantum-inspire` shown to the right - [link](https://www.quantum-inspire.com/kbase/hello-quantum-world/)  
   - Init the register with 2 qubits
-  - Use H and CNOT gates to entangle the qubits
+  - Use H gate to put the first qubit into a superposition 
+  - Use CNOT gates to entangle the qubits
   - Use READ operation to get value (not in this example)
     - For **deterministic** algorithms - you end the algorithm with a measurement instruction (READ) is usually **not** required when you run the algorithm on a emulator. Here you sample from all possible outcomes.
     - For **non-deterministic** algorithms - you must add a measurement statement at the end of the algorithm in order to get meaningful results. The runtime of your algorithm will increase because multiple executions will have to be executed in order to get a **histogram** of all possible final states.  
