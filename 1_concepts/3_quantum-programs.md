@@ -70,6 +70,8 @@ Classification has wide-spread use in everyday life and we often classify object
 
 With a quantum-based approach, we do the same computations, but now only requiring one single-qubit operation and two measurements. Hence, the quantum-based approach is in theory better than the classical one. A caveat is however that the result is probabilistic, hence, multiple measurement rounds must be needed. Furthermore, a specific quantum state is assumed to begin with. Without something like a quantum RAM or a quantum process that produces the input state efficiently, we are left with the same complexity as the classical approach."
 
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/qnn-result.png" width=600 align=right>
+
 - **MNIST using a QNN** --> distance classification using a quantum neural network
   - Prepare input data
   - H
