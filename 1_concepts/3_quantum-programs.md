@@ -15,12 +15,9 @@ Types of problems for QPUs include cryptography, search, system simulations, gen
     - For **deterministic** algorithms - you end the algorithm with a measurement instruction (READ) is usually **not** required when you run the algorithm on a emulator. Here you sample from all possible outcomes.
     - For **non-deterministic** algorithms - you must add a measurement statement at the end of the algorithm in order to get meaningful results. The runtime of your algorithm will increase because multiple executions will have to be executed in order to get a **histogram** of all possible final states.  
     
+NOTE: This `hello-worlds` program is a kind of a random number generator
 
 ---
-
-- **Random Number Generator** --> entangle 2 or more qubits and read the results
-  - H and CNOT to entangle
-  - READ to get value
 
 - **Shor's Algorithm** --> factoring problem
   - H and CNOT to entangle
