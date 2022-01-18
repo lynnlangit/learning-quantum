@@ -24,6 +24,7 @@ NOTE: This `hello-worlds` program is a kind of a random number generator
   - AA and QFT
 
 ----
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/grovers-op.png">
 
 - **Grovers's Algorithm** --> solves unstructured search
   - H and CNOT to entangle
