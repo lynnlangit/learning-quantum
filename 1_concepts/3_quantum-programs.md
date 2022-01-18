@@ -2,9 +2,18 @@
 
 Types of problems for QPUs include cryptography, search, system simulations, general machine learning, computational biology, and generative chemistry.  
 
-- **Hello World(s)** --> entangle 2 or more qubits and read the result from the histogram of the shots run - runnable example on `quantum-inspire` - [link](https://www.quantum-inspire.com/kbase/hello-quantum-world/)
-  - H and CNOT to entangle
-  - READ to get value
+---
+
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/h-op.png" width=600 align=right>
+
+
+- **Hello World(s)** --> entangle 2 or more qubits and read the result from the histogram of the shots run. Runnable example written in cQASM on `quantum-inspire` shown to the right - [link](https://www.quantum-inspire.com/kbase/hello-quantum-world/)
+  - Use H and CNOT gates to entangle the qubits
+  - Use READ operation to get value (not shown in the example)
+    - Ending an algorithm with a measurement instruction (READ) is usually **not** required when you run the algorithm on a emulator. In a simulation you can, in most cases, determine the final full quantum state of the system and then sample from all possible outcomes. These algorithms are called **deterministic** algorithms. 
+    - In some special cases the final quantum state is **non-deterministic**. Here, you must add a measurement statement at the end of the algorithm in order to get meaningful results. Here the runtime of your algorithm will increase because multiple executions will have to be executed in order to get a histogram of all possible final states.
+
+---
 
 - **Random Number Generator** --> entangle 2 or more qubits and read the results
   - H and CNOT to entangle
