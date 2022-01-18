@@ -29,6 +29,7 @@ Explanation of algorithm from IBM Quantum documenation - [link](https://quantum-
 
 - **Shor's Algorithm** --> factoring problem
   - Shown in `Inspect` (debug) mode in IBM Composer
+  - Written in OPENQASM
   - Uses X(NOT) and CX (CNOT) gates
   - Measures
 
