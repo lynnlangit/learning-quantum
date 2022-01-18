@@ -25,9 +25,12 @@ NOTE: This `hello-worlds` program is a kind of a random number generator
 
 Explanation of algorithm from IBM Quantum documenation - [link](https://quantum-computing.ibm.com/composer/docs/iqx/guide/shors-algorithm)
 
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/shors-algo.png">
+
 - **Shor's Algorithm** --> factoring problem
-  - H and CNOT to entangle
-  - AA and QFT
+  - Shown in `Inspect` (debug) mode in IBM Composer
+  - Uses X(NOT) and CX (CNOT) gates
+  - Measures
 
 ----
 
