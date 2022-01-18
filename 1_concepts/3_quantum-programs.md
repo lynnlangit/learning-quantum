@@ -1,6 +1,6 @@
 # Quantum Programs
 
-Types of problems for QPUs include cryptography, search, system simulations, general machine learning, computational biology, and generative chemistry.  
+Types of problems for quantum computers include cryptography, search, system simulations, general machine learning, computational biology, and generative chemistry.  Shown below are basic reference programs, these are often used in vendor examples and documentation.
 
 ---
 
