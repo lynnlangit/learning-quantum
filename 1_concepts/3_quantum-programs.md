@@ -2,7 +2,7 @@
 
 Types of problems for QPUs include cryptography, search, system simulations, general machine learning, computational biology, and generative chemistry.  
 
-- **Hello World(s)** --> entangle 2 or more qubits and read the result from the histogram of the shots run
+- **Hello World(s)** --> entangle 2 or more qubits and read the result from the histogram of the shots run - runnable example on `quantum-inspire` - [link](https://www.quantum-inspire.com/kbase/hello-quantum-world/)
   - H and CNOT to entangle
   - READ to get value
 
