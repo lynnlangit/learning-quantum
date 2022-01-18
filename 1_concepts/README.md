@@ -7,7 +7,7 @@ QPUs or quantum processor units which act on qubits are the units of computation
   - Video - "How do you make a Quantum Bit[quibit]?" by Veritasium - [link](https://www.youtube.com/watch?v=zNzzGgr2mhk)
   - Video - on quantum superposition and decoherence - [link](https://www.youtube.com/watch?v=7B1llCxVdkE)
 - The north and south poles of the Bloch sphere are typically chosen to correspond to the standard basis vectors ∣0⟩ and ∣1⟩ on the Z-axis.
-  - Post - explaining 'Qubit Basis States' (Z-basis and more) - [link](https://www.quantum-inspire.com/kbase/qubit-basis-states/)
+  - IMPORTANT: Post - explaining **'Qubit Basis States'** (Z-basis and more) - [link](https://www.quantum-inspire.com/kbase/qubit-basis-states/)
 
 ## Quantum Computing Languages and Libraries
 
