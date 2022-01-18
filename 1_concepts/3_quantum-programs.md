@@ -39,7 +39,7 @@ Explanation of algorithm from IBM Quantum documenation - [link](https://quantum-
 
 Solves unstructured search. Grover's algorithm uses a diffusion operator (also called amplitude purification)  calculates the mean probability amplitude μ of all states and inverts the probability amplitudes around this mean. 
 
-<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/grovers-op.png" width=600 align=right>
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/grovers-op.png" width=575 align=right>
 
 - **Grovers's Algorithm** --> example 1 from `quantum-inspire`(in-browser site) - [link](https://www.quantum-inspire.com/kbase/grover-algorithm/)
   - The example (see code to the right) consists of the following steps:
