@@ -6,6 +6,17 @@
 - Each vendor's implementation of QPUs differs.  To that end, there are a number of quantum programming languages, libraries and simuators which you will use when writing quantum programs
 - There are several catagories of quantum programming: learning/teaching, public cloud or specialty cloud
 
+## Learning/Teaching Quantum Languages and Visualization Tools
+
+The table below shows a sampling of available Quantum programming teaching libraries and visualization tools.
+
+| Type       | Name     | Link    |
+|------------|----------|-----------|
+| Library    | QCEngine | https://oreilly-qc.github.io/     |
+| Library     | QLP | www.quantumplayground.net/      |
+| Library     | Quantum Inspire | www.quantum-inspire.com/      |
+| Library       | Quirk       | https://algassert.com/quirk    |
+
 ## Commercial Public Cloud Quantum Languages / Libraries
 
 The table below shows a sampling of available Quantum programming languages or libraries available on a public cloud.
@@ -34,16 +45,6 @@ The table below shows a sampling of available Quantum programming visualization 
 | Qubits     | Q-Sphere   | IBM       |
 | Both       | Quirk       | algassert.com    |
 
-## Learning Languages and Visualization Tools
-
-The table below shows a sampling of available Quantum programming visualization tools.
-
-| Type       | Name     | Link    |
-|------------|----------|-----------|
-| Library    | QCEngine | https://oreilly-qc.github.io/     |
-| Library     | QLP | www.quantumplayground.net/      |
-| Library     | Quantum Inspire | www.quantum-inspire.com/      |
-| Library       | Quirk       | https://algassert.com/quirk    |
 
 ## Quantum Machine Learning
 
