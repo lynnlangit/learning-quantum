@@ -46,8 +46,3 @@ The table below shows a sampling of available Quantum programming visualization 
 | Both       | Quirk       | algassert.com    |
 
 
-## Quantum Machine Learning
-
-Use libraries, such as PennyLane (shown below)
-
-<img src=https://github.com/lynnlangit/learning-quantum/blob/main/images/penny-lane-ml.png width=700>
