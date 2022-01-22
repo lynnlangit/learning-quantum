@@ -1,5 +1,7 @@
 # Quantum Computing Instructions
 
+Useful article to get started "Hello Quantum World" --> [link](https://www.quantum-inspire.com/kbase/hello-quantum-world/)
+
 Images and examples for study purposes from the O'Reilly book 'Programming Quantum Computers' by Johnston, Harrigan and Gimeno-Segovia
 
 ## Operators
