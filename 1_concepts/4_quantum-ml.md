@@ -10,7 +10,7 @@ To implement quantum machine learning you will want to try out using purpose-bui
 
 ## Quantum Classification Example
 
-This (shortend) definition is from the learning site `Quantum-Inspire` and this [link](https://www.quantum-inspire.com/kbase/quantum-classification/)  
+This (abbreviated) definition is from the learning site `Quantum-Inspire` and this [link](https://www.quantum-inspire.com/kbase/quantum-classification/)  
 
 - **Classification** is a form of machine learning in which labels are assigned to data, often with respect to other data. 
     - For example - you can classify between animals as having 22 or 44 legs or a different number. 
