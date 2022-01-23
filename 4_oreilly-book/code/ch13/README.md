@@ -1,5 +1,7 @@
 # Chapter 13 - QML
 
+**IMPORTANT: See more examples using IBM, AWS or GCP via this [link](https://github.com/lynnlangit/learning-quantum/blob/main/1_concepts/4_quantum-ml.md)
+
 The book discusses three examples, but does NOT present any sample code for the examples  
 - solving systems of linear equations
 - Quantum Principal Component Analysis (PCA)
@@ -17,17 +19,5 @@ The techniques used are the following:
     - matrix sparsity (# of non-zero entries)
     - required solution precision (values represented in amplitudes)
 
-## Examples
 
-- On Qiskit site
-    - Qiskit ML Tutorials - https://qiskit.org/documentation/machine-learning/tutorials/index.html
-    - Qiskit Textbook - https://qiskit.org/textbook/content/ch-ex/
-    - HHL example - https://qiskit.org/textbook/ch-applications/hhl_tutorial.html  
-    - On IBM Quantum Lab - https://quantum-computing.ibm.com/lab/files/qiskit-textbook/content/ch-applications/hhl_tutorial.ipynb
-- On PennyLane site 
-    - what is QML - https://pennylane.ai/qml/whatisqml.html
-    - glossary - https://pennylane.ai/qml/glossary.html
-    - Advanced example "Learning to Learn" - https://pennylane.ai/qml/demos/learning2learn.html
-- On TensorFlow site
-    -  TensorFlow Quantum example "Hello many worlds" - https://www.tensorflow.org/quantum/tutorials/hello_many_worlds
 
