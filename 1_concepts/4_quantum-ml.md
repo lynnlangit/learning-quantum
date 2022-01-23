@@ -12,7 +12,7 @@ To implement quantum machine learning explore using purpose-built examples and l
     - Qiskit Textbook - https://qiskit.org/textbook/content/ch-ex/
     - HHL example - https://qiskit.org/textbook/ch-applications/hhl_tutorial.html  
     - On IBM Quantum Lab - https://quantum-computing.ibm.com/lab/files/qiskit-textbook/content/ch-applications/hhl_tutorial.ipynb
-- On PennyLane site (for AWS Braket)
+- On PennyLane site (for AWS Braket and others)
     - what is QML - https://pennylane.ai/qml/whatisqml.html
     - glossary - https://pennylane.ai/qml/glossary.html
     - Advanced example "Learning to Learn" - https://pennylane.ai/qml/demos/learning2learn.html
