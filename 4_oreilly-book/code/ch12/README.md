@@ -2,13 +2,15 @@
 
 ## What is it?
 
-- Problem: Given an integer N, find its prime factors (p,q). 
+- Problem: Given an integer N, find its prime factors (p,q) in **polynomial time** 
+- NOTE: although you could use classical algorithms to factor the product of two primes, it requires superpolynomial time to do so for large numbers
     - By definition N must be an ODD integer
     - By definition p,q can NOT be equal to ONE  
 - The algorithm is composed of two parts
     - **Classical part** -  turns the factoring problem into the problem of finding the period of a function 
     - **Quantum speedup** -  finds the period using the quantum Fourier transform (QFT) and modular exponentiation by repeated squarings
         -  Uses QFT to 'learn' the function's periodicity 
+        -  Also called 'period finding' in polynomial time
 - Why does it matter? 
     - RSA public-key encryption (and other methods) rely on the current INABILITY to quickly factorize large numbers
     - Being able to quickly determine the *complex periodicity* of a function has a number of potential applications
