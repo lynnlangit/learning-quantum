@@ -9,7 +9,7 @@ Use libraries, such as PennyLane (shown below). PennyLane works with the AWS Bra
 
 ## Quantum Classification Example
 
-Definition from the learning site `Quantum-Inspire' and this [link](https://www.quantum-inspire.com/kbase/quantum-classification/)  
+Definition from the learning site `Quantum-Inspire` and this [link](https://www.quantum-inspire.com/kbase/quantum-classification/)  
 
 - *"Classification is a form of machine learning in which labels are assigned to data, often with respect to other data. For instance, we can classify between animals having 22 or 44 legs or a different number. Often we classify new data based on already classified (learned) data. We classify this new data point by representing all data points by features or characteristics and compute the distance between the features of the new data point and the features of the learned data points. The new data point is assigned the label to which it has the shortest distance.*
 - *Our example uses kk-nearest neighbor classification with k=Nk=N.  Classification has wide-spread use in everyday life and we often classify objects without fully realizing we do it. Classically, naively we would have to compute the distance between the new data point and all other data points separately, after which we combine the results. This approach can be approved upon, but we are still left with a complexity of \mathcal{O}(NM)O(NM).*
