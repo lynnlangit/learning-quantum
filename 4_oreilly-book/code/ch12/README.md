@@ -22,8 +22,8 @@
 - Qiskit textbook using libraries to implement - [link](https://qiskit.org/textbook/ch-algorithms/shor.html#1.-The-Problem:-Period-Finding)
 - Example notebook using classic algorithms only - [link](https://github.com/PotatoDrug/Quantum-Cryptography/blob/master/Shor/Shor's%20Algorithm.ipynb)
 - My own examples (using a variety of languages / libraries) - [link](https://github.com/lynnlangit/learning-quantum/tree/main/4_oreilly-book/code/ch12)
-- Medium Article - [link](https://towardsdatascience.com/quantum-factorization-b3f44be9d738)
-- Shor's Algo explained in greater detail at this post - https://www.quantiki.org/wiki/shors-factoring-algorithm 
+- Readable mathematical explanation - [link](https://www.quantiki.org/wiki/shors-factoring-algorithm) 
+- Another concise explanation via a Medium article - [link](https://towardsdatascience.com/quantum-factorization-b3f44be9d738)
 
 ### Fermat's Theorem
 
