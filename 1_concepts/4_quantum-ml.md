@@ -6,16 +6,16 @@ Use libraries, such as PennyLane (shown below). PennyLane works with the AWS Bra
 
 ## More Examples
 
-- On Qiskit site
+- On Qiskit site (for IBM Quantum)
     - Qiskit ML Tutorials - https://qiskit.org/documentation/machine-learning/tutorials/index.html
     - Qiskit Textbook - https://qiskit.org/textbook/content/ch-ex/
     - HHL example - https://qiskit.org/textbook/ch-applications/hhl_tutorial.html  
     - On IBM Quantum Lab - https://quantum-computing.ibm.com/lab/files/qiskit-textbook/content/ch-applications/hhl_tutorial.ipynb
-- On PennyLane site 
+- On PennyLane site (for AWS Braket)
     - what is QML - https://pennylane.ai/qml/whatisqml.html
     - glossary - https://pennylane.ai/qml/glossary.html
     - Advanced example "Learning to Learn" - https://pennylane.ai/qml/demos/learning2learn.html
-- On TensorFlow site
+- On TensorFlow site (For Google Quantum AI)
     -  TensorFlow Quantum example "Hello many worlds" - https://www.tensorflow.org/quantum/tutorials/hello_many_worlds
     -  More TF-Quantum example notebooks - https://www.tensorflow.org/quantum/design
 
