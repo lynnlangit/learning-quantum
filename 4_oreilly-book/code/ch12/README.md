@@ -4,7 +4,7 @@
 
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/shor-periodicity.png" width=500 align=right>
 
-- Given an integer N, find its prime factors (p,q) in [**polynomial time** ](https://www.techopedia.com/definition/21028/non-deterministic-polynomial-time-np)
+- Given an integer N, find its prime factors (p,q) in [**polynomial time** ](https://mathworld.wolfram.com/PolynomialTime.html)
     - NOTE: although you could use classical algorithms to factor the product of two primes, it requires superpolynomial time to do so for large numbers
     - By definition N must be an ODD integer
     - By definition p, q can NOT be equal to ONE  
