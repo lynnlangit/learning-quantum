@@ -16,12 +16,10 @@ Definition from the learning site `Quantum-Inspire' and this [link](https://www.
 
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/qnn-result.png" width=600 align=right>
 
-- **MNIST using a QNN** --> distance classification using a quantum neural network
-  - Prepare input data
-  - H
-  - Ry
-  - CNOT
-  - Ry
-  - H
+- **Classification using a Quantum ML algorithm** --> distance classification using a quantum machine learning algorithm
+  - Prepare input data using a number of gates - NOTE: this is a non-trivial set of steps!
+  - Implement the ML classification using an H gate
+  - Measure to read the result
+ 
 
 
