@@ -28,8 +28,11 @@ Fermat’s little theorem implies that...
 This theorem gives us the hint that such exponents may have periods.  Potential factors are determined using classical methods, potential periods are found using quantum methods.
 
 ---
-Explained in detail from - https://www.quantiki.org/wiki/shors-factoring-algorithm  
-## The Classical Part
+## More Details
+
+Shor's Algo explained in greater detail from - https://www.quantiki.org/wiki/shors-factoring-algorithm  
+
+### The Classical Part
 
 - Pick a pseudo-random odd number a < N
 - Compute `gcd(a, N)`. This may be done using the [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm).
@@ -44,7 +47,7 @@ Explained in detail from - https://www.quantiki.org/wiki/shors-factoring-algorit
     ```
 
 
-## The Quantum Part
+### The Quantum Part
 
 - Period-finding subroutine: - Start with a pair of input and output qubit registers with log2N qubits each, and initialize them to
     ```
@@ -79,6 +82,7 @@ Explained in detail from - https://www.quantiki.org/wiki/shors-factoring-algorit
     ```
 
 ### Explanation of the algorithm
+
 The algorithm is composed of two parts. The first part of the algorithm turns the factoring problem into the problem of finding the period of a function, and may be implemented classically. The second part finds the period using the quantum Fourier transform, and is responsible for the quantum speedup.
 
 - Obtaining factors from period
