@@ -17,6 +17,7 @@ Use libraries, such as PennyLane (shown below). PennyLane works with the AWS Bra
     - Advanced example "Learning to Learn" - https://pennylane.ai/qml/demos/learning2learn.html
 - On TensorFlow site
     -  TensorFlow Quantum example "Hello many worlds" - https://www.tensorflow.org/quantum/tutorials/hello_many_worlds
+    -  More TF-Quantum example notebooks - https://www.tensorflow.org/quantum/design
 
 ---
 
