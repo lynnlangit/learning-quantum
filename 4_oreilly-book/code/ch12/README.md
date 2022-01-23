@@ -2,6 +2,8 @@
 
 ## What is it?
 
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/shor-periodicity.png" width=500 align=right>
+
 - Problem: Given an integer N, find its prime factors (p,q) in **polynomial time** 
 - NOTE: although you could use classical algorithms to factor the product of two primes, it requires superpolynomial time to do so for large numbers
     - By definition N must be an ODD integer
