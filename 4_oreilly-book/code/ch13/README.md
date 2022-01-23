@@ -2,6 +2,8 @@
 
 **IMPORTANT: See more examples using IBM, AWS or GCP** via this [link](https://github.com/lynnlangit/learning-quantum/blob/main/1_concepts/4_quantum-ml.md)
 
+---
+
 The book discusses three examples, but does NOT present any sample code for the examples  
 - solving systems of linear equations
 - Quantum Principal Component Analysis (PCA)
