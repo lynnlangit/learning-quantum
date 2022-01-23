@@ -6,8 +6,8 @@
     - By definition N must be an ODD integer
     - By definition p,q can NOT be equal to ONE  
 - The algorithm is composed of two parts
-    - Classical part -  turns the factoring problem into the problem of finding the period of a function 
-    - Quantum speedup -  finds the period using the quantum Fourier transform (QFT) and modular exponentiation by repeated squarings
+    - **Classical part** -  turns the factoring problem into the problem of finding the period of a function 
+    - **Quantum speedup** -  finds the period using the quantum Fourier transform (QFT) and modular exponentiation by repeated squarings
         -  Uses QFT to 'learn' the function's periodicity 
 - Why does it matter? 
     - RSA public-key encryption (and other methods) rely on the current INABILITY to quickly factorize large numbers
