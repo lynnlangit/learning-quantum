@@ -1,8 +1,6 @@
 # Quantum Machine Learning
 
-Use libraries, such as PennyLane (shown below). PennyLane works with the AWS Braket Quantum Computing cloud service.
-
-<img src=https://github.com/lynnlangit/learning-quantum/blob/main/images/penny-lane-ml.png width=700>
+To implement quantum machine learning explore using purpose-built examples and libraries, such as those found in IBM QiskitML, TensorFlow-Quantum or PennyLane from Xanadu. PennyLane works with the AWS Braket Quantum Computing cloud service.  Also many of the learning libraries, such as Quantum-Inspire, include examples of implementing quantum machine learning.
 
 ## More Examples
 
@@ -11,13 +9,13 @@ Use libraries, such as PennyLane (shown below). PennyLane works with the AWS Bra
     - Qiskit Textbook - https://qiskit.org/textbook/content/ch-ex/
     - HHL example - https://qiskit.org/textbook/ch-applications/hhl_tutorial.html  
     - On IBM Quantum Lab - https://quantum-computing.ibm.com/lab/files/qiskit-textbook/content/ch-applications/hhl_tutorial.ipynb
+- On TensorFlow site (For Google Quantum AI)
+    -  TensorFlow Quantum example "Hello many worlds" - https://www.tensorflow.org/quantum/tutorials/hello_many_worlds
+    -  More TF-Quantum example notebooks - https://www.tensorflow.org/quantum/design
 - On PennyLane site (for AWS Braket)
     - what is QML - https://pennylane.ai/qml/whatisqml.html
     - glossary - https://pennylane.ai/qml/glossary.html
     - Advanced example "Learning to Learn" - https://pennylane.ai/qml/demos/learning2learn.html
-- On TensorFlow site (For Google Quantum AI)
-    -  TensorFlow Quantum example "Hello many worlds" - https://www.tensorflow.org/quantum/tutorials/hello_many_worlds
-    -  More TF-Quantum example notebooks - https://www.tensorflow.org/quantum/design
 
 ---
 
