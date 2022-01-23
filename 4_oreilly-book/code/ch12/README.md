@@ -19,16 +19,20 @@
 
 ## Examples and Info
 
-- Qiskit textbook - [link](https://qiskit.org/textbook/ch-algorithms/shor.html#1.-The-Problem:-Period-Finding)
-- Classical example notebook - [link](https://github.com/PotatoDrug/Quantum-Cryptography/blob/master/Shor/Shor's%20Algorithm.ipynb)
+- Qiskit textbook using libraries to implement - [link](https://qiskit.org/textbook/ch-algorithms/shor.html#1.-The-Problem:-Period-Finding)
+- Example notebook using classic algorithms only - [link](https://github.com/PotatoDrug/Quantum-Cryptography/blob/master/Shor/Shor's%20Algorithm.ipynb)
+- My own examples (using a variety of languages / libraries) - [link](https://github.com/lynnlangit/learning-quantum/tree/main/4_oreilly-book/code/ch12)
 - Medium Article - [link](https://towardsdatascience.com/quantum-factorization-b3f44be9d738)
+- Shor's Algo explained in greater detail at this post - https://www.quantiki.org/wiki/shors-factoring-algorithm 
 
-### Detail about Shor's Algorithm & Fermat's Theorem
+### Fermat's Theorem
 
 Fermat’s Theorem (pictured to the right) implies that...
 
-<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/fermat.png" width=200 align=right>
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/fermat.png" width=300 align=right>
 
-- This theorem gives us the hint that such exponents may have periods.  Potential factors are determined using classical methods, potential periods are found using quantum methods.
-- Shor's Algo explained in greater detail at this post - https://www.quantiki.org/wiki/shors-factoring-algorithm  
+- This theorem gives us the hint that such exponents may have periods.  
+- Potential factors are determined using classical methods
+- Potential periods are found using quantum methods.
+ 
 
