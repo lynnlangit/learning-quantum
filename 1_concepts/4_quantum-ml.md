@@ -1,6 +1,9 @@
 # Quantum Machine Learning
 
-To implement quantum machine learning explore using purpose-built examples and libraries, such as those found in IBM QiskitML, TensorFlow-Quantum or PennyLane from Xanadu. PennyLane works with the AWS Braket Quantum Computing cloud service.  Also many of the learning libraries, such as Quantum-Inspire, include examples of implementing quantum machine learning.
+To implement quantum machine learning you will want to try out using purpose-built examples and libraries...
+- such as those found in IBM QiskitML, TensorFlow-Quantum or PennyLane from Xanadu. 
+- PennyLane works with the AWS Braket Quantum Computing cloud service.  
+- Also many of the quantum learning libraries, such as Quantum-Inspire, include examples of implementing quantum machine learning.
 
 ---
 
