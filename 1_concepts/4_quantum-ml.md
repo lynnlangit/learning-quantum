@@ -15,6 +15,10 @@ This (shortend) definition is from the learning site `Quantum-Inspire` and this 
     - Classify this new data point by representing all data points by features or characteristics 
         - compute the distance between the features of the new data point and the features of the learned data points. 
         - the new data point is assigned the label to which it has the shortest distance.
+- **Classification using a Quantum ML algorithm** --> distance classification using a quantum machine learning algorithm (register shown below)
+  - Prepare input data using a number of gates - NOTE: this is a non-trivial set of steps!
+  - Implement the ML classification using an H gate
+  - Measure to read the result
 - This example uses **kk-nearest neighbor classification** with k=Nk=N.  
     - Using a quantum-based approach, you do the same computations, but now only requiring one single-qubit operation and two measurements. 
         - The quantum-based approach is in theory better than the classical one. 
@@ -23,11 +27,6 @@ This (shortend) definition is from the learning site `Quantum-Inspire` and this 
         - IMPORANT: without something like a quantum RAM or a quantum process that produces the input state efficiently, you are left with the **same complexity** as the classical approach.
 
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/quantum-classifier.png" width=900>
-
-- **Classification using a Quantum ML algorithm** --> distance classification using a quantum machine learning algorithm (register shown above)
-  - Prepare input data using a number of gates - NOTE: this is a non-trivial set of steps!
-  - Implement the ML classification using an H gate
-  - Measure to read the result
 
 ---
 
