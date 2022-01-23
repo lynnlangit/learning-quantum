@@ -2,21 +2,6 @@
 
 To implement quantum machine learning explore using purpose-built examples and libraries, such as those found in IBM QiskitML, TensorFlow-Quantum or PennyLane from Xanadu. PennyLane works with the AWS Braket Quantum Computing cloud service.  Also many of the learning libraries, such as Quantum-Inspire, include examples of implementing quantum machine learning.
 
-## More Examples
-
-- On TensorFlow site (For Google Quantum AI)
-    -  TensorFlow Quantum example "Hello many worlds" - https://www.tensorflow.org/quantum/tutorials/hello_many_worlds
-    -  More TF-Quantum example notebooks - https://www.tensorflow.org/quantum/design
-- On Qiskit site (for IBM Quantum)
-    - Qiskit ML Tutorials - https://qiskit.org/documentation/machine-learning/tutorials/index.html
-    - Qiskit Textbook - https://qiskit.org/textbook/content/ch-ex/
-    - HHL example - https://qiskit.org/textbook/ch-applications/hhl_tutorial.html  
-    - On IBM Quantum Lab - https://quantum-computing.ibm.com/lab/files/qiskit-textbook/content/ch-applications/hhl_tutorial.ipynb
-- On PennyLane site (for AWS Braket and others)
-    - what is QML - https://pennylane.ai/qml/whatisqml.html
-    - glossary - https://pennylane.ai/qml/glossary.html
-    - Advanced example "Learning to Learn" - https://pennylane.ai/qml/demos/learning2learn.html
-
 ---
 
 
@@ -43,6 +28,23 @@ This (shortend) definition is from the learning site `Quantum-Inspire` and this 
   - Prepare input data using a number of gates - NOTE: this is a non-trivial set of steps!
   - Implement the ML classification using an H gate
   - Measure to read the result
+
+---
+
+## More Examples
+
+- On TensorFlow site (For Google Quantum AI)
+    -  TensorFlow Quantum example "Hello many worlds" - https://www.tensorflow.org/quantum/tutorials/hello_many_worlds
+    -  More TF-Quantum example notebooks - https://www.tensorflow.org/quantum/design
+- On Qiskit site (for IBM Quantum)
+    - Qiskit ML Tutorials - https://qiskit.org/documentation/machine-learning/tutorials/index.html
+    - Qiskit Textbook - https://qiskit.org/textbook/content/ch-ex/
+    - HHL example - https://qiskit.org/textbook/ch-applications/hhl_tutorial.html  
+    - On IBM Quantum Lab - https://quantum-computing.ibm.com/lab/files/qiskit-textbook/content/ch-applications/hhl_tutorial.ipynb
+- On PennyLane site (for AWS Braket and others)
+    - what is QML - https://pennylane.ai/qml/whatisqml.html
+    - glossary - https://pennylane.ai/qml/glossary.html
+    - Advanced example "Learning to Learn" - https://pennylane.ai/qml/demos/learning2learn.html
  
 
 
