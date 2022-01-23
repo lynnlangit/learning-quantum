@@ -22,7 +22,7 @@ NOTE: This `hello-worlds` program is a kind of a random number generator
 ---
 
 ## Factoring (Shor's Algo)
-Problem: Given an integer N, find its prime factors (p,q).  
+Problem: Given an integer N, find its prime factors (p,q).  There is a classical part and a quantum part to this algorithm.
 - Explanation of algorithm from IBM Quantum documenation - [link](https://quantum-computing.ibm.com/composer/docs/iqx/guide/shors-algorithm)
 - More at this section of this repo (many code examples too! - [link](https://github.com/lynnlangit/learning-quantum/tree/main/4_oreilly-book/code/ch12)
 
