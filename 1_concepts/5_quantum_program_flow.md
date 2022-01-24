@@ -1,6 +1,6 @@
 # Quantum Program Flow
 
-There are a number of steps that generally repeat in quantum program development.  
+There are a number of steps that generally repeat in quantum program development, I have summarized these steps in the sections below.
 
 ## One-time Setup Steps
 
