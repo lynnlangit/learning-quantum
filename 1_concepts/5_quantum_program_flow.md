@@ -28,7 +28,7 @@ There are a number of steps that generally repeat in quantum program development
 
 ## Quantum Job Run Steps
 
-1. Configure shot count for job run
+1. Configure shot count for job run (default is usually ~ 1,000 slots)
 2. Submit job to queue to be run - evaluate job progress / status (can configure max allowable values, time, % QPU usage, etc...)
 3. Poll running job (on configured Cloud QPU / qubit values) to access status / completion
 4. Evaluate job run result quality
