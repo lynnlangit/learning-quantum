@@ -7,7 +7,7 @@
 
 ## Quantum Conputing in Human Health
 - from medRxiv: **"Breast Cancer Detection using a QCNN"** (image classification) - [link](https://github.com/lynnlangit/learning-quantum/blob/main/3_whitepapers/2020.06.21.20136655v1.full.pdf)
-- from NCBI: **"Quantum algorithm for quicker clinical prognostic analysis: an application and experimental study using CT scan images of COVID-19 patients"** (image classification) - [link](xx)
+- from NCBI: **"Quantum algorithm for quicker clinical prognostic analysis: an application and experimental study using CT scan images of COVID-19 patients"** (image classification) - [link](https://github.com/lynnlangit/learning-quantum/blob/main/3_whitepapers/12911_2021_Article_1588.pdf)
 
 ## Quantum Computing in FinTech
 - from arXiv: **"Quantum Generative Adversarial Networks (Q-GANs)"**. The example is a quantum finance application (derivative pricing) - [link](https://github.com/lynnlangit/learning-quantum/blob/main/3_whitepapers/qGan-FinTech.pdf)
