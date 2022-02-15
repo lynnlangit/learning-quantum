@@ -1,6 +1,6 @@
 # Quatum Computing Cloud Vendors - GCP
 
-Google has a number of quantum services, tools and libraries under the umbrella of Google Quantum AI, including these:
+Google has a number of quantum services, tools and libraries under the umbrella of [Google Quantum AI](https://quantumai.google/), including these:
 - Quantum Computing Service (private beta) - QPUs
 - Cirq - Python-like quantum programming library
 - TensorFlow Quantum - quantum library (for QPUs) using TensorFlow (uses QCNNs) - [tutorial](https://blog.tensorflow.org/2021/06/training-with-multiple-workers-using-tensorflow-quantum.html)
