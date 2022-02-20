@@ -1,5 +1,7 @@
 # Quantum Computing Cloud Vendors - GCP
 
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/quantum-coffee.jpg" width=600>
+
 STATUS: PRIVATE BETA or SIMULATORS or PARTNERS
 
 Google has a number of quantum services, tools and libraries under the umbrella of [Google Quantum AI](https://quantumai.google/), including these:
