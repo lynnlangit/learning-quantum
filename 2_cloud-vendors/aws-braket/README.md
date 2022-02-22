@@ -23,6 +23,11 @@ Amazon Braket is a fully managed quantum computing service that helps researcher
 
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/aws-braket.png" width=800>
 
+### @Werner interviews
+
+Werner Vogels interview series for Quantum Computing.
+- first video "Dr. John Preskill" -- https://www.youtube.com/watch?v=tcTF_ag_wWU
+
 ### PennyLane Library
 
 Penny Lane - PennyLane is a cross-platform Python library for differentiable programming of quantum computers. Train a quantum computer the same way as a neural network. Image from QT Conference talk by PennyLane team member. The PennyLane quantum machine learning library is compatible with the AWS Braket service.
