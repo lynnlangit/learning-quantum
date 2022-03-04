@@ -3,11 +3,11 @@
 - Useful article to get started "Hello Quantum World" --> [link](https://www.quantum-inspire.com/kbase/hello-quantum-world/)
 
 ## Series of Conceptual Quantum Computing Articles (from Microsoft)
-- Article: **"Linear algebra for quantum computing"** --> [link](https://docs.microsoft.com/en-us/azure/quantum/overview-algebra-for-quantum-computing)
-- Article **"Work with vectors and matrices in quantum computing"** --> [link](https://docs.microsoft.com/en-us/azure/quantum/concepts-vectors-and-matrices)
-- Article: **"Eigenvalues and eigenvectors"** --> [link](https://docs.microsoft.com/en-us/azure/quantum/concepts-advanced-matrices)
-- Article: **"The Qubit"** --> [link](https://docs.microsoft.com/en-us/azure/quantum/concepts-the-qubit)
-- Article: **"Operations of multiple Qubits"** --> [link](https://docs.microsoft.com/en-us/azure/quantum/concepts-multiple-qubits)
+- **"Linear algebra for quantum computing"** --> [link](https://docs.microsoft.com/en-us/azure/quantum/overview-algebra-for-quantum-computing)
+- **"Work with vectors and matrices in quantum computing"** --> [link](https://docs.microsoft.com/en-us/azure/quantum/concepts-vectors-and-matrices)
+- **"Eigenvalues and eigenvectors"** --> [link](https://docs.microsoft.com/en-us/azure/quantum/concepts-advanced-matrices)
+- **"The Qubit"** --> [link](https://docs.microsoft.com/en-us/azure/quantum/concepts-the-qubit)
+- **"Operations of multiple Qubits"** --> [link](https://docs.microsoft.com/en-us/azure/quantum/concepts-multiple-qubits)
 
 ## Quantum Operators
 Images and examples for study purposes (shown below) are from the O'Reilly book 'Programming Quantum Computers' by Johnston, Harrigan and Gimeno-Segovia  
