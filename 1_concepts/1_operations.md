@@ -1,8 +1,11 @@
 # Quantum Computing Instructions
 
-- Useful article to get started "Hello Quantum World" --> [link](https://www.quantum-inspire.com/kbase/hello-quantum-world/)
+- Get started **"Hello Quantum World"** with this article --> [link](https://www.quantum-inspire.com/kbase/hello-quantum-world/)
 
 ## Series of Conceptual Quantum Computing Articles (from Microsoft)
+
+Microsoft has an excellent series of short articles detailing quantum computing concepts on its documentaiton site.  
+
 - **"Linear algebra for quantum computing"** --> [link](https://docs.microsoft.com/en-us/azure/quantum/overview-algebra-for-quantum-computing)
 - **"Work with vectors and matrices in quantum computing"** --> [link](https://docs.microsoft.com/en-us/azure/quantum/concepts-vectors-and-matrices)
 - **"Eigenvalues and eigenvectors"** --> [link](https://docs.microsoft.com/en-us/azure/quantum/concepts-advanced-matrices)
