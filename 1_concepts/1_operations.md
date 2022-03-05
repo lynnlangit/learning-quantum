@@ -1,16 +1,23 @@
 # Quantum Computing Instructions
 
-- Get started **"Hello Quantum World"** with this article --> [link](https://www.quantum-inspire.com/kbase/hello-quantum-world/)
+The learning site [`Quantum Inspire`](https://www.quantum-inspire.com/) includes a series of articles, tutorials and also a programming environment for learning quantum computing concepts. 
 
-## Series of Conceptual Quantum Computing Articles (from Microsoft)
+- Read introductory article titled **"Hello Quantum World"**  --> [link](https://www.quantum-inspire.com/kbase/hello-quantum-world/)
+- Read introductory article titled **"What is a Quantum Algorithm?"**  --> [link](https://www.quantum-inspire.com/kbase/what-is-a-quantum-algorithm/)
 
-Microsoft Quantom has an excellent series of short articles detailing quantum computing concepts on its documentaiton site.  
+## Series of Conceptual Quantum Computing Articles 
 
-- Math: **"Linear algebra for quantum computing"** --> [link](https://docs.microsoft.com/en-us/azure/quantum/overview-algebra-for-quantum-computing)
-- Math: **"Work with vectors and matrices in quantum computing"** --> [link](https://docs.microsoft.com/en-us/azure/quantum/concepts-vectors-and-matrices)
-- Math: **"Eigenvalues and eigenvectors"** --> [link](https://docs.microsoft.com/en-us/azure/quantum/concepts-advanced-matrices)
-- Quantum Primitives: **"The Qubit"** --> [link](https://docs.microsoft.com/en-us/azure/quantum/concepts-the-qubit)
-- Quantum Primitives: **"Operations of multiple Qubits"** --> [link](https://docs.microsoft.com/en-us/azure/quantum/concepts-multiple-qubits)
+Microsoft Quantom has an excellent series of short articles detailing quantum computing concepts on its documentaiton site.  An example of the content in the arti les in this series is shown below.  The graphic shows the math used in Hadamard (also called H or HAD) gates.
+
+<kbd><img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/h-math.png" width=600></kbd>
+
+- Math: **"Use Linear algebra for quantum computing"** --> [link](https://docs.microsoft.com/en-us/azure/quantum/overview-algebra-for-quantum-computing)
+- Math: **"Work with vectors & matrices in quantum computing"** --> [link](https://docs.microsoft.com/en-us/azure/quantum/concepts-vectors-and-matrices)
+- Math: **"Use Eigenvalues and Eigenvectors"** --> [link](https://docs.microsoft.com/en-us/azure/quantum/concepts-advanced-matrices)
+- Quantum Primitives: **"Understand the Qubit"** --> [link](https://docs.microsoft.com/en-us/azure/quantum/concepts-the-qubit)
+- Quantum Primitives: **"Perform Operations of Multiple Qubits"** --> [link](https://docs.microsoft.com/en-us/azure/quantum/concepts-multiple-qubits)
+
+---
 
 ## Quantum Operators
 Images and examples for study purposes (shown below) are from the O'Reilly book 'Programming Quantum Computers' by Johnston, Harrigan and Gimeno-Segovia  
