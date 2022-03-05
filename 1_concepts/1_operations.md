@@ -4,13 +4,13 @@
 
 ## Series of Conceptual Quantum Computing Articles (from Microsoft)
 
-Microsoft has an excellent series of short articles detailing quantum computing concepts on its documentaiton site.  
+Microsoft Quantom has an excellent series of short articles detailing quantum computing concepts on its documentaiton site.  
 
-- **"Linear algebra for quantum computing"** --> [link](https://docs.microsoft.com/en-us/azure/quantum/overview-algebra-for-quantum-computing)
-- **"Work with vectors and matrices in quantum computing"** --> [link](https://docs.microsoft.com/en-us/azure/quantum/concepts-vectors-and-matrices)
-- **"Eigenvalues and eigenvectors"** --> [link](https://docs.microsoft.com/en-us/azure/quantum/concepts-advanced-matrices)
-- **"The Qubit"** --> [link](https://docs.microsoft.com/en-us/azure/quantum/concepts-the-qubit)
-- **"Operations of multiple Qubits"** --> [link](https://docs.microsoft.com/en-us/azure/quantum/concepts-multiple-qubits)
+- Math: **"Linear algebra for quantum computing"** --> [link](https://docs.microsoft.com/en-us/azure/quantum/overview-algebra-for-quantum-computing)
+- Math: **"Work with vectors and matrices in quantum computing"** --> [link](https://docs.microsoft.com/en-us/azure/quantum/concepts-vectors-and-matrices)
+- Math: **"Eigenvalues and eigenvectors"** --> [link](https://docs.microsoft.com/en-us/azure/quantum/concepts-advanced-matrices)
+- Quantum Primitives: **"The Qubit"** --> [link](https://docs.microsoft.com/en-us/azure/quantum/concepts-the-qubit)
+- Quantum Primitives: **"Operations of multiple Qubits"** --> [link](https://docs.microsoft.com/en-us/azure/quantum/concepts-multiple-qubits)
 
 ## Quantum Operators
 Images and examples for study purposes (shown below) are from the O'Reilly book 'Programming Quantum Computers' by Johnston, Harrigan and Gimeno-Segovia  
