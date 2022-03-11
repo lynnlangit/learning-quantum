@@ -31,4 +31,5 @@ QPUs or quantum processor units which act on qubits are the units of computation
 
 ### Conceptual Talks and Papers
 - Video: "Lunch & Learn: Quantum Computing" 40 min talk -[link](https://www.youtube.com/watch?v=7susESgnDv8)
+- Video: "The Map of Quantum Computing" 30 min talk - [link](https://www.youtube.com/watch?v=-UlxHPIEVqA)
 - Podcast: "Screaming in the cloud: Quantum Leaps in Bioinformatics" - [link](https://www.lastweekinaws.com/podcast/screaming-in-the-cloud/quantum-leaps-in-bioinformatics-with-lynn-langit/)
