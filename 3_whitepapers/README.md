@@ -8,9 +8,10 @@ For convenience, I've downloaded research papers of interest.  Sources are liste
 - **"The D-Wave Quantum Computer 2000Q"** from D-Wave: - [link](https://github.com/lynnlangit/learning-quantum/blob/main/3_whitepapers/D-Wave%202000Q%20Tech%20Collateral_0117F.pdf)
 - **"Cloud Quantum Computing Concepts"**  from ScienceDirect: (covers IBM Quantum and 'Quantum Inspire' by quTech) - [link](https://github.com/lynnlangit/learning-quantum/blob/main/3_whitepapers/Cloud_Quantum_Computing_Concept_and_Development_A_.pdf)
 
-## Research Languages
+## Research Languages and Frameworks
 
 - **"Twist: sound reasoning for purity and entanglement in Quantum programs"** from ACM: - [link](https://github.com/lynnlangit/learning-quantum/blob/main/3_whitepapers/twist.pdf)
+- **Qbio:a framework for quantum simulation with hardware acceleration"** from Arxiv: -[link](https://github.com/lynnlangit/learning-quantum/blob/main/3_whitepapers/Qibo.pdf)
 
 ----
 
