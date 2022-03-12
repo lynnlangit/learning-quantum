@@ -11,7 +11,7 @@ For convenience, I've downloaded research papers of interest.  Sources are liste
 ## Research Languages and Frameworks
 
 - **"Twist: sound reasoning for purity and entanglement in Quantum programs"** from ACM: - [link](https://github.com/lynnlangit/learning-quantum/blob/main/3_whitepapers/twist.pdf)
-- **"Qbio:a framework for quantum simulation with hardware acceleration"** from Arxiv: -[link](https://github.com/lynnlangit/learning-quantum/blob/main/3_whitepapers/Qibo.pdf)
+- **"Qbio:a framework for quantum simulation with hardware acceleration"** written on top of TensorFlow, from Arxiv: -[link](https://github.com/lynnlangit/learning-quantum/blob/main/3_whitepapers/Qibo.pdf)
 
 ----
 
