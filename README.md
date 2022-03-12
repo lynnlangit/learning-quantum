@@ -27,7 +27,7 @@ This Repo is organized by folder as follows:
 
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/d-wave-hardware.png" width=600 align=right>
 
-There are a number of quantum computer vendors.  They produce hardware (quantum computers) which contains a particular number of qubits and QPUs.   
+There are a number of quantum computer vendors.  These vendors produce hardware (quantum computers) which contains a particular number of qubits and QPUs.   
 
 One example is the [D-Wave](https://www.dwavesys.com/) company.  Shown to the right are photos from one of D-Wave's quantum computers.  This computer contains QPU units, which is hardware with qubits (image taken from D-Wave whitepaper). To run quantum programs on quantum hardware, use quantum languages or libraries.    
 
