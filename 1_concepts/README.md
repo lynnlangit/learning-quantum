@@ -5,6 +5,7 @@
 QPUs or quantum processor units which act on qubits are the units of computation for quantum programs.  There are a number of core concepts associated with QPUs and qubits. 
 - A [Bloch sphere](https://en.wikipedia.org/wiki/Bloch_sphere), shown to the right is usually used to visualize the state(s) of the associated qubits when running a quantum program.
   - Video - "How do you make a Quantum Bit[quibit]?" by Veritasium - [link](https://www.youtube.com/watch?v=zNzzGgr2mhk)
+  - Video - "The Math of Quantum Computer" by Infinite Series - [link](https://www.youtube.com/watch?v=IrbJYsep45E)
   - Video - on quantum superposition and decoherence - [link](https://www.youtube.com/watch?v=7B1llCxVdkE)
 - The north and south poles of the Bloch sphere are typically chosen to correspond to the standard basis vectors ∣0⟩ and ∣1⟩ on the Z-axis.
   - IMPORTANT: Post - explaining **'Qubit Basis States'** (Z-basis and more) - [link](https://www.quantum-inspire.com/kbase/qubit-basis-states/)
