@@ -1,78 +1,60 @@
-# learning-quantum
+# Learning Cloud Quantum Programming
 
-<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/bit-vs-qbit.png" width=400 align=left>
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/bit-vs-qubit.png" width=375 align=left>
 
-This repo contains my study resources for learning quantum computing programming.  Shown to the left is a conceptual rendering of a bit vs a qubit, which is a fundamental concept or work in quantum computing.    
+This repo contains my study resources for learning **cloud quantum programming**.    
 
-A qubit is a two-state (or two-level) quantum-mechanical system, one of the simplest quantum systems displaying the peculiarity of quantum mechanics. 
+Shown to the left is a conceptual rendering of a bit vs a qubit, which is a fundamental concept of work in quantum computing.  The Repo is a companion to my LI_L course ["Cloud Quantum Computing Essentials"](https://www.linkedin.com/learning/cloud-quantum-computing-essentials)
 
+A **qubit** is a two-state (or two-level) quantum-mechanical system, one of the simplest quantum systems displaying the peculiarity of quantum mechanics. A quantum computer performs quantum computations using the principles of quantum mechanics.   
+
+A **QPU** (quantum processing units) manipulates the quantum states of available qubits in a controlled way to perform computations, such as algorithms. A qubit is a quantum bit of information.  
+
+A **quantum computer** contains QPU processors, some number of qubits and the support mechanisms which allow these items to interact based on quantum instructions or programs.
+
+----
+
+## What's Here
+
+This Repo is organized by folder as follows:
+- [`concepts`](https://github.com/lynnlangit/learning-quantum/tree/main/1_concepts) - info about quantum languages, libraries, operations, reference programs (Shor's, Grover's, etc...) and notation
+- [`cloud-vendors`](https://github.com/lynnlangit/learning-quantum/tree/main/2_cloud-vendors) - info about quantum runtime environments (and simulators) organized by cloud vendor (AWS, Azure, GCP and IBM)
+- [`whitepapers`](https://github.com/lynnlangit/learning-quantum/tree/main/3_whitepapers) - academic research papers of interest including quantum programming algorithms and examples
+- [`o-reilly-book`](https://github.com/lynnlangit/learning-quantum/tree/main/4_oreilly-book) - code examples, slides and link from a 15-week-long bookclub covering the referenced book on quantum programming
 
 ---
 
 
-## Hardware Example
+## Quantum Computer Example
 
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/d-wave-hardware.png" width=600 align=right>
 
-There are a number of quantum computing vendors.  They produce hardware (quatum computers) which contain a particular number of qubits.    
+There are a number of quantum computer vendors.  These vendors produce hardware (quantum computers) which contains a particular number of qubits and QPUs.   
 
-The qubits are used by quantum computing programming languages or libraries for execution with QPUs.   
+One example is the [D-Wave](https://www.dwavesys.com/) company.  Shown to the right are photos from one of D-Wave's quantum computers.  This computer contains QPU units, which is hardware with qubits (image taken from D-Wave whitepaper). To run quantum programs on quantum hardware, use quantum languages or libraries.    
 
-One example is the [D-Wave](https://www.dwavesys.com/) company.  Shown here are photos from one of D-Wave's quantum computers.  This computer contains QPU units, which is hardware with qubits (image taken from D-Wave whitepaper). 
+NOTE: Generally quantum programs are run on quantum simulators prior to being run on quantum hardware due to the cost and time run on live QPUs.
 
 
 ---
 
-## Software Example
+## Quantum Programs and IDEs
 
-Sample from IBM Quantum Composer examples.  Example shown below is the `Grover-example`.
+Shown below are screenshots from a couple of quantum programming development environments.  This is just a small subset of the available options.  Generally these IDEs are either cloud-based (IBM Composer) or downloadable via a SDK (D-Wave).  
 
+- The first example (shown below) shows running a quantum program in the IBM Quantum Composer IDE.  This example runs the `Grover-example` quantum program. The visual environment includes the composer, which shows quantum operations written in the OPENQASM quantum programming language and a number of other visualization tools. 
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/grover.png" width=800>
 
-## Book Club
-
-<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/quantum.png" width=300 align=right>
-
-Book club for ['Programming Quantum Computers'](https://learning.oreilly.com/library/view/programming-quantum-computers/9781492039679/) by Eric R. Johnston, Nic Harrigan & Mercedes Gimeno-Segovia  
-- Jeremy's repo w/experiments - https://github.com/jeremybytes/quantum-programming-experiments
-- Slack - program-quantum.slack.com
-- YouTube channel - https://www.youtube.com/channel/UCSmWWIRx1dT2QO5gcCTjKYA
-- Author's Github and programming environment - https://oreilly-qc.github.io/
-- Author's errata - http://oreilly.com/catalog/0636920167433/errata
-
-
-## Links
-- Awesome Q# link list - https://github.com/ebraminio/awesome-qsharp
-- Quantum Katas - https://github.com/Microsoft/QuantumKatas/
-- Quatum Kata Notebooks (run in Binder from GitHub) - https://mybinder.org/v2/gh/Microsoft/QuantumKatas/master?filepath=index.ipynb
-- AWS Quantum papers - https://www.amazon.science/blog/aws-scientists-coauthor-13-qip-2021-quantum-computing-papers
-- Quantum Playground (fun viz!) - http://www.quantumplayground.net/
-- Qiskit textbook - https://qiskit.org/textbook/ch-states/introduction.html
-
-## ML
-
-Penny Lane - PennyLane is a cross-platform Python library for differentiable programming of quantum computers. Train a quantum computer the same way as a neural network.
-- Github - https://github.com/PennyLaneAI/pennylane
-- Demos - https://pennylane.ai/qml/demos_basics.html
-
----
-
-### WIP
-
-Examples from notebooks above
-
-#### Global Phase
-
-<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/global-phase.png" width=800>
-
----
-
-#### Hadamard Gate
-
-<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/hadamard.png" width=800>
-
----
-
-Example from D-Wave Systems cloud at https://cloud.dwavesys.com/
+- The second example (shown below) is from from D-Wave Systems cloud at https://cloud.dwavesys.com/ and is being run using VSCode as an IDE.  The sample shows a path optimization solver and is called `path` in the D-Wave examples. The program is written using the D-Wave Python-like quantum programming library. This IDE is a more traditional environment and doesn't include as many visualization tools for the state of the qubits used in computation.
 
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/dwave-ide.png" width=800>
+
+- Yet another example of a quantum program visualization tools is the browser-based `Quantum Playground` - http://www.quantumplayground.net/.  Shown below is an example of animated output using the H gate example code.  This is a particularly good tool for gaining an intuition into key quantum operations and program examples.
+
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/quantum-playground.png" width=800>
+
+---
+
+
+
+

@@ -27,9 +27,9 @@ Summary from 'Programming Quantum Computers' O'Reilly book
   - By transforming the global phase information into relative phase information in a second quantum register...
   - and then applying invQFT to extract that information in a READable format
   - will help determine the eigenphases associated with the eigenstates of a QPU operation, returning a superposition of all the eigenphases
-    - **eigenstate** - states impervious to a certain QPU’s operation in this way (except for global phases) --> yyy
-    - **eigenphase** - global phase acquired by a particular eigenstate --> yyy
-    - **phase kickback** --> yyy
-    - **construction of controlled unitaries** --> yyy
+    - **eigenstate** - states impervious to a certain QPU’s operation in this way (except for global phases) - see definition at [link](https://en.wikipedia.org/wiki/Introduction_to_eigenstates)
+    - **eigenphase** - global phase acquired by a particular eigenstate 
+    - **phase kickback** - 
+    - **construction of controlled unitaries** - 
     - **invQFT** --> used here
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/PE.png" width=600>
