@@ -31,8 +31,9 @@ QPUs or quantum processor units which act on qubits are the units of computation
 ---
 
 ### Talks, Papers and Articles
-- Video: "Lunch & Learn: Quantum Computing" 40 min talk -[link](https://www.youtube.com/watch?v=7susESgnDv8)
-- Video: "The Map of Quantum Computing" 30 min talk - [link](https://www.youtube.com/watch?v=-UlxHPIEVqA)
-- Video: "Companies and Types of Quantum Computers" 12 min talk - [link](https://www.youtube.com/watch?v=gcbMKt079l8)
-- Podcast: "Screaming in the cloud: Quantum Leaps in Bioinformatics" - [link](https://www.lastweekinaws.com/podcast/screaming-in-the-cloud/quantum-leaps-in-bioinformatics-with-lynn-langit/)
-- Article: "Quantum computing has a hype problem" - [link](https://www.technologyreview.com/2022/03/28/1048355/quantum-computing-has-a-hype-problem/)
+- 📺 Video: "Lunch & Learn: Quantum Computing" 40 min talk -[link](https://www.youtube.com/watch?v=7susESgnDv8)
+- 📺 Video: "The Map of Quantum Computing" 30 min talk - [link](https://www.youtube.com/watch?v=-UlxHPIEVqA)
+- 📺 Video: "Companies and Types of Quantum Computers" 12 min talk - [link](https://www.youtube.com/watch?v=gcbMKt079l8)
+- 📺 Video: "Quantum Steampunk" 55 min talk by theoretical physicist Nicole Yunger Halpern - [link](https://www.youtube.com/watch?v=Hwa-YU19ey0)
+- 🗣️ Podcast: "Screaming in the cloud: Quantum Leaps in Bioinformatics" me chatting with @QuinnyPig - [link](https://www.lastweekinaws.com/podcast/screaming-in-the-cloud/quantum-leaps-in-bioinformatics-with-lynn-langit/)
+- 📓 Article: "Quantum computing has a hype problem" - [link](https://www.technologyreview.com/2022/03/28/1048355/quantum-computing-has-a-hype-problem/)
