@@ -23,3 +23,7 @@ Google has a number of quantum services, tools and libraries under the umbrella 
 - IonQ: Quantum provider for GCP, aviable on GCP Marketplace - https://console.cloud.google.com/marketplace/product/ionq-public/ionq
 - Education: section of Google Quantum AI site - https://quantumai.google/education
 
+## Quantum AI Campus
+
+- 📺 5 min video - tour of Google Quantum AI campus in Santa Barbara, CA - https://www.youtube.com/watch?v=2uV5XwhH6Eg
+
