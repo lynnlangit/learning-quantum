@@ -6,4 +6,5 @@ All major cloud vendors have quantum computing services.  Service offerings vary
 
 - Look in each cloud vendor's folder (i.e. Azure, AWS, etc...) for detail about that particular vendor's offering.  
 - IMPORTANT: this section is a very active area of development, please do PRs if you notice new capabilities for a quantum service provided by one these vendors
+- Start with the cloud vendor that you are using for regular services - i.e. AWS, etc...
 
