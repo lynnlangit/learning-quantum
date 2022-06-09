@@ -16,6 +16,7 @@ Microsoft has created a programming language, Q#, to write quantum programs whic
 
 ## Q# Resources
 - Q# preview and samples - https://docs.microsoft.com/en-us/azure/quantum/?view=qsharp-preview
+- Learn Q# in minutes, quick guide - https://learnxinyminutes.com/docs/qsharp/
 - Q# samples on Binder - https://docs.microsoft.com/en-us/azure/quantum/install-binder-qdk - shown below
 - Q# code katas - https://github.com/microsoft/QuantumKatas/tree/main/BasicGates - can also be run on Binder/GKE/Jupyter
 - QDK libraries (numerics, ML, chemistry, more...) - https://github.com/microsoft/QuantumLibraries
