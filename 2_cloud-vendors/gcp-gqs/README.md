@@ -22,6 +22,7 @@ Google has a number of quantum services, tools and libraries under the umbrella 
   - reCirq, research examples using Cirq - https://github.com/quantumlib/ReCirq
 - **IonQ:** Quantum provider for GCP, aviable on GCP Marketplace - https://console.cloud.google.com/marketplace/product/ionq-public/ionq
 - **Education:** section of Google Quantum AI site - https://quantumai.google/education
+- **Game**: fun browse-based game to 'build a quantum computer' - https://quantumai.google/education/thequbitgame
 
 ## Quantum AI Campus
 
