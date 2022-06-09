@@ -1,12 +1,12 @@
 # Quantum Hardware
 
 Many companies are building quantum hardware (computers) using a variety of techniques to construct optimized qubits.  In addition to the commercial companies listed below, there are a large number of research efforts in this area (university research work).
+
 - Google --> https://quantumai.google/hardware
 - IBM --> https://www.ibm.com/quantum-computing/systems
 - D-Wave --> https://www.dwavesys.com/solutions-and-products/product-overview/
 - Rigetti --> https://www.rigetti.com/
 - IonQ --> https://ionq.com/technology
-
 ---
 
 
