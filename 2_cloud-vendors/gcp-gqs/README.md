@@ -15,13 +15,13 @@ Google has a number of quantum services, tools and libraries under the umbrella 
 
 ## Google Quantum Service on GCP Links
 
-- Quantum Simulation example (includes basic performance benchmarks for qsim) - https://cloud.google.com/solutions/quantum-simulation-on-google-cloud-with-cirq-qsim
-- Qsim: quantums imulator code - https://quantumai.google/qsim
-- Cirq:open source python framework for programming Qsim - https://quantumai.google/cirq
+- **Quantum Simulation example:** (includes basic performance benchmarks for qsim) - https://cloud.google.com/solutions/quantum-simulation-on-google-cloud-with-cirq-qsim
+- **Qsim:** quantum simulator code - https://quantumai.google/qsim
+- **Cirq:** open source python framework for programming Qsim - https://quantumai.google/cirq
   - cirq basics, example notebook - https://quantumai.google/cirq/tutorials/basics
   - reCirq, research examples using Cirq - https://github.com/quantumlib/ReCirq
-- IonQ: Quantum provider for GCP, aviable on GCP Marketplace - https://console.cloud.google.com/marketplace/product/ionq-public/ionq
-- Education: section of Google Quantum AI site - https://quantumai.google/education
+- **IonQ:** Quantum provider for GCP, aviable on GCP Marketplace - https://console.cloud.google.com/marketplace/product/ionq-public/ionq
+- **Education:** section of Google Quantum AI site - https://quantumai.google/education
 
 ## Quantum AI Campus
 
