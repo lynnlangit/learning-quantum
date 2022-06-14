@@ -8,11 +8,10 @@ Google's Quantum AI group teamed up with Doublespeak Games to make [The Qubit Ga
 
 Just start playing!  It's intuitively designed.
 
-
-
-
-
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/qubit-playing.png" width=800>
 
 ## Fun, Hidden Rewards
 
 Emails, challenges, even certificates! example shown below)
+
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/qubit-playing.png" width=800>
