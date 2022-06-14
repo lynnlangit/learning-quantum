@@ -14,4 +14,4 @@ Just start playing!  It's intuitively designed.
 
 Emails, challenges, even certificates! example shown below)
 
-<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/qubit-playing.png" width=800>
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/quantum-degree.png" width=800>
