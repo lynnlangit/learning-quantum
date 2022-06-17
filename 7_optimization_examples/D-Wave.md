@@ -9,3 +9,5 @@ Explantion (from Repo): "*NAE3SAT is an NP-complete Boolean satisfiability (SAT)
 ## Run in D-Wave Leap IDE
 
 D-Wave provides a [browser-based version of VSCode IDE](https://ide.dwavesys.io/#https://github.com/dwave-examples/NAE3SAT) with libraries pre-loaded.  This allows you to quickly try out this example.  Screenshot (example output) shown below.
+
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/d-wave-ide.png" width=800>
