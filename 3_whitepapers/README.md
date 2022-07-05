@@ -7,7 +7,7 @@ For convenience, I've downloaded research papers of interest.  Sources are liste
 - **"Practical Cloud Computing"** from D-Wave:  - [link](https://github.com/lynnlangit/learning-quantum/blob/main/3_whitepapers/14-1047A-A_Practical_Quantum_Computing_An_Update.pdf)
 - **"The D-Wave Quantum Computer 2000Q"** from D-Wave: - [link](https://github.com/lynnlangit/learning-quantum/blob/main/3_whitepapers/D-Wave%202000Q%20Tech%20Collateral_0117F.pdf)
 - **"Cloud Quantum Computing Concepts"**  from ScienceDirect: (covers IBM Quantum and 'Quantum Inspire' by quTech) - [link](https://github.com/lynnlangit/learning-quantum/blob/main/3_whitepapers/Cloud_Quantum_Computing_Concept_and_Development_A_.pdf)
-- **"Quantum computational advantage with a programmable photonic processor"** from Nature -[link](https://github.com/lynnlangit/learning-quantum/blob/main/3_whitepapers/s41586-022-04725-x.pdf)
+- **"Quantum computational advantage with a programmable photonic processor"** from Nature - [link](https://github.com/lynnlangit/learning-quantum/blob/main/3_whitepapers/s41586-022-04725-x.pdf)
   - 500M times faster computational example
   - Image (from paper) shown below
 
