@@ -5,7 +5,6 @@ namespace Quantum.Kata.BasicGates {
     open Microsoft.Quantum.Intrinsic;
     open Microsoft.Quantum.Math;
 
-
     //////////////////////////////////////////////////////////////////
     // Welcome!
     //////////////////////////////////////////////////////////////////
@@ -37,7 +36,6 @@ namespace Quantum.Kata.BasicGates {
     // to compute their adjoint and controlled variants automatically.
     // Since each task is solved using only intrinsic gates, you should not need to put any special effort in this.
 
-
     // Task 1.1. State flip: |0⟩ to |1⟩ and vice versa
     // Input: A qubit in state |ψ⟩ = α |0⟩ + β |1⟩.
     // Goal:  Change the state of the qubit to α |1⟩ + β |0⟩.
@@ -50,10 +48,7 @@ namespace Quantum.Kata.BasicGates {
         // The Pauli X gate will change the |0⟩ state to the |1⟩ state and vice versa.
         // Type X(q);
         // Then rebuild the project and rerun the tests - T101_StateFlip should now pass!
-
-        // ...
     }
-
 
     // Task 1.2. Basis change: |0⟩ to |+⟩ and |1⟩ to |-⟩ (and vice versa)
     // Input: A qubit in state |ψ⟩ = α |0⟩ + β |1⟩.
