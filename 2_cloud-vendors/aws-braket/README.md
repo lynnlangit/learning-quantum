@@ -14,12 +14,18 @@ STATUS: AVAILABLE
 
 Amazon Braket is a fully managed quantum computing service that helps researchers and developers get started with the technology to accelerate research and discovery. Amazon Braket provides a development environment for you to explore and build quantum algorithms, test them on quantum circuit simulators, and run them on different quantum hardware technologies (IonQ, D-Wave...)
 
+### Basics
+
 - AWS Braket - https://aws.amazon.com/braket/
 - Example AWS Braket Jupyter notebooks here --> https://github.com/aws/amazon-braket-examples
 - AWS Quantum blog - https://aws.amazon.com/blogs/quantum-computing
-- AWS Quantum papers - https://www.amazon.science/blog/aws-scientists-coauthor-13-qip-2021-quantum-computing-papers
-- Pennylane.ai for QML on AWS Braket - https://pennylane.ai/qml/demos/braket-parallel-gradients.html
-- Learn more about AWS Braket - https://github.com/lynnlangit/Hello-AWS-Data-Services/tree/master/7_quantum-computing
+
+### Learn More and Tools 
+- :book: AWS Braket near real-time pricing tools - https://docs.aws.amazon.com/braket/latest/developerguide//braket-pricing.html
+- :book: AWS Quantum papers - https://www.amazon.science/blog/aws-scientists-coauthor-13-qip-2021-quantum-computing-papers
+- :book: Pennylane.ai for QML on AWS Braket - https://pennylane.ai/qml/demos/braket-parallel-gradients.html
+- :octocat: Learn more about AWS Braket - https://github.com/lynnlangit/Hello-AWS-Data-Services/tree/master/7_quantum-computing
+- :octocat: Qiskit provider for AWS Braket - https://github.com/qiskit-community/qiskit-braket-provider
 
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/aws-braket.png" width=800>
 
@@ -34,6 +40,6 @@ Penny Lane - PennyLane is a cross-platform Python library for differentiable pro
 - Github - https://github.com/PennyLaneAI/pennylane
 - Demos - https://pennylane.ai/qml/demos_basics.html
 
-<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/penny-lane-ml.png" width=800>
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/penny-lane-ml.png" width=600>
 
 
