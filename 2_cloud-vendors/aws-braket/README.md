@@ -26,7 +26,7 @@ Amazon Braket is a fully managed quantum computing service that helps researcher
 - 📖 AWS Braket Hybrid Tool guide (and link to example notebook) - https://docs.aws.amazon.com/braket/latest/developerguide/braket-jobs.html
 - :book: AWS Quantum papers - https://www.amazon.science/blog/aws-scientists-coauthor-13-qip-2021-quantum-computing-papers
 - :book: Pennylane.ai for QML on AWS Braket - https://pennylane.ai/qml/demos/braket-parallel-gradients.html
-
+- 🎥 Talk "Noise in Quantum Computing - https://www.youtube.com/watch?v=y9RzCGIjSBQ
 - :octocat: Qiskit provider for AWS Braket - https://github.com/qiskit-community/qiskit-braket-provider
 
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/aws-braket.png" width=800>
