@@ -25,6 +25,7 @@ Research is being done by application domain in the area of the quantum computin
 ### Quantum Conputing in Human Health
 
 - **"Breast Cancer Detection using a QCNN"** (image classification) from medRxiv: - [link](https://github.com/lynnlangit/learning-quantum/blob/main/3_whitepapers/2020.06.21.20136655v1.full.pdf)  
+- **Hybrid Quantum Classical CNN to detect Cancer** (uses images / example notebook) from @contepablod/Github - [link](https://github.com/contepablod/QCNNCancerClassifier/blob/master/EsophagusCancerClassifier.ipynb)
 - **"Quantum algorithm for quicker clinical prognostic analysis: an application and experimental study using CT scan images of COVID-19 patients"** (image classification) from NCBI: - [link](https://github.com/lynnlangit/learning-quantum/blob/main/3_whitepapers/12911_2021_Article_1588.pdf)
 - **"Finds the optimal stem configuration of an RNA sequence using the LeapHybridCQMSampler."** - Quantum computing source code example - [link](https://github.com/dwave-examples/rna-folding)
 
