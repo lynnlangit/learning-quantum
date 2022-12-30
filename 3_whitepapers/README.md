@@ -1,6 +1,6 @@
-# Quantum Computing Papers
+# Quantum Computing Papers / Examples
 
-For convenience, I've downloaded research papers of interest.  Sources are listed in the index below.  Note that is area is quite active, feel free to PR, if you come across additional papers of interest to these topic areas.
+For convenience, I've downloaded research papers / linked to examples of interest.  Sources are listed in the index below.  Note that is area is quite active, feel free to PR, if you come across additional papers of interest to these topic areas.
 
 ## General Cloud Quantum Computing
 
