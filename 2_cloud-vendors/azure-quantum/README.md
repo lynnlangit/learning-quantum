@@ -9,6 +9,7 @@ Microsoft is partnering with quantum hardware manufacturers such as  IonQ, Honey
 Microsoft has created a programming language, Q#, to write quantum programs which run on Microsoft Azure using partner qubits and QPUs.  
 - Azure Quantum preview - https://azure.microsoft.com/en-us/services/quantum/
 - Microsoft QIO provider - https://docs.microsoft.com/en-us/azure/quantum/provider-microsoft-qio
+- Announcement: "Hybrid Quantum on Azure" - https://devblogs.microsoft.com/qsharp/azure-quantum-unlocks-the-next-generation-of-hybrid-quantum-computing/
 
 ---
 
