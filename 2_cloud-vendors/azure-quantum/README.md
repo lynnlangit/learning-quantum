@@ -11,6 +11,10 @@ Microsoft has created a programming language, Q#, to write quantum programs whic
 - Microsoft QIO provider - https://docs.microsoft.com/en-us/azure/quantum/provider-microsoft-qio
 - Announcement: "Hybrid Quantum on Azure" - https://devblogs.microsoft.com/qsharp/azure-quantum-unlocks-the-next-generation-of-hybrid-quantum-computing/
 
+- **NEW** - Browser-based IDE w/Co-pilot for Q# - https://quantum.microsoft.com/en-us/experience/quantum-coding
+
+  
+
 ---
 
 <img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/azure-quantum.png" width=800>
