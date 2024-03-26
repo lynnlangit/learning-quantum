@@ -17,6 +17,10 @@ Many companies are building quantum hardware (computers) using a variety of tech
 
 ---
 
+## Other Approaches
+
+- Article "The Best Qubits for Quantum Computing Might Just Be Atoms" - [link](https://www.quantamagazine.org/the-best-qubits-for-quantum-computing-might-just-be-atoms-20240325/)
+
 
 
 
