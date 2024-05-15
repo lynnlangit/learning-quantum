@@ -23,6 +23,7 @@ Google has a number of quantum services, tools and libraries under the umbrella 
 - **IonQ:** Quantum provider for GCP, aviable on GCP Marketplace - https://console.cloud.google.com/marketplace/product/ionq-public/ionq
 - **Education:** section of Google Quantum AI site - https://quantumai.google/education
 - **Game**: fun browse-based game to 'build a quantum computer' - https://quantumai.google/education/thequbitgame
+- **Marketplace**: Quick setup and test offer from `Alice & Bob` (Felis Cloud) on GCP - https://console.cloud.google.com/marketplace/product/cloud-prod-0/felis-cloud
 
 ## Quantum AI Campus
 
