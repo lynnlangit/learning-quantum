@@ -5,7 +5,8 @@
 Welcome to the Alice & Bob Cloud Quantum Computing service! Our platform offers cutting-edge quantum computing capabilities through the cloud, making it accessible to researchers, developers, and businesses worldwide.
 
 ## Accessing the Service
-To access our quantum computing service, please visit our website at [Alice & Bob Quantum](https://alice-bob-quantum.example.com). Here, you can sign up for an account, explore our documentation, and start running your quantum algorithms on our state-of-the-art quantum processors.
+To access the cloud quantum computing service on the GCP Marketplace, please visit the website at [Alice & Bob Quantum](https://alice-bob.com/products/quantum-cloud-felis/).  
+Here, you can sign up for an account, explore our documentation, and start running your quantum algorithms on our state-of-the-art quantum processors.
 
 ## Supported Quantum Algorithms
 Our service supports a wide range of quantum algorithms, including:
@@ -30,7 +31,5 @@ Our platform stands out with several unique features:
 - User-friendly interface and comprehensive documentation
 - Dedicated support team to assist with your quantum computing projects
 
-![Alice & Bob Quantum Processor](https://alice-bob-quantum.example.com/images/quantum_processor.png)
+![Alice & Bob Quantum Processor](https://alice-bob.com/wp-content/uploads/bf-advanced-images/3769/BOSON-CHIP-AND-S-H_JPEG-QuickProof-taille-apercu-scaled-e1715768740181-1920x0.jpg)
 *Image credit: Alice & Bob Quantum*
-
-Join us in exploring the possibilities of quantum computing and take your research and applications to the next level with Alice & Bob Cloud Quantum Computing.
