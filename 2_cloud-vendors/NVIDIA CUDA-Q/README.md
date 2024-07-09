@@ -14,4 +14,6 @@ For a detailed overview of all the new features and improvements, refer to the o
 
 ## Getting Started with CUDA-Q
 
-To start using CUDA-Q for your quantum computing projects, follow the QuickStart guide available at [CUDA-Q QuickStart](https://nvidia.github.io/cuda-quantum/latest/using/quick_start.html). This guide provides step-by-step instructions on how to set up your environment, compile and run quantum simulations using CUDA-Q.
+To start using CUDA-Q for your quantum computing projects, follow the QuickStart guide available at [CUDA-Q QuickStart](https://nvidia.github.io/cuda-quantum/latest/using/quick_start.html). This guide provides step-by-step instructions on how to set up your environment, compile and run quantum simulations using CUDA-Q.  
+
+NOTE: *"CUDA-Q does not require a GPU to use, but some components are GPU-accelerated."*
