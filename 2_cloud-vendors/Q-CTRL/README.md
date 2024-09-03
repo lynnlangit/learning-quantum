@@ -7,3 +7,5 @@ Quantum Computing Provider and educator ([Black Opal](https://q-ctrl.com/black-o
 
 Shown below.  
 
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/quantum-cert.png">
+
