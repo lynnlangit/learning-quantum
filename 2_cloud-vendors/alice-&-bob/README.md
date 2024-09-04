@@ -19,3 +19,6 @@ See Jupyter notebook samples on Github at [link](https://github.com/Alice-Bob-SW
 
 ![Alice & Bob Quantum Processor](https://alice-bob.com/wp-content/uploads/bf-advanced-images/3769/BOSON-CHIP-AND-S-H_JPEG-QuickProof-taille-apercu-scaled-e1715768740181-1920x0.jpg)
 *Image credit: Alice & Bob Quantum*
+
+## Learn More
+- Video: "Cat Qubits and LDPC Codes, a New Step Towards Quantum Error Correction" - [link](https://www.youtube.com/watch?v=nI0Yg-QRAns)
