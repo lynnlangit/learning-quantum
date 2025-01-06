@@ -1,6 +1,8 @@
 # Math For Quantum Computing
 
-Math background for quantum programming consists of understanding...
+Math concepts in order to do quantum programming consists of understanding...
+
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/math-quantum.png" width=800>
 
 ## Core Math Concepts
 
