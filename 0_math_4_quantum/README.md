@@ -6,6 +6,8 @@ Math concepts in order to do quantum programming consists of understanding...
 
 ## Core Math Concepts
 
+To get started - see this 12 min YouTube video ["The Mathematics of Quantum Computers"](https://www.youtube.com/watch?v=IrbJYsep45E)
+
 - **Linear Algebra:** 
     - **Vectors:** Represent quantum states as vectors in a complex vector space (Hilbert space).
     - **Matrices:** Represent quantum gates as unitary matrices that act on these state vectors.
