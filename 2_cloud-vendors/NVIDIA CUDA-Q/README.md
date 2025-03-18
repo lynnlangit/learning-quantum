@@ -1,8 +1,8 @@
-# NVIDIA CUDA-Q
+# NVIDIA CUDA-Q & Quantum Cloud
 
 [NVIDIA CUDA-Q](https://developer.nvidia.com/cuda-q) is a powerful tool designed to boost the performance of quantum computing applications. It leverages the parallel computing capabilities of NVIDIA GPUs to accelerate quantum simulations, offering significant improvements in speed and efficiency.
 
-## Key Features and Enhancements
+## CUDA-Q Key Features and Enhancements
 
 The latest release of NVIDIA CUDA-Q introduces several new features and enhancements that are aimed at optimizing quantum application performance. These include:
 
@@ -19,3 +19,7 @@ To start using CUDA-Q for your quantum computing projects, follow the QuickStart
 ### What is a CUDA-Q Kernel?
 
 [From NVIDIA's documentation](https://nvidia.github.io/cuda-quantum/latest/using/basics/kernel_intro.html) *"Quantum kernels are defined as functions that are executed on a quantum processing unit (QPU) or a simulated QPU. They generalize quantum circuits and provide a new abstraction for quantum programming. Quantum kernels can be combined with classical functions to create quantum-classical applications that can be executed on a heterogeneous system of QPUs, GPUs, and CPUs to solve real-world problems.  Every quantum circuit is a kernel, but not every quantum kernel is a circuit. For instance, a quantum kernel can be built up from other kernels, allowing us to interpret a large quantum program as a sequence of subroutines or subcircuits."*
+
+## Quantum Cloud for CUDA-Q
+
+CUDA-Q can currently be run on simulators or one of two cloud backends - [Amazon Braket](https://nvidia.github.io/cuda-quantum/latest/using/backends/cloud/braket.html) or [NVIDIA Quantum Cloud](https://nvidia.github.io/cuda-quantum/latest/using/backends/cloud/nvqc.html).
