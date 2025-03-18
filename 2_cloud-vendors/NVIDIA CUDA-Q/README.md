@@ -1,6 +1,6 @@
 # NVIDIA CUDA-Q
 
-NVIDIA CUDA-Q is a powerful tool designed to boost the performance of quantum computing applications. It leverages the parallel computing capabilities of NVIDIA GPUs to accelerate quantum simulations, offering significant improvements in speed and efficiency.
+[NVIDIA CUDA-Q](https://developer.nvidia.com/cuda-q) is a powerful tool designed to boost the performance of quantum computing applications. It leverages the parallel computing capabilities of NVIDIA GPUs to accelerate quantum simulations, offering significant improvements in speed and efficiency.
 
 ## Key Features and Enhancements
 
