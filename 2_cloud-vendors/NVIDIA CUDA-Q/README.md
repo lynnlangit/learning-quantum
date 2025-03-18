@@ -14,6 +14,8 @@ For a detailed overview of all the new features and improvements, refer to the o
 
 ## Getting Started with CUDA-Q
 
-To start using CUDA-Q for your quantum computing projects, follow the QuickStart guide available at [CUDA-Q QuickStart](https://nvidia.github.io/cuda-quantum/latest/using/quick_start.html). This guide provides step-by-step instructions on how to set up your environment, compile and run quantum simulations using CUDA-Q.  
+To start using CUDA-Q for your quantum computing projects, follow the QuickStart guide available at [CUDA-Q QuickStart](https://nvidia.github.io/cuda-quantum/latest/using/quick_start.html). This guide provides step-by-step instructions on how to set up your environment, compile and run quantum simulations using CUDA-Q.  NOTE: *"CUDA-Q does not require a GPU to use, but some components are GPU-accelerated."*  
 
-NOTE: *"CUDA-Q does not require a GPU to use, but some components are GPU-accelerated."*
+### What is a CUDA-Q Kernel?
+
+[From NVIDIA's documentation](https://nvidia.github.io/cuda-quantum/latest/using/basics/kernel_intro.html) *"Quantum kernels are defined as functions that are executed on a quantum processing unit (QPU) or a simulated QPU. They generalize quantum circuits and provide a new abstraction for quantum programming. Quantum kernels can be combined with classical functions to create quantum-classical applications that can be executed on a heterogeneous system of QPUs, GPUs, and CPUs to solve real-world problems.  Every quantum circuit is a kernel, but not every quantum kernel is a circuit. For instance, a quantum kernel can be built up from other kernels, allowing us to interpret a large quantum program as a sequence of subroutines or subcircuits."*
