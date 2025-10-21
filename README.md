@@ -137,10 +137,10 @@ The QuanTime website (partnership with National Q-12 Education Partnership group
 
 ### Choose Your Platform
 
-**For Hardware Diversity**: AWS Braket (access to IonQ, Rigetti, IQM, D-Wave, and more)
-**For Logical Qubits**: Microsoft Azure Quantum (24 entangled logical qubits, topological qubits)
-**For Utility-Scale Computing**: IBM Quantum (5,000-gate circuits, 156 qubits)
-**For Open Source**: IBM Quantum (Qiskit framework)
+**For Hardware Diversity**: AWS Braket (access to IonQ, Rigetti, IQM, D-Wave, and more)<br>
+**For Logical Qubits**: Microsoft Azure Quantum (24 entangled logical qubits, topological qubits)<br>
+**For Utility-Scale Computing**: IBM Quantum (5,000-gate circuits, 156 qubits)<br>
+**For Open Source**: IBM Quantum (Qiskit framework)<br>
 **For Highest Fidelity**: IonQ via AWS/Azure (99.9% two-qubit gate fidelity)
 
 ### Learning Paths
