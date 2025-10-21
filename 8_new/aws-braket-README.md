@@ -1,8 +1,3 @@
-# AWS Braket - Amazon Quantum Computing
-
-## Overview
-Amazon Braket is a fully managed quantum computing service that helps researchers and developers get started with the technology to accelerate research and discovery. Amazon Braket provides a development environment for you to explore and build quantum algorithms, test them on quantum circuit simulators, and run them on different quantum hardware technologies.
-
 ## Recent Major Updates (2024-2025)
 
 ### AWS Ocelot Chip (February 2025)
