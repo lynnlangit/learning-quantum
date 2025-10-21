@@ -1,17 +1,3 @@
-# Learning Quantum Computing
-
-**Last Updated:** October 2025
-
-This repo contains my study resources for learning cloud quantum programming. Shown to the left is a conceptual rendering of a bit vs a qubit, which is a fundamental concept of work in quantum computing. The Repo is a companion to my LinkedIn Learning course ["Cloud Quantum Computing Essentials"](https://www.linkedin.com/learning/cloud-quantum-computing-essentials)
-
-## What is Quantum Computing?
-
-A qubit is a two-state (or two-level) quantum-mechanical system, one of the simplest quantum systems displaying the peculiarity of quantum mechanics. A quantum computer performs quantum computations using the principles of quantum mechanics.
-
-A QPU (quantum processing units) manipulates the quantum states of available qubits in a controlled way to perform computations, such as algorithms. A qubit is a quantum bit of information.
-
-A quantum computer contains QPU processors, some number of qubits and the support mechanisms which allow these items to interact based on quantum instructions or programs.
-
 ## 2024-2025 Industry Breakthroughs
 
 The quantum computing industry achieved major milestones in 2024-2025, marking the transition from research to practical engineering:
