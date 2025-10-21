@@ -63,45 +63,45 @@ All major platforms launched quantum-ready programs in 2024-2025:
 ## Platform Selection Guide
 
 ### Choose AWS Braket if you want:
-✅ Access to **multiple hardware types** (superconducting, ion trap, annealing, photonic, neutral atom).
-✅ Integration with **AWS ecosystem** (SageMaker, EC2, S3, Lambda).
-✅ **Vendor-neutral** quantum development environment.
-✅ **GPU+quantum hybrid** computing (CUDA-Q integration).
+✅ Access to **multiple hardware types** (superconducting, ion trap, annealing, photonic, neutral atom).<br>
+✅ Integration with **AWS ecosystem** (SageMaker, EC2, S3, Lambda).<br>
+✅ **Vendor-neutral** quantum development environment.<br>
+✅ **GPU+quantum hybrid** computing (CUDA-Q integration).<br>
 ✅ **Multi-cloud strategy** with hardware flexibility. 
 
 **Best for:** Organizations exploring multiple quantum modalities, AWS-native companies, research requiring diverse hardware access
 
 ### Choose Microsoft Azure Quantum if you want:
-✅ **Highest-fidelity logical qubits** (24 entangled - world record).
-✅ **Integrated AI+HPC+quantum** platform (Azure Elements).
-✅ Access to **topological qubits** (Majorana 1 - unique).
-✅ **Enterprise quantum-ready** consulting and programs.
+✅ **Highest-fidelity logical qubits** (24 entangled - world record).<br>
+✅ **Integrated AI+HPC+quantum** platform (Azure Elements).<br>
+✅ Access to **topological qubits** (Majorana 1 - unique).<br>
+✅ **Enterprise quantum-ready** consulting and programs.<br>
 ✅ **Microsoft ecosystem** integration (.NET, Azure services). 
 
 **Best for:** Enterprises needing the most advanced logical qubits, organizations wanting comprehensive quantum-ready support, chemistry/materials science research
 
 ### Choose IBM Quantum if you want:
-✅ **Utility-scale computing** (5,000-gate circuits).
-✅ **Most mature superconducting** platform.
-✅ **Open-source tools** (Qiskit - most popular framework).
-✅ **Largest quantum ecosystem** (200+ institutional partners).
+✅ **Utility-scale computing** (5,000-gate circuits).<br>
+✅ **Most mature superconducting** platform.<br>
+✅ **Open-source tools** (Qiskit - most popular framework).<br>
+✅ **Largest quantum ecosystem** (200+ institutional partners).<br>
 ✅ **Clear roadmap to 2029** fault tolerance. 
 
 **Best for:** Organizations wanting proven quantum advantage, developers preferring open-source, academic institutions, enterprises needing extensive partner ecosystem
 
 ### Choose IonQ (via AWS/Azure) if you want:
-✅ **Highest physical qubit fidelity** (99.9%).
-✅ **All-to-all qubit connectivity** (no architectural limits).
-✅ **Quantum networking** capabilities.
-✅ **Datacenter-ready** systems (room temperature capable).
+✅ **Highest physical qubit fidelity** (99.9%).<br>
+✅ **All-to-all qubit connectivity** (no architectural limits).<br>
+✅ **Quantum networking** capabilities.<br>
+✅ **Datacenter-ready** systems (room temperature capable).<br>
 ✅ **Most aggressive roadmap** (2M qubits by 2030). 
 
 **Best for:** Applications requiring highest fidelity, organizations interested in quantum networking, enterprises planning long-term quantum strategies
 
 ### Choose Rigetti (via AWS) if you want:
-✅ **Multi-chip quantum** architecture.
-✅ **On-premises quantum** systems.
-✅ Fast **development and iteration** cycles (Fab-1).
+✅ **Multi-chip quantum** architecture.<br>
+✅ **On-premises quantum** systems.<br>
+✅ Fast **development and iteration** cycles (Fab-1).<br>
 ✅ Customizable quantum hardware. 
 
 **Best for:** Quantum algorithm researchers, organizations wanting on-premises systems, superconducting qubit research
@@ -447,21 +447,21 @@ All major cloud providers are implementing quantum-safe cryptography:
 ## Key Takeaways for 2025
 
 ### For Developers:
-✅ Now is the time to **learn quantum computing** - practical systems arriving by 2028-2030.
-✅ **Pick a platform** and start experimenting with free resources.
-✅ Focus on **hybrid algorithms** combining quantum and classical computing.
+✅ Now is the time to **learn quantum computing** - practical systems arriving by 2028-2030.<br>
+✅ **Pick a platform** and start experimenting with free resources.<br>
+✅ Focus on **hybrid algorithms** combining quantum and classical computing.<br>
 ✅ Qiskit is the most popular framework to learn first. 
 
 ### For Enterprises:
-✅ **Evaluate quantum readiness** through vendor programs (Quantum Embark, Quantum Ready).
-✅ Identify potential **use cases** in your industry.
-✅ Start **small pilots** to understand the technology.
+✅ **Evaluate quantum readiness** through vendor programs (Quantum Embark, Quantum Ready).<br>
+✅ Identify potential **use cases** in your industry.<br>
+✅ Start **small pilots** to understand the technology.<br>
 ✅ Prepare for **quantum-safe cryptography** transition. 
 
 ### For Researchers:
-✅ Multiple quantum platforms now at **utility scale**.
-✅ **Error correction** is proven - focus on algorithms.
-✅ Opportunities in **quantum networking** and distributed computing.
+✅ Multiple quantum platforms now at **utility scale**.<br>
+✅ **Error correction** is proven - focus on algorithms.<br>
+✅ Opportunities in **quantum networking** and distributed computing.<br>
 ✅ **Hybrid approaches** showing most promise near-term. 
 
 ## Directory Structure
