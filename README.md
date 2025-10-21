@@ -14,13 +14,27 @@ A **quantum computer** contains QPU processors, some number of qubits and the su
 
 ----
 
-## What's Here
+## Repository Structure
 
 This Repo is organized by folder as follows:
-- [`concepts`](https://github.com/lynnlangit/learning-quantum/tree/main/1_concepts) - info about quantum languages, libraries, operations, reference programs (Shor's, Grover's, etc...) and notation
-- [`cloud-vendors`](https://github.com/lynnlangit/learning-quantum/tree/main/2_cloud-vendors) - info about quantum runtime environments (and simulators) organized by cloud vendor (AWS, Azure, GCP and IBM)
-- [`whitepapers`](https://github.com/lynnlangit/learning-quantum/tree/main/3_whitepapers) - academic research papers of interest including quantum programming algorithms and examples
-- [`o-reilly-book`](https://github.com/lynnlangit/learning-quantum/tree/main/4_oreilly-book) - code examples, slides and link from a 15-week-long bookclub covering the referenced book on quantum programming
+
+### 📚 concepts
+[Conceptual information](https://github.com/lynnlangit/learning-quantum/tree/main/1_concepts) about quantum languages, libraries, operations, reference programs (Shor's, Grover's, etc...) and notation
+
+### ☁️ cloud-vendors
+Info about quantum runtime environments (and simulators) organized by [cloud vendor](https://github.com/lynnlangit/learning-quantum/tree/main/2_cloud-vendors):
+- **AWS Braket** - Multi-vendor platform with Ocelot chip, Quantum Embark program
+- **Microsoft Azure Quantum** - Logical qubits, Majorana 1, integrated AI+HPC platform
+- **IBM Quantum** - Utility-scale computing, 156-qubit Heron, path to 2029 fault tolerance
+- **Google Quantum AI** - Willow chip with error correction breakthrough
+- **IonQ** - Trapped-ion systems, 99.9% fidelity, path to 2M qubits
+- **Rigetti** - Superconducting multi-chip architecture
+
+### 📄 whitepapers
+[Academic research papers](https://github.com/lynnlangit/learning-quantum/tree/main/3_whitepapers) of interest including quantum programming algorithms and examples
+
+### 📖 o-reilly-book
+Code examples, slides and link from a [15-week-long bookclub](https://github.com/lynnlangit/learning-quantum/tree/main/4_oreilly-book) covering the referenced book on quantum programming
 
 ---
 
@@ -85,27 +99,6 @@ Modern cloud quantum systems range from 50-156 physical qubits with several plat
 - **AWS Ocelot**: 9 cat qubits (proprietary)
 - **IonQ Forte Enterprise**: 36 algorithmic qubits with 99.9% fidelity
 
-## Repository Structure
-
-This Repo is organized by folder as follows:
-
-### 📚 concepts
-Info about quantum languages, libraries, operations, reference programs (Shor's, Grover's, etc...) and notation
-
-### ☁️ cloud-vendors
-Info about quantum runtime environments (and simulators) organized by cloud vendor:
-- **AWS Braket** - Multi-vendor platform with Ocelot chip, Quantum Embark program
-- **Microsoft Azure Quantum** - Logical qubits, Majorana 1, integrated AI+HPC platform
-- **IBM Quantum** - Utility-scale computing, 156-qubit Heron, path to 2029 fault tolerance
-- **Google Quantum AI** - Willow chip with error correction breakthrough
-- **IonQ** - Trapped-ion systems, 99.9% fidelity, path to 2M qubits
-- **Rigetti** - Superconducting multi-chip architecture
-
-### 📄 whitepapers
-Academic research papers of interest including quantum programming algorithms and examples
-
-### 📖 o-reilly-book
-Code examples, slides and link from a 15-week-long bookclub covering the referenced book on quantum programming
 
 ## Quantum Computer Vendors
 
@@ -145,7 +138,7 @@ The QuanTime website (partnership with National Q-12 Education Partnership group
 
 ### Learning Paths
 
-1. **Free Courses**:
+1. **Courses**:
    - [LinkedIn Learning: Cloud Quantum Computing Essentials](https://www.linkedin.com/learning/cloud-quantum-computing-essentials)
    - IBM Qiskit Textbook
    - AWS Braket Digital Learning Plan (free credentials)
@@ -214,8 +207,6 @@ Explore the `cloud-vendors` directory for detailed information about each platfo
 - Recent updates and announcements
 
 ---
-
-*The quantum computing industry is at an inflection point. 2024-2025 breakthroughs have proven that fault-tolerant quantum computing is achievable, with all major providers targeting the late 2020s for practical, commercially-relevant systems. Now is the time to start learning and experimenting with quantum computing.*
 
 
 
