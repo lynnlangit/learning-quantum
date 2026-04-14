@@ -4,7 +4,9 @@ Quantum sensors represent a shift from using "bulk" quantum properties (like MRI
 
 ## Visualization
 
-Use the provided code in this folder to create an interactive simulation of a Nitrogen-Vacancy (NV) Center in Diamond, which is one of the most versatile and iconic "Quantum 2.0" sensors.
+<kbd><img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/sensor-sim.png"></kbd>
+
+Use the provided code in this folder to test out my interactive simulation (screenshot shown above) of a Nitrogen-Vacancy (NV) Center in Diamond, which is one of the most versatile and iconic "Quantum 2.0" sensors.
 
 This visualization includes a 3D model of the diamond lattice, a Bloch Sphere to show the quantum state of the electron spin, and an interactive "Optically Detected Magnetic Resonance" (ODMR) chart. You can adjust the external magnetic field to see how the quantum states shift and how to "read" that information through light.
 
