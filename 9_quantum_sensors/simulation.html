@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantum 2.0: The NV Center Sensor</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { margin: 0; overflow: hidden; background-color: #ffffff; color: #1e293b; font-family: sans-serif; }
+        canvas { display: block; }
+        .ui-panel {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 340px;
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            padding: 20px;
+            border-radius: 12px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+            z-index: 10;
+        }
+        .chart-panel {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            right: 20px;
+            height: 180px;
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+            padding: 15px;
+            border-radius: 12px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+            z-index: 10;
+            display: flex;
+            flex-direction: column;
+        }
+        .slider-label { display: flex; justify-content: space-between; margin-bottom: 5px; font-size: 0.85rem; font-weight: 500; }
+        input[type=range] { width: 100%; margin-bottom: 15px; cursor: pointer; accent-color: #3b82f6; }
+        .fluorescence-indicator { height: 10px; width: 100%; border-radius: 5px; background: #e2e8f0; overflow: hidden; margin-top: 10px; }
+        #fluor-bar { height: 100%; width: 100%; background: #22c55e; transition: width 0.1s; }
+        .tooltip { font-size: 0.75rem; color: #64748b; line-height: 1.2; }
+        #odmr-canvas { width: 100%; height: 100px; background: #f8fafc; border-radius: 4px; border: 1px solid #e2e8f0; }
+        .mode-btn { 
+            padding: 6px 12px; font-size: 0.75rem; border-radius: 6px; cursor: pointer; transition: all 0.2s; 
+            border: 1px solid #cbd5e1; background: white; color: #64748b; font-weight: 600;
+        }
+        .mode-btn.active { background: #3b82f6; color: white; border-color: #2563eb; }
+    </style>
+</head>
+<body>
+
+    <div class="ui-panel">
+        <h1 class="text-xl font-bold mb-1 text-blue-600">NV Center Sensor</h1>
+        <p class="text-xs mb-3 text-slate-500">Atomic-scale defect used for quantum sensing.</p>
+        
+        <div class="flex gap-2 mb-4">
+            <button id="mode-mag" class="mode-btn active">Magnetometry</button>
+            <button id="mode-therm" class="mode-btn">Thermometry</button>
+        </div>
+
+        <!-- Magnetometry Controls -->
+        <div id="mag-controls">
+            <div class="slider-label">
+                <span>Magnetic Field (B)</span>
+                <span id="b-val" class="font-mono text-blue-600">0.0 G</span>
+            </div>
+            <input type="range" id="b-field" min="0" max="100" value="0">
+        </div>
+
+        <!-- Thermometry Controls -->
+        <div id="therm-controls" class="hidden">
+            <div class="slider-label">
+                <span>Cell Temperature (T)</span>
+                <span id="t-val" class="font-mono text-orange-600">300 K</span>
+            </div>
+            <input type="range" id="t-field" min="280" max="320" value="300">
+        </div>
+
+        <div class="slider-label">
+            <span>Microwave Freq (MW)</span>
+            <span id="mw-val" class="font-mono text-purple-600">2.870 GHz</span>
+        </div>
+        <input type="range" id="mw-freq" min="2600" max="3140" value="2870">
+
+        <div class="mb-4">
+            <div class="slider-label"><span>Fluorescence Output</span></div>
+            <div class="fluorescence-indicator">
+                <div id="fluor-bar"></div>
+            </div>
+        </div>
+
+        <div id="hint-text" class="tooltip italic">
+            The Bloch Sphere (right) shows the electron spin state. Labels |0> and |1> mark the basis states.
+        </div>
+    </div>
+
+    <div class="chart-panel">
+        <div class="flex justify-between items-center mb-2">
+            <span id="chart-title" class="text-xs font-bold uppercase tracking-wider text-slate-400">ODMR Signal</span>
+            <span class="text-[10px] text-slate-400">Readout Intensity vs MW Frequency</span>
+        </div>
+        <canvas id="odmr-canvas"></canvas>
+    </div>
+
+    <script>
+        // --- Configuration & State ---
+        let currentMode = 'mag'; 
+        let bField = 0;
+        let temperature = 300; 
+        let mwFreq = 2870; 
+        let fluorescence = 1.0;
+        
+        const standardD = 2870; 
+        const dSlope = -0.074; 
+        const gyromagneticRatio = 2.8; 
+
+        // --- Three.js Setup ---
+        const scene = new THREE.Scene();
+        scene.background = new THREE.Color(0xffffff);
+        
+        const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+        const renderer = new THREE.WebGLRenderer({ antialias: true });
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        document.body.appendChild(renderer.domElement);
+
+        const ambientLight = new THREE.AmbientLight(0xffffff, 0.8);
+        scene.add(ambientLight);
+        const pointLight = new THREE.PointLight(0x3b82f6, 1);
+        pointLight.position.set(5, 5, 5);
+        scene.add(pointLight);
+
+        // Materials
+        const carbonMat = new THREE.MeshPhongMaterial({ color: 0xcbd5e1, shininess: 80 });
+        const nitrogenMat = new THREE.MeshPhongMaterial({ color: 0x2563eb, shininess: 100 });
+        const vacancyMat = new THREE.MeshPhongMaterial({ color: 0x94a3b8, transparent: true, opacity: 0.3, wireframe: true });
+
+        // Lattice Group
+        const latticeGroup = new THREE.Group();
+        scene.add(latticeGroup);
+
+        function createAtom(x, y, z, mat, size = 0.2) {
+            const geo = new THREE.SphereGeometry(size, 32, 32);
+            const mesh = new THREE.Mesh(geo, mat);
+            mesh.position.set(x, y, z);
+            latticeGroup.add(mesh);
+            return mesh;
+        }
+
+        const atoms = [
+            { pos: [0, 0, 0], type: 'N' },
+            { pos: [1, 1, 1], type: 'V' },
+            { pos: [2, 2, 0], type: 'C' },
+            { pos: [2, 0, 2], type: 'C' },
+            { pos: [0, 2, 2], type: 'C' },
+            { pos: [-1, -1, 1], type: 'C' },
+            { pos: [1, -1, -1], type: 'C' },
+            { pos: [-1, 1, -1], type: 'C' }
+        ];
+
+        atoms.forEach(a => {
+            let mat = carbonMat;
+            if(a.type === 'N') mat = nitrogenMat;
+            if(a.type === 'V') mat = vacancyMat;
+            createAtom(a.pos[0], a.pos[1], a.pos[2], mat, a.type === 'C' ? 0.15 : 0.22);
+        });
+
+        // Bloch Sphere
+        const blochGroup = new THREE.Group();
+        blochGroup.position.set(4, 0, 0);
+        scene.add(blochGroup);
+
+        const sphereGeo = new THREE.SphereGeometry(1.5, 32, 32);
+        const sphereMat = new THREE.MeshPhongMaterial({ color: 0x3b82f6, transparent: true, opacity: 0.1, wireframe: true });
+        const blochSphere = new THREE.Mesh(sphereGeo, sphereMat);
+        blochGroup.add(blochSphere);
+
+        // Equator Line
+        const ringGeo = new THREE.RingGeometry(1.49, 1.5, 64);
+        const ringMat = new THREE.MeshBasicMaterial({ color: 0x94a3b8, side: THREE.DoubleSide, transparent: true, opacity: 0.3 });
+        const equator = new THREE.Mesh(ringGeo, ringMat);
+        equator.rotation.x = Math.PI / 2;
+        blochGroup.add(equator);
+
+        // Spin Arrow
+        const spinArrow = new THREE.ArrowHelper(new THREE.Vector3(0,1,0), new THREE.Vector3(0,0,0), 1.5, 0x16a34a, 0.2, 0.1);
+        blochGroup.add(spinArrow);
+
+        // State Labels
+        function createLabel(text, yPos) {
+            const canvas = document.createElement('canvas');
+            const size = 128;
+            canvas.width = size;
+            canvas.height = size;
+            const context = canvas.getContext('2d');
+            context.fillStyle = '#1e293b';
+            context.font = 'Bold 60px sans-serif';
+            context.textAlign = 'center';
+            context.textBaseline = 'middle';
+            context.fillText(text, size/2, size/2);
+
+            const texture = new THREE.CanvasTexture(canvas);
+            const spriteMat = new THREE.SpriteMaterial({ map: texture });
+            const sprite = new THREE.Sprite(spriteMat);
+            sprite.scale.set(0.6, 0.6, 0.6);
+            sprite.position.set(0, yPos, 0);
+            return sprite;
+        }
+
+        const label0 = createLabel('|0⟩', 1.8);
+        const label1 = createLabel('|1⟩', -1.8);
+        blochGroup.add(label0);
+        blochGroup.add(label1);
+
+        camera.position.z = 8;
+
+        // --- Logic & Chart ---
+        const odmrCanvas = document.getElementById('odmr-canvas');
+        const ctx = odmrCanvas.getContext('2d');
+
+        function drawODMR() {
+            const w = odmrCanvas.width = odmrCanvas.clientWidth;
+            const h = odmrCanvas.height = odmrCanvas.clientHeight;
+            ctx.clearRect(0, 0, w, h);
+
+            const currentD = standardD + (temperature - 300) * dSlope;
+            const r1 = currentMode === 'mag' ? currentD - (bField * gyromagneticRatio) : currentD;
+            const r2 = currentMode === 'mag' ? currentD + (bField * gyromagneticRatio) : currentD;
+
+            ctx.strokeStyle = '#e2e8f0';
+            ctx.beginPath(); ctx.moveTo(0, h * 0.2); ctx.lineTo(w, h * 0.2); ctx.stroke();
+
+            ctx.strokeStyle = currentMode === 'mag' ? '#2563eb' : '#ea580c';
+            ctx.lineWidth = 2;
+            ctx.beginPath();
+            
+            for(let x = 0; x < w; x++) {
+                const freq = 2600 + (x / w) * 540;
+                const dip1 = 30 / (1 + Math.pow((freq - r1)/10, 2));
+                const dip2 = currentMode === 'mag' ? 30 / (1 + Math.pow((freq - r2)/10, 2)) : 0;
+                const y = (h * 0.2) + dip1 + dip2;
+                if(x === 0) ctx.moveTo(x, y);
+                else ctx.lineTo(x, y);
+            }
+            ctx.stroke();
+
+            const markerX = ((mwFreq - 2600) / 540) * w;
+            ctx.fillStyle = '#9333ea';
+            ctx.fillRect(markerX - 1, 0, 2, h);
+
+            const currentDip1 = 1 / (1 + Math.pow((mwFreq - r1)/8, 2));
+            const currentDip2 = currentMode === 'mag' ? 1 / (1 + Math.pow((mwFreq - r2)/8, 2)) : 0;
+            fluorescence = 1.0 - (0.35 * Math.max(currentDip1, currentDip2));
+            
+            document.getElementById('fluor-bar').style.width = (fluorescence * 100) + '%';
+            document.getElementById('fluor-bar').style.backgroundColor = fluorescence < 0.85 ? '#ef4444' : '#22c55e';
+        }
+
+        // --- Interaction ---
+        const bInput = document.getElementById('b-field');
+        const tInput = document.getElementById('t-field');
+        const mwInput = document.getElementById('mw-freq');
+        const bLabel = document.getElementById('b-val');
+        const tLabel = document.getElementById('t-val');
+        const mwLabel = document.getElementById('mw-val');
+
+        bInput.addEventListener('input', (e) => {
+            bField = parseFloat(e.target.value);
+            bLabel.innerText = bField.toFixed(1) + ' G';
+        });
+
+        tInput.addEventListener('input', (e) => {
+            temperature = parseFloat(e.target.value);
+            tLabel.innerText = temperature.toFixed(1) + ' K';
+            const heat = (temperature - 280) / 40;
+            scene.background = new THREE.Color(1, 1 - (heat * 0.05), 1 - (heat * 0.05));
+        });
+
+        mwInput.addEventListener('input', (e) => {
+            mwFreq = parseFloat(e.target.value);
+            mwLabel.innerText = (mwFreq / 1000).toFixed(3) + ' GHz';
+        });
+
+        const btnMag = document.getElementById('mode-mag');
+        const btnTherm = document.getElementById('mode-therm');
+        const magControls = document.getElementById('mag-controls');
+        const thermControls = document.getElementById('therm-controls');
+        const hintText = document.getElementById('hint-text');
+
+        btnMag.addEventListener('click', () => {
+            currentMode = 'mag';
+            btnMag.classList.add('active');
+            btnTherm.classList.remove('active');
+            magControls.classList.remove('hidden');
+            thermControls.classList.add('hidden');
+            hintText.innerText = "The Bloch Sphere (right) shows the electron spin state. Labels |0⟩ and |1⟩ mark the basis states.";
+            document.getElementById('chart-title').innerText = "ODMR Signal (Magnetic)";
+        });
+
+        btnTherm.addEventListener('click', () => {
+            currentMode = 'therm';
+            btnTherm.classList.add('active');
+            btnMag.classList.remove('active');
+            thermControls.classList.remove('hidden');
+            magControls.classList.add('hidden');
+            hintText.innerText = "Thermometry Mode: In NV centers, |1⟩ refers to the excited m_s = ±1 triplet states.";
+            document.getElementById('chart-title').innerText = "ODMR Signal (Thermal)";
+        });
+
+        let isMouseDown = false;
+        document.addEventListener('mousedown', () => isMouseDown = true);
+        document.addEventListener('mouseup', () => isMouseDown = false);
+        document.addEventListener('mousemove', (e) => {
+            if(isMouseDown) {
+                latticeGroup.rotation.y += e.movementX * 0.01;
+                latticeGroup.rotation.x += e.movementY * 0.01;
+                blochGroup.rotation.y += e.movementX * 0.01;
+            }
+        });
+
+        function animate() {
+            requestAnimationFrame(animate);
+            // Spin vector calculation: when fluorescence is 1 (bright), we are in |0> (top).
+            // When fluorescence drops, we have shifted into a superposition or |1>.
+            const angle = (1 - fluorescence) * Math.PI; 
+            spinArrow.setDirection(new THREE.Vector3(Math.sin(angle), Math.cos(angle), 0).normalize());
+            latticeGroup.rotation.y += 0.002;
+            drawODMR();
+            renderer.render(scene, camera);
+        }
+
+        window.addEventListener('resize', () => {
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+        });
+
+        window.onload = animate;
+    </script>
+</body>
+</html>
