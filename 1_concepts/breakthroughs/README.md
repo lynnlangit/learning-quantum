@@ -1,15 +1,18 @@
-# Quantum Computing Breakthroughs (2024-2025)
+# Quantum Computing Breakthroughs (2024-2026)
 
 ## Executive Summary
 
-2024-2025 marked a watershed moment in quantum computing history. Multiple fundamental breakthroughs across error correction, hardware innovation, and logical qubit demonstrations transformed the field from research to engineering, establishing clear paths to fault-tolerant quantum computers by the end of the decade.
+2024-2026 marked a watershed period in quantum computing history. Multiple fundamental breakthroughs across error correction, hardware innovation, and logical qubit demonstrations transformed the field from research to engineering, establishing clear paths to fault-tolerant quantum computers by the end of the decade.
 
 **Key Achievements:**
 - ✅ Error correction threshold broken (Google Willow)<br>
 - ✅ World record 24 logical qubits created (Microsoft + Atom Computing)<br>
 - ✅ Utility-scale computing achieved (IBM Heron 5,000 gates)<br>
 - ✅ First proprietary cloud vendor quantum chips (AWS Ocelot, Microsoft Majorana 1)<br>
-- ✅ Industry consensus on 2028-2030 timeline for fault tolerance
+- ✅ Industry consensus on 2028-2030 timeline for fault tolerance<br>
+- ✅ 94 logical qubits beyond break-even (Quantinuum Helios, 2026)<br>
+- ✅ First open-source quantum AI models (NVIDIA Ising, 2026)<br>
+- ✅ New processors: IBM Nighthawk 120q, Rigetti Cepheus 108q, IonQ 256q (2026)
 
 ---
 
@@ -25,6 +28,7 @@
 9. [Commercial Momentum](#commercial-momentum)
 10. [Timeline Convergence](#timeline-convergence)
 11. [Why 2024-2025 Was Different](#why-2024-2025-was-different)
+12. [2026 Breakthroughs](#2026-breakthroughs)
 
 ---
 
@@ -218,7 +222,7 @@ This represents the transition from experimental to utility-scale quantum comput
 
 ## Hardware Scaling Progress
 
-### Physical Qubit Counts (2024-2025)
+### Physical Qubit Counts (2024-2026)
 
 | Company | System | Qubits | Announcement | Technology |
 |---------|--------|--------|--------------|------------|
@@ -227,6 +231,9 @@ This represents the transition from experimental to utility-scale quantum comput
 | **Rigetti** | Ankaa-3 | 84 | Dec 2024 | Superconducting |
 | **IQM** | Emerald | 54 | 2025 | Superconducting |
 | **IonQ** | Forte Enterprise | 36 AQ | 2024 | Trapped ions |
+| **IBM** | Nighthawk | 120 | Jan 2026 | Superconducting |
+| **Rigetti** | Cepheus | 108 | Jan 2026 | Superconducting |
+| **IonQ** | 6th gen | 256 | Q1 2026 | Trapped ions |
 
 ### Logical Qubit Demonstrations
 
@@ -235,6 +242,7 @@ This represents the transition from experimental to utility-scale quantum comput
 | **Microsoft + Atom** | 24 (entangled) | Neutral atoms | Nov 2024 | World record |
 | **Microsoft + Quantinuum** | 12 (entangled) | Trapped ions | Sep 2024 | Highest fidelity |
 | **Google** | Surface code demos | Superconducting | Dec 2024 | Below threshold |
+| **Quantinuum** | 94 | Trapped ions | Mar 2026 | Beyond break-even |
 
 ### Trajectory Analysis
 
@@ -242,6 +250,7 @@ This represents the transition from experimental to utility-scale quantum comput
 **2023**: 127-433 qubits (IBM Heron/Condor)
 **2024**: 84-156 qubits (with much higher fidelity)
 **2025**: 100-500 qubits planned
+**2026**: 108-256 qubits delivered (IBM Nighthawk, Rigetti Cepheus, IonQ 6th gen)
 **Beyond**: 1000+ qubits via modular architectures
 
 **Key Insight:** Qubit count is increasing, but **quality** (fidelity, coherence) is improving faster than quantity.
@@ -443,8 +452,9 @@ This represents the transition from experimental to utility-scale quantum comput
 | Period | Physical Qubits | Logical Qubits | Key Developments |
 |--------|----------------|----------------|------------------|
 | **2025** | 100-500 | 10-50 | Maturing logical qubit technology |
-| **2026-2027** | 500-5,000 | 10-100 | Quantum networking demonstrations |
-| **2028-2029** | 1,000-20,000 | 100-1,000 | Quantum advantage in specific domains |
+| **2026** | 108-256 | 94 demonstrated | Beyond break-even; AI-for-quantum tooling; new processors |
+| **2027-2028** | 500-5,000 | 100+ | Quantum networking demonstrations |
+| **2029-2030** | 1,000-20,000 | 1,000+ | Quantum advantage in specific domains |
 | **2030+** | 10,000+ | 1,000+ | Fault-tolerant systems, broad applications |
 
 ### Why Convergence Matters
@@ -595,6 +605,99 @@ This represents the transition from experimental to utility-scale quantum comput
 
 ---
 
+## 2026 Breakthroughs
+
+### AI for Quantum Error Correction
+
+**NVIDIA Ising (April 2026)**
+
+NVIDIA launched Ising, the world's first open-source quantum AI model family, marking a new era where AI directly accelerates quantum computing development.
+
+**Key Achievements:**
+- First open-source AI models purpose-built for quantum computing
+- QEC decoding **2.5x faster** and **3x more accurate** than traditional methods
+- Integrated with NVIDIA's CUDA-Q platform for GPU-accelerated quantum workflows
+- Enables AI-powered quantum calibration, error correction, and circuit optimization
+
+**Impact:**
+AI-for-quantum emerged as a critical new discipline, with NVIDIA providing the foundational tools for the community. This marks a shift from purely physics-based error correction to hybrid AI-physics approaches.
+
+**More info:** https://nvidianews.nvidia.com/news/nvidia-launches-ising-the-worlds-first-open-ai-models-to-accelerate-the-path-to-useful-quantum-computers
+
+### Logical Qubit Milestone: Beyond Break-Even
+
+**Quantinuum — 94 Logical Qubits (March 2026)**
+
+Quantinuum demonstrated 94 logical qubits on its 98-qubit Helios trapped-ion processor, marking the first time logical qubits conclusively **outperformed** physical qubits — the "beyond break-even" milestone.
+
+**Key Achievements:**
+- **94 logical qubits** created on a 98-physical-qubit processor
+- Logical qubits outperform physical qubits in error rates
+- First definitive **"beyond break-even"** demonstration
+- Validates the error correction approach at meaningful scale
+
+**Significance:**
+This milestone proves that quantum error correction not only works but actually delivers a net benefit. Previous demonstrations showed error correction operating near break-even; Quantinuum's result shows clear advantage, validating the path to fault-tolerant quantum computing.
+
+**More info:** https://thequantuminsider.com/2026/03/10/quantinuum-researchers-demonstrates-quantum-computations-with-dozens-of-protected-logical-qubits/
+
+### New Processor Generations
+
+**IBM Nighthawk (January 2026)**
+- **120 qubits** with new square-lattice topology
+- **350μs T1 coherence time** — significant improvement over Heron
+- Designed for deeper circuits and better error correction performance
+
+**More info:** https://quantum.cloud.ibm.com/announcements/en/product-updates/2026-01-05-nighthawk
+
+**Rigetti Cepheus-1-108Q (January 2026)**
+- **108-qubit** modular system using **12 chiplets**
+- Demonstrates scalable multi-chip quantum architecture
+- Builds on Rigetti's Fab-1 fabrication capabilities
+
+**More info:** https://investors.rigetti.com/news-releases/news-release-details/rigetti-computing-provides-update-108-qubit-system
+
+**IonQ 6th-Generation System (Q1 2026)**
+- First **256-qubit** chip-based trapped-ion system sold commercially
+- Represents a major scaling leap for trapped-ion technology
+- Maintains IonQ's industry-leading qubit fidelity
+
+**More info:** https://thequantuminsider.com/2026/05/04/harvard-researchers-quantum-computing-advancing-faster-than-expected/
+
+### Scalability Breakthroughs
+
+**D-Wave Cryogenic Control (January 2026)**
+- First demonstration of **scalable on-chip cryogenic control** for gate-model qubits
+- Addresses a critical bottleneck: controlling qubits without excessive wiring
+- Applicable to multiple qubit technologies
+
+**More info:** https://www.dwavequantum.com/company/newsroom/press-release/d-wave-demonstrates-first-scalable-on-chip-cryogenic-control-of-gate-model-qubits/
+
+**Google Willow Early Access Program (March 2026)**
+- Opened Willow quantum processor to external researchers
+- Enables academic and industry experiments on error-corrected hardware
+- Accelerates algorithm development and benchmarking
+
+**More info:** https://thequantuminsider.com/2026/03/28/google-opens-early-access-to-willow-quantum-processor-invites-experimental-proposals/
+
+**Fermilab/MIT Cryoelectronics (February 2026)**
+- Developed cryoelectronics to control ion traps at scale
+- DOE National Quantum Research Centers milestone
+- Addresses the wiring bottleneck for trapped-ion scaling
+
+**More info:** https://news.fnal.gov/2026/02/doe-national-quantum-research-centers-reach-milestone-breakthrough-towards-building-scalable-quantum-computers/
+
+### Platform & Tooling
+
+**Microsoft AI-Assisted Quantum Programming (January 2026)**
+- Expanded QDK with AI-assisted programming and Copilot integration
+- Co-designing **Magne** quantum computer with Atom Computing (neutral-atom qubits)
+- Deeper integration of AI, HPC, and quantum workflows
+
+**More info:** https://azure.microsoft.com/en-us/blog/quantum/2026/01/22/powerful-new-developer-tools-increase-the-versatility-of-the-microsoft-quantum-platform/
+
+---
+
 ## Key Papers & Resources
 
 ### Nature Publications (2024-2025)
@@ -603,15 +706,25 @@ This represents the transition from experimental to utility-scale quantum comput
 - **Microsoft Majorana 1**: Topological qubits and topoconductors
 - **Various**: Logical qubit demonstrations and fidelity improvements
 
-### Major Announcement Links
+### Major Announcement Links (2024-2025)
 - Google Willow: https://blog.google/technology/research/google-willow-quantum-chip/
 - AWS Ocelot: https://www.aboutamazon.com/news/aws/quantum-computing-aws-ocelot-chip
 - Microsoft Majorana 1: https://azure.microsoft.com/en-us/blog/quantum/2025/02/19/microsoft-unveils-majorana-1-the-worlds-first-quantum-processor-powered-by-topological-qubits/
 - Microsoft 24 Logical Qubits: https://azure.microsoft.com/en-us/blog/quantum/2024/11/19/microsoft-and-atom-computing-offer-a-commercial-quantum-machine-with-the-largest-number-of-entangled-logical-qubits-on-record/
 - IBM Quantum Roadmap: https://www.ibm.com/quantum/blog/ibm-quantum-roadmap-2025
 
+### Major Announcement Links (2026)
+- NVIDIA Ising: https://nvidianews.nvidia.com/news/nvidia-launches-ising-the-worlds-first-open-ai-models-to-accelerate-the-path-to-useful-quantum-computers
+- Quantinuum 94 Logical Qubits: https://thequantuminsider.com/2026/03/10/quantinuum-researchers-demonstrates-quantum-computations-with-dozens-of-protected-logical-qubits/
+- IBM Nighthawk: https://quantum.cloud.ibm.com/announcements/en/product-updates/2026-01-05-nighthawk
+- Rigetti Cepheus: https://investors.rigetti.com/news-releases/news-release-details/rigetti-computing-provides-update-108-qubit-system
+- D-Wave Cryogenic Control: https://www.dwavequantum.com/company/newsroom/press-release/d-wave-demonstrates-first-scalable-on-chip-cryogenic-control-of-gate-model-qubits/
+- Google Willow Early Access: https://thequantuminsider.com/2026/03/28/google-opens-early-access-to-willow-quantum-processor-invites-experimental-proposals/
+- Fermilab/MIT Cryoelectronics: https://news.fnal.gov/2026/02/doe-national-quantum-research-centers-reach-milestone-breakthrough-towards-building-scalable-quantum-computers/
+- Microsoft Platform Tools: https://azure.microsoft.com/en-us/blog/quantum/2026/01/22/powerful-new-developer-tools-increase-the-versatility-of-the-microsoft-quantum-platform/
+
 ### Industry Analysis
-- Quantum computing market reports (2025)
+- Quantum computing market reports (2025-2026)
 - Fault-tolerant quantum computing timelines
 - Investment trends and funding rounds
 - Academic publications in quantum computing
@@ -620,13 +733,15 @@ This represents the transition from experimental to utility-scale quantum comput
 
 ## Conclusion
 
-**2024-2025 will be remembered as the years quantum computing crossed from research curiosity to engineering reality.**
+**2024-2026 will be remembered as the years quantum computing crossed from research curiosity to engineering reality.**
 
-The breakthroughs achieved - error correction working in practice, record-breaking logical qubits, utility-scale systems, and proprietary innovations - have fundamentally transformed the field.
+The breakthroughs of 2024-2025 — error correction working in practice, record-breaking logical qubits, utility-scale systems, and proprietary innovations — fundamentally transformed the field. Then 2026 delivered two defining advances: **AI-for-quantum** tools (NVIDIA Ising) that accelerate error correction by orders of magnitude, and **logical qubits beyond break-even** (Quantinuum's 94 logical qubits outperforming physical qubits). New processors from IBM, Rigetti, and IonQ pushed qubit counts and coherence to new highs.
 
 **Key Takeaways:**
 
 ✅ **Error correction works** - proven across multiple platforms<br>
+✅ **Logical qubits surpass physical** - beyond break-even achieved (2026)<br>
+✅ **AI accelerates quantum** - open-source AI models for QEC (2026)<br>
 ✅ **Timeline is clear** - fault-tolerant systems by 2028-2030<br>
 ✅ **Path is validated** - engineering challenges, not physics questions<br>
 ✅ **Industry has converged** - major providers aligned on approach<br>

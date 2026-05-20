@@ -19,68 +19,11 @@ All major cloud vendors have quantum computing services.  Service offerings vary
 | **IonQ** | Trapped ions | 256 (6th gen) | Roadmap: 2028 | First 256-qubit chip-based system sold |
 | **Rigetti** | Superconducting | 108 (Cepheus) | In development | Cepheus-1-108Q: 12-chiplet modular system |
 
-## Major Industry Breakthroughs (2024-2025)
+## Industry Breakthroughs (2024-2026)
 
-### Error Correction Revolution
+Quantum computing crossed major thresholds in 2024-2026: error correction proven at scale, 94 logical qubits demonstrated beyond break-even, and AI-powered tools accelerating development. Industry consensus targets fault-tolerant systems by 2028-2030.
 
-**The Inflection Point:**
-2024-2025 marked the transition from "if quantum error correction will work" to "how to scale it." Multiple providers crossed critical thresholds:
-
-1. **Google Willow** (December 2024)
-   - First demonstration of **exponential error reduction** as qubits scale
-   - Broke the quantum error correction threshold
-   - Proved scalable quantum computing is achievable
-
-2. **Microsoft Logical Qubits** (2024)
-   - **800x error rate improvement** over physical qubits
-   - Created **24 entangled logical qubits** (world record)
-   - 14,000 error-free operations demonstrated
-
-3. **IBM Utility-Scale** (November 2024)
-   - 5,000-gate circuits on 156-qubit system
-   - Crossed threshold for classical simulation
-   - Utility-scale quantum computing achieved
-
-### Hardware Innovation
-
-**Proprietary Quantum Chips:**
-- **AWS Ocelot**: Cat qubits with 90% error correction cost reduction
-- **Microsoft Majorana 1**: World's first topological quantum processor
-- **IBM Flamingo**: 462 qubits with quantum communication links
-
-**Fidelity Records:**
-- IonQ: 99.9% two-qubit fidelity (barium qubits)
-- Atom Computing: 99.6% (neutral atoms, commercial system)
-- Quantinuum: 99.8% (trapped ions)
-
-### Enterprise Readiness
-
-All major platforms launched quantum-ready programs in 2024-2025:
-- **AWS Quantum Embark**: Modular advisory program
-- **Microsoft Quantum Ready**: Enterprise preparation initiative
-- **IBM Quantum Services**: Consulting and solutions
-
-## Major Industry Breakthroughs (2026)
-
-### AI for Quantum
-- NVIDIA launches [Ising](https://nvidianews.nvidia.com/news/nvidia-launches-ising-the-worlds-first-open-ai-models-to-accelerate-the-path-to-useful-quantum-computers) — world's first open-source quantum AI model family (April 2026). QEC decoding 2.5x faster and 3x more accurate than traditional methods. Integrated with CUDA-Q.
-
-### Logical Qubit Milestone
-- Quantinuum demonstrates [94 logical qubits](https://thequantuminsider.com/2026/03/10/quantinuum-researchers-demonstrates-quantum-computations-with-dozens-of-protected-logical-qubits/) on 98-qubit Helios processor (March 2026). Logical qubits outperform physical qubits — "beyond break-even."
-
-### New Processors
-- IBM [Nighthawk](https://quantum.cloud.ibm.com/announcements/en/product-updates/2026-01-05-nighthawk) — 120 qubits, square-lattice topology, 350μs T1 coherence (Jan 2026)
-- Rigetti [Cepheus-1-108Q](https://investors.rigetti.com/news-releases/news-release-details/rigetti-computing-provides-update-108-qubit-system) — 108-qubit modular system with 12 chiplets (Jan 2026)
-- IonQ sells first [256-qubit 6th-gen chip-based system](https://thequantuminsider.com/2026/05/04/harvard-researchers-quantum-computing-advancing-faster-than-expected/) (Q1 2026)
-
-### Scalability Advances
-- D-Wave demonstrates [scalable on-chip cryogenic control](https://www.dwavequantum.com/company/newsroom/press-release/d-wave-demonstrates-first-scalable-on-chip-cryogenic-control-of-gate-model-qubits/) for gate-model qubits (Jan 2026)
-- Google opens [Willow Early Access Program](https://thequantuminsider.com/2026/03/28/google-opens-early-access-to-willow-quantum-processor-invites-experimental-proposals/) for researchers (March 2026)
-- Fermilab/MIT use [cryoelectronics to control ion traps](https://news.fnal.gov/2026/02/doe-national-quantum-research-centers-reach-milestone-breakthrough-towards-building-scalable-quantum-computers/) at scale (Feb 2026)
-
-### Microsoft Platform
-- Microsoft expands QDK with [AI-assisted quantum programming](https://azure.microsoft.com/en-us/blog/quantum/2026/01/22/powerful-new-developer-tools-increase-the-versatility-of-the-microsoft-quantum-platform/) and Copilot integration (Jan 2026)
-- Co-designing [Magne](https://azure.microsoft.com/en-us/blog/quantum/2026/01/22/powerful-new-developer-tools-increase-the-versatility-of-the-microsoft-quantum-platform/) quantum computer with Atom Computing's neutral-atom qubits
+For detailed coverage, see [Breakthroughs](../1_concepts/breakthroughs/README.md).
 
 ## Platform Selection Guide
 
