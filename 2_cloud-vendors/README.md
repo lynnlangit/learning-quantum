@@ -8,16 +8,16 @@ All major cloud vendors have quantum computing services.  Service offerings vary
 - IMPORTANT: this section is a very active area of development, please do PRs if you notice new capabilities for a quantum service provided by one these vendors
 - Start with the cloud vendor that you are using for regular services - i.e. AWS, etc...
 
-## Quick Comparison Table (2025)
+## Quick Comparison Table (2026)
 
-| Provider | Primary Technology | Physical Qubits | Logical Qubits | Key 2024-2025 Achievement |
-|----------|-------------------|----------------|----------------|---------------------------|
-| **AWS Braket** | Multi-vendor platform | Via partners | Ocelot: 9 cat qubits | First proprietary chip + CUDA-Q integration |
-| **Microsoft Azure** | Topological + Partners | Via partners | 24 (world record) | Majorana 1 + highest logical qubit count |
-| **IBM Quantum** | Superconducting | 156 (Heron) | In development | 5,000-gate circuits (utility-scale) |
-| **Google** | Superconducting | 105 (Willow) | Demonstrated | Error correction threshold breakthrough |
-| **IonQ** | Trapped ions | 36 algorithmic | Roadmap: 1,600 by 2028 | 99.9% fidelity + path to 2M qubits |
-| **Rigetti** | Superconducting | 84 (Ankaa-3) | In development | Multi-chip architecture + 100+ qubits by 2025 |
+| Provider | Primary Technology | Physical Qubits | Logical Qubits | Key 2026 Achievement |
+|----------|-------------------|----------------|----------------|----------------------|
+| **AWS Braket** | Multi-vendor platform | Via partners | Ocelot: cat qubits | Ocelot chip — 90% error correction cost reduction |
+| **Microsoft Azure** | Topological + Partners | Via partners | 24 (world record) | Magne quantum computer co-design with Atom Computing |
+| **IBM Quantum** | Superconducting | 120 (Nighthawk) | In development | Nighthawk processor — 120 qubits, 350μs T1 coherence |
+| **Google** | Superconducting | 105 (Willow) | Demonstrated | Willow Early Access Program for researchers |
+| **IonQ** | Trapped ions | 256 (6th gen) | Roadmap: 2028 | First 256-qubit chip-based system sold |
+| **Rigetti** | Superconducting | 108 (Cepheus) | In development | Cepheus-1-108Q: 12-chiplet modular system |
 
 ## Major Industry Breakthroughs (2024-2025)
 
@@ -59,6 +59,28 @@ All major platforms launched quantum-ready programs in 2024-2025:
 - **AWS Quantum Embark**: Modular advisory program
 - **Microsoft Quantum Ready**: Enterprise preparation initiative
 - **IBM Quantum Services**: Consulting and solutions
+
+## Major Industry Breakthroughs (2026)
+
+### AI for Quantum
+- NVIDIA launches [Ising](https://nvidianews.nvidia.com/news/nvidia-launches-ising-the-worlds-first-open-ai-models-to-accelerate-the-path-to-useful-quantum-computers) — world's first open-source quantum AI model family (April 2026). QEC decoding 2.5x faster and 3x more accurate than traditional methods. Integrated with CUDA-Q.
+
+### Logical Qubit Milestone
+- Quantinuum demonstrates [94 logical qubits](https://thequantuminsider.com/2026/03/10/quantinuum-researchers-demonstrates-quantum-computations-with-dozens-of-protected-logical-qubits/) on 98-qubit Helios processor (March 2026). Logical qubits outperform physical qubits — "beyond break-even."
+
+### New Processors
+- IBM [Nighthawk](https://quantum.cloud.ibm.com/announcements/en/product-updates/2026-01-05-nighthawk) — 120 qubits, square-lattice topology, 350μs T1 coherence (Jan 2026)
+- Rigetti [Cepheus-1-108Q](https://investors.rigetti.com/news-releases/news-release-details/rigetti-computing-provides-update-108-qubit-system) — 108-qubit modular system with 12 chiplets (Jan 2026)
+- IonQ sells first [256-qubit 6th-gen chip-based system](https://thequantuminsider.com/2026/05/04/harvard-researchers-quantum-computing-advancing-faster-than-expected/) (Q1 2026)
+
+### Scalability Advances
+- D-Wave demonstrates [scalable on-chip cryogenic control](https://www.dwavequantum.com/company/newsroom/press-release/d-wave-demonstrates-first-scalable-on-chip-cryogenic-control-of-gate-model-qubits/) for gate-model qubits (Jan 2026)
+- Google opens [Willow Early Access Program](https://thequantuminsider.com/2026/03/28/google-opens-early-access-to-willow-quantum-processor-invites-experimental-proposals/) for researchers (March 2026)
+- Fermilab/MIT use [cryoelectronics to control ion traps](https://news.fnal.gov/2026/02/doe-national-quantum-research-centers-reach-milestone-breakthrough-towards-building-scalable-quantum-computers/) at scale (Feb 2026)
+
+### Microsoft Platform
+- Microsoft expands QDK with [AI-assisted quantum programming](https://azure.microsoft.com/en-us/blog/quantum/2026/01/22/powerful-new-developer-tools-increase-the-versatility-of-the-microsoft-quantum-platform/) and Copilot integration (Jan 2026)
+- Co-designing [Magne](https://azure.microsoft.com/en-us/blog/quantum/2026/01/22/powerful-new-developer-tools-increase-the-versatility-of-the-microsoft-quantum-platform/) quantum computer with Atom Computing's neutral-atom qubits
 
 ## Platform Selection Guide
 
@@ -112,10 +134,10 @@ All major platforms launched quantum-ready programs in 2024-2025:
 
 | Period | Expected Industry Progress |
 |--------|---------------------------|
-| **2025** | 100-500 physical qubits; logical qubit demonstrations mature; enterprise pilots expand |
-| **2026-2027** | 500-5,000 physical qubits; 10-100 logical qubits; quantum networking demonstrations |
-| **2028-2029** | 1,000-20,000 physical qubits; 100-1,000 logical qubits; quantum advantage in specific domains |
-| **2030+** | 10,000+ physical qubits; 1,000+ logical qubits; fault-tolerant systems; widespread applications |
+| **2026** | 100-500 physical qubits; 24-94 logical qubits demonstrated; AI-for-quantum tooling matures; enterprise pilots expand |
+| **2027-2028** | 500-5,000 physical qubits; 100+ logical qubits; quantum networking demonstrations |
+| **2029-2030** | 1,000-20,000 physical qubits; 1,000+ logical qubits; quantum advantage in specific domains |
+| **2030+** | 10,000+ physical qubits; fault-tolerant systems; widespread applications |
 
 **Key Insight:** All major providers are converging on **2028-2030** as the timeframe for practical, fault-tolerant quantum computers capable of solving commercially-relevant problems.
 
@@ -126,7 +148,7 @@ All major platforms launched quantum-ready programs in 2024-2025:
 - **AWS Braket Console**: Unified access to multiple quantum providers
 - **Azure Quantum Portal**: Integrated platform with AI/HPC tools
 
-### Programming Frameworks (2025)
+### Programming Frameworks (2026)
 
 | Framework | Provider | Language | Best For |
 |-----------|----------|----------|----------|
@@ -144,7 +166,7 @@ All platforms support:
 - Integration with classical computing workflows
 - Job submission and result retrieval
 
-## Pricing Models Overview (2025)
+## Pricing Models Overview (2026)
 
 ### General Pricing Structure
 
@@ -177,7 +199,7 @@ All platforms support:
 - Technical support and consulting
 - On-premises deployment options (select providers)
 
-## Hybrid Quantum-Classical Computing (2025 Trend)
+## Hybrid Quantum-Classical Computing (2026)
 
 **Industry-Wide Shift to Hybrid Architectures:**
 
@@ -187,6 +209,7 @@ All major platforms now emphasize tight integration between quantum and classica
 - **CUDA-Q integration** for GPU+quantum workflows
 - Accelerated quantum simulation
 - Hybrid algorithm development
+- **[NVIDIA Ising models](https://nvidianews.nvidia.com/news/nvidia-launches-ising-the-worlds-first-open-ai-models-to-accelerate-the-path-to-useful-quantum-computers)** for AI-powered quantum calibration and error correction
 
 ### Microsoft Azure Elements
 - **AI + HPC + Quantum** integration
@@ -206,83 +229,7 @@ All major platforms now emphasize tight integration between quantum and classica
 - Classical post-processing optimization
 
 ## Hardware Technology Comparison
-
-### Superconducting Qubits
-**Providers:** IBM, Google, AWS (Ocelot), Rigetti
-
-**Pros:**
-- Fast gate operations (10s-100s ns)
-- Mature fabrication processes
-- Most developed error correction research
-
-**Cons:**
-- Requires cryogenic cooling (~15 mK)
-- Limited coherence times (100s μs)
-- Connectivity constraints (nearest neighbor)
-
-**Best for:** Near-term applications, research, development
-
-### Trapped Ions
-**Providers:** IonQ, Quantinuum (via Azure)
-
-**Pros:**
-- Highest fidelity (99.9%)
-- Long coherence times (seconds)
-- All-to-all connectivity
-- Identical qubits (atomic clocks)
-
-**Cons:**
-- Slower gates (μs)
-- Challenging to scale (networking required)
-- Complex control systems
-
-**Best for:** High-fidelity applications, quantum networking, algorithms requiring high connectivity
-
-### Neutral Atoms
-**Providers:** Atom Computing (via Azure), QuEra (via AWS)
-
-**Pros:**
-- Scalable to hundreds of qubits
-- Reconfigurable architectures
-- Good coherence times
-- Flexible connectivity
-
-**Cons:**
-- Moderate fidelities (improving to 99.6%)
-- Complex control systems
-- Relatively new technology
-
-**Best for:** Large-qubit-count applications, optimization, simulation
-
-### Topological Qubits
-**Providers:** Microsoft (Majorana 1)
-
-**Pros:**
-- Hardware-protected from errors
-- Potential to scale to millions of qubits
-- Fundamentally different approach
-
-**Cons:**
-- Still in prototype phase (2025)
-- Unproven at scale
-- Complex fabrication
-
-**Best for:** Long-term fault tolerance, future scalability
-
-### Photonic Qubits
-**Providers:** Xanadu (via AWS)
-
-**Pros:**
-- Room temperature operation
-- Network compatibility
-- Fast operations
-
-**Cons:**
-- Limited gate set
-- Challenging to scale
-- Specialized applications
-
-**Best for:** Quantum communication, specific computational tasks
+For a detailed comparison of qubit technologies (superconducting, trapped ions, neutral atoms, topological, photonic), see [Hardware Comparison](hardware-comparison.md).
 
 ## Quantum-Safe Cryptography
 
@@ -307,137 +254,21 @@ All major cloud providers are implementing quantum-safe cryptography:
 - Transition takes years, so starting early is critical
 
 ## Educational Resources & Learning Paths
+For free learning platforms, academic programs, certifications, and open-source frameworks, see [Educational Resources](educational-resources.md).
 
-### Free Learning Platforms
+## Application Domains (2026)
+For quantum computing use cases across chemistry, optimization, ML, cryptography, and finance, see [Application Domains](application-domains.md).
 
-**IBM Quantum Learning:**
-- Comprehensive courses from beginner to advanced
-- Qiskit textbook (free, open-source)
-- Quantum badges and certifications
-- Regular challenges and competitions
+## Future Outlook (2026-2030)
 
-**AWS Braket Digital Learning Plan:**
-- Free structured learning program
-- Earn digital credentials
-- Hands-on with real quantum hardware
-- No prior quantum knowledge required
-
-**Microsoft Learn:**
-- Quantum computing fundamentals
-- Q# programming tutorials
-- Azure Quantum workshops
-- Integration with classical computing
-
-**NVIDIA CUDA-Q Academic:**
-- 10 self-paced Jupyter notebook modules
-- Covers quantum fundamentals through advanced applications (chemistry, finance, AI)
-- AI-for-quantum module exploring AI-informed quantum models
-- GitHub: https://github.com/NVIDIA/cuda-q-academic
-
-### Academic Programs
-- **IBM Quantum Network**: 200+ university partnerships
-- **AWS Research Programs**: Academic grants and access
-- **Microsoft Academic Partnerships**: University collaborations
-- **Quantum computing degrees**: Growing number of universities
-
-### Certifications & Credentials
-- IBM Quantum badges
-- Cloud provider certifications
-- Academic quantum computing courses
-- Professional quantum developer programs
-
-## Research & Open Source
-
-### Open Source Frameworks
-
-**Qiskit (IBM):**
-- Most popular quantum framework
-- 500,000+ users globally
-- Comprehensive documentation
-- Active community
-- GitHub: https://github.com/Qiskit/
-
-**Cirq (Google):**
-- Research-oriented framework
-- Custom gate operations
-- Integration with TensorFlow Quantum
-- GitHub: https://github.com/quantumlib/Cirq
-
-**PennyLane (Xanadu):**
-- Quantum machine learning focus
-- Cross-platform compatibility
-- Differentiable quantum computing
-- GitHub: https://github.com/PennyLaneAI/pennylane
-
-**Amazon Braket SDK:**
-- Multi-vendor access
-- Python-native interface
-- Open-source
-- GitHub: https://github.com/aws/amazon-braket-sdk-python
-
-### Academic Access Programs
-- Grants for quantum research
-- Free or discounted quantum computing time
-- Collaboration opportunities
-- Publication support
-
-## Application Domains (2025)
-
-### Chemistry & Materials Science
-**Status:** Most mature application area
-- Molecular simulation
-- Drug discovery
-- Catalyst design
-- Battery materials
-
-**Leaders:** Azure Quantum Elements, IBM Quantum
-
-### Optimization
-**Status:** Near-term practical applications
-- Portfolio optimization (finance)
-- Supply chain and logistics
-- Resource allocation
-- Scheduling problems
-
-**Leaders:** All platforms; D-Wave for specific problems
-
-### Machine Learning
-**Status:** Active research, emerging applications
-- Quantum neural networks
-- Feature mapping
-- Classification problems
-- Generative models
-
-**Leaders:** IBM Qiskit, PennyLane, TensorFlow Quantum
-
-### Cryptography & Security
-**Status:** Long-term concern, immediate preparation
-- Post-quantum cryptography
-- Quantum key distribution
-- Random number generation
-- Secure communications
-
-**Leaders:** IonQ (quantum networking), Microsoft (quantum-safe)
-
-### Financial Services
-**Status:** Pilot projects and research
-- Risk analysis
-- Derivatives pricing
-- Fraud detection
-- Portfolio optimization
-
-**Partners:** Major banks with all quantum providers
-
-## Future Outlook (2025-2030)
-
-### 2025 Focus Areas
-- Scaling logical qubit counts
-- Improving error correction efficiency
+### 2026 Focus Areas
+- Scaling logical qubit counts beyond break-even
+- AI-powered quantum error correction (NVIDIA Ising, others)
 - Developing quantum algorithms for practical problems
 - Building enterprise quantum applications
 - Expanding quantum networking
 
-### 2026-2029 Goals
+### 2027-2029 Goals
 - Demonstrating quantum advantage in multiple domains
 - Industry-specific quantum solutions in production
 - Quantum networking between processors
@@ -451,7 +282,7 @@ All major cloud providers are implementing quantum-safe cryptography:
 - Quantum-enhanced AI and machine learning
 - Thousands of logical qubits enabling complex algorithms
 
-## Key Takeaways for 2025
+## Key Takeaways for 2026
 
 ### For Developers:
 ✅ Now is the time to **learn quantum computing** - practical systems arriving by 2028-2030.<br>
@@ -484,21 +315,21 @@ All major cloud providers are implementing quantum-safe cryptography:
 
 ## Conclusion
 
-**The quantum computing industry has reached an inflection point.** 
+**2026 marks the year AI-for-quantum became mainstream and logical qubits crossed the break-even threshold.**
 
-The 2024-2025 breakthroughs in error correction, logical qubits, and utility-scale computing have transformed quantum computing from a research curiosity to an engineering challenge with a clear path to practical systems.
+Building on the 2024-2025 breakthroughs in error correction and utility-scale computing, 2026 has seen AI models (NVIDIA Ising) accelerate quantum error correction, Quantinuum demonstrate 94 logical qubits beyond break-even, and new processors from IBM, IonQ, and Rigetti push qubit counts and coherence times to new highs.
 
 **Key Industry Consensus:**
-- Error correction **works** in practice
-- Fault-tolerant quantum computing is **achievable** by 2028-2030
-- Focus has shifted from "if" to "**when**" and "**how**"
-- Hybrid quantum-classical systems will be the **norm**
+- Logical qubits now **outperform** physical qubits (beyond break-even)
+- AI-powered tools are **accelerating** quantum development
+- Fault-tolerant quantum computing is **on track** for 2028-2030
+- Hybrid quantum-classical systems are the **standard architecture**
 
 **What This Means:**
 - Enterprises should **prepare now** for quantum advantage
 - Developers should **start learning** quantum programming
+- AI-for-quantum is a **critical new skill** area
 - The quantum computing industry will see **rapid growth** through 2030
-- Investment and talent are flowing into the quantum sector
 
 **The quantum future is not just coming — it's already here.**
 
