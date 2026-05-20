@@ -53,24 +53,24 @@ def draw_bloch_wireframe(ax):
 
 def setup_figure():
     """Create the figure with two side-by-side panels."""
-    fig = plt.figure(figsize=(8, 4), facecolor=WHITE)
+    fig = plt.figure(figsize=(8, 4.5), facecolor=WHITE)
 
     # Left panel: BIT (2D)
-    ax_bit = fig.add_axes([0.02, 0.05, 0.35, 0.80])
+    ax_bit = fig.add_axes([0.05, 0.05, 0.30, 0.78])
     ax_bit.set_xlim(-1.5, 1.5)
     ax_bit.set_ylim(-2.2, 2.2)
     ax_bit.set_aspect("equal")
     ax_bit.axis("off")
-    ax_bit.set_title("BIT", fontsize=20, fontweight="bold", color=NAVY, pad=10)
+    ax_bit.set_title("BIT", fontsize=22, fontweight="bold", color=NAVY, pad=12)
 
-    # Right panel: QUBIT (3D)
-    ax_qubit = fig.add_axes([0.40, 0.0, 0.58, 0.95], projection="3d")
+    # Right panel: QUBIT (3D) — lowered with room for title
+    ax_qubit = fig.add_axes([0.38, 0.02, 0.58, 0.85], projection="3d")
     ax_qubit.set_xlim([-1.4, 1.4])
     ax_qubit.set_ylim([-1.4, 1.4])
     ax_qubit.set_zlim([-1.4, 1.4])
     ax_qubit.axis("off")
     ax_qubit.view_init(elev=20, azim=-60)
-    ax_qubit.set_title("QUBIT", fontsize=20, fontweight="bold", color=NAVY, pad=0)
+    ax_qubit.set_title("QUBIT", fontsize=22, fontweight="bold", color=NAVY, pad=14)
 
     return fig, ax_bit, ax_qubit
 
@@ -82,7 +82,7 @@ def animate(frame, ax_bit, ax_qubit):
     ax_bit.set_ylim(-2.2, 2.2)
     ax_bit.set_aspect("equal")
     ax_bit.axis("off")
-    ax_bit.set_title("BIT", fontsize=20, fontweight="bold", color=NAVY, pad=10)
+    ax_bit.set_title("BIT", fontsize=22, fontweight="bold", color=NAVY, pad=12)
 
     # -- BIT side: toggle every 1 second --
     t = frame / FPS
@@ -110,7 +110,7 @@ def animate(frame, ax_bit, ax_qubit):
     ax_qubit.set_ylim([-1.4, 1.4])
     ax_qubit.set_zlim([-1.4, 1.4])
     ax_qubit.axis("off")
-    ax_qubit.set_title("QUBIT", fontsize=20, fontweight="bold", color=NAVY, pad=0)
+    ax_qubit.set_title("QUBIT", fontsize=22, fontweight="bold", color=NAVY, pad=14)
     ax_qubit.view_init(elev=20, azim=-60)
 
     draw_bloch_wireframe(ax_qubit)
