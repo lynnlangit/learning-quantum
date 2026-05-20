@@ -29,6 +29,8 @@
 10. [Timeline Convergence](#timeline-convergence)
 11. [Why 2024-2025 Was Different](#why-2024-2025-was-different)
 12. [2026 Breakthroughs](#2026-breakthroughs)
+13. [Key Technologies (2026)](#key-technologies-2026)
+14. [Getting Started](#getting-started)
 
 ---
 
@@ -695,6 +697,62 @@ This milestone proves that quantum error correction not only works but actually 
 - Deeper integration of AI, HPC, and quantum workflows
 
 **More info:** https://azure.microsoft.com/en-us/blog/quantum/2026/01/22/powerful-new-developer-tools-increase-the-versatility-of-the-microsoft-quantum-platform/
+
+---
+
+## Key Technologies (2026)
+
+### Qubit Technologies
+- **Superconducting** (IBM, Google, AWS, Rigetti): Fast gates, cryogenic cooling required
+- **Trapped Ion** (IonQ, Quantinuum): High fidelity, all-to-all connectivity
+- **Neutral Atom** (Atom Computing, Pasqal): Scalability, reconfigurable
+- **Topological** (Microsoft Majorana 1): Hardware-protected error resistance
+- **Photonic** (Xanadu): Room temperature operation
+- **Quantum Annealing** (D-Wave): Optimization problems
+
+### Software Frameworks
+- **Qiskit** (IBM): Most popular, open-source
+- **Q#** (Microsoft): Enterprise-focused, integrated with .NET
+- **Cirq** (Google): Research-oriented
+- **Amazon Braket SDK**: Multi-platform access
+- **PennyLane**: Quantum machine learning
+
+---
+
+## Getting Started
+
+### Choose Your Platform
+
+**For Hardware Diversity**: AWS Braket (access to IonQ, Rigetti, IQM, D-Wave, and more)<br>
+**For Logical Qubits**: Microsoft Azure Quantum (24 entangled logical qubits, topological qubits)<br>
+**For Utility-Scale Computing**: IBM Quantum (5,000-gate circuits, 156 qubits)<br>
+**For Open Source**: IBM Quantum (Qiskit framework)<br>
+**For Highest Fidelity**: IonQ via AWS/Azure (99.9% two-qubit gate fidelity)
+
+### Learning Paths
+
+1. **Courses**:
+   - [LinkedIn Learning: Cloud Quantum Computing Essentials](https://www.linkedin.com/learning/cloud-quantum-computing-essentials)
+   - IBM Qiskit Textbook
+   - AWS Braket Digital Learning Plan (free credentials)
+   - Microsoft Learn: Quantum Computing Fundamentals
+
+2. **Hands-On Practice**:
+   - IBM Quantum (free access to quantum computers)
+   - AWS Braket (free simulator time)
+   - Azure Quantum ($500 free credits)
+   - Annual quantum coding challenges
+
+3. **Community**:
+   - Quantum Computing Stack Exchange
+   - IBM Quantum Network
+   - Cloud provider quantum communities
+
+### Official Documentation
+- [IBM Quantum Documentation](https://docs.quantum.ibm.com/)
+- [AWS Braket Documentation](https://docs.aws.amazon.com/braket/)
+- [Azure Quantum Documentation](https://docs.microsoft.com/azure/quantum/)
+- [Qiskit Documentation](https://qiskit.org/documentation/)
 
 ---
 
