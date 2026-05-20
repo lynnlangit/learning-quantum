@@ -53,10 +53,10 @@ def draw_bloch_wireframe(ax):
 
 def setup_figure():
     """Create the figure with two side-by-side panels."""
-    fig = plt.figure(figsize=(8, 4.5), facecolor=WHITE)
+    fig = plt.figure(figsize=(8, 5), facecolor=WHITE)
 
     # Left panel: BIT (2D)
-    ax_bit = fig.add_axes([0.05, 0.05, 0.30, 0.78])
+    ax_bit = fig.add_axes([0.05, 0.05, 0.30, 0.72])
     ax_bit.set_xlim(-1.5, 1.5)
     ax_bit.set_ylim(-2.2, 2.2)
     ax_bit.set_aspect("equal")
@@ -64,7 +64,7 @@ def setup_figure():
     ax_bit.set_title("BIT", fontsize=22, fontweight="bold", color=NAVY, pad=12)
 
     # Right panel: QUBIT (3D) — lowered with room for title
-    ax_qubit = fig.add_axes([0.38, 0.02, 0.58, 0.85], projection="3d")
+    ax_qubit = fig.add_axes([0.38, 0.02, 0.58, 0.78], projection="3d")
     ax_qubit.set_xlim([-1.4, 1.4])
     ax_qubit.set_ylim([-1.4, 1.4])
     ax_qubit.set_zlim([-1.4, 1.4])
