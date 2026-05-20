@@ -29,6 +29,7 @@ Info about quantum runtime environments (and simulators) organized by [cloud ven
 - **Google Quantum AI** - Willow chip with error correction breakthrough
 - **IonQ** - Trapped-ion systems, 99.9% fidelity, path to 2M qubits
 - **Rigetti** - Superconducting multi-chip architecture
+- **NVIDIA CUDA-Q** - GPU-accelerated quantum simulation, Ising AI models for QEC
 
 ### 📄 whitepapers
 [Academic research papers](https://github.com/lynnlangit/learning-quantum/tree/main/3_whitepapers) of interest including quantum programming algorithms and examples
