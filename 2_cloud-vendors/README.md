@@ -135,6 +135,7 @@ All major platforms launched quantum-ready programs in 2024-2025:
 | **Cirq** | Google | Python | Research, custom gate sets |
 | **Braket SDK** | AWS | Python | Multi-vendor access, hybrid computing |
 | **PennyLane** | Xanadu (open-source) | Python | Quantum machine learning |
+| **CUDA-Q** | NVIDIA (open-source) | Python/C++ | GPU-accelerated hybrid quantum-classical |
 
 ### API Access
 All platforms support:
@@ -326,6 +327,12 @@ All major cloud providers are implementing quantum-safe cryptography:
 - Q# programming tutorials
 - Azure Quantum workshops
 - Integration with classical computing
+
+**NVIDIA CUDA-Q Academic:**
+- 10 self-paced Jupyter notebook modules
+- Covers quantum fundamentals through advanced applications (chemistry, finance, AI)
+- AI-for-quantum module exploring AI-informed quantum models
+- GitHub: https://github.com/NVIDIA/cuda-q-academic
 
 ### Academic Programs
 - **IBM Quantum Network**: 200+ university partnerships

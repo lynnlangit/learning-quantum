@@ -23,3 +23,30 @@ To start using CUDA-Q for your quantum computing projects, follow the QuickStart
 ## Quantum Cloud for CUDA-Q
 
 CUDA-Q can currently be run on simulators or one of two cloud backends - [Amazon Braket](https://nvidia.github.io/cuda-quantum/latest/using/backends/cloud/braket.html) or [NVIDIA Quantum Cloud](https://nvidia.github.io/cuda-quantum/latest/using/backends/cloud/nvqc.html).
+
+## CUDA-Q Academic Learning Resources
+
+The [NVIDIA/cuda-q-academic](https://github.com/NVIDIA/cuda-q-academic) repository provides free, self-paced Jupyter notebook modules for learning hybrid quantum-classical computing with CUDA-Q. The materials cover fundamentals through advanced applications including AI-informed quantum models.
+
+### Learning Modules
+
+| Module | Description |
+|--------|-------------|
+| **Quick Start to Quantum** | Fundamentals to variational algorithms using CUDA-Q |
+| **Simulation** | State vector, tensor network, MPS, Pauli propagation, and stabilizer backends |
+| **QIS Examples** | Foundational quantum algorithms complementing QIS coursework |
+| **QEC 101** | Quantum error correction, decoders, and magic-state distillation |
+| **Chemistry Simulations** | VQE, ADAPT-VQE, QM/MM, and Krylov methods |
+| **Quantum Finance** | Quantum walks, portfolio optimization, and QChop tools |
+| **QAOA for Max-Cut** | Divide-and-conquer QAOA with circuit cutting |
+| **AI for Quantum** | Using AI models to enable quantum computing capabilities |
+| **Dynamics 101** | GPU-accelerated Schrodinger and Lindblad time evolution |
+| **Hybrid Workflows** | Practical hybrid classical-quantum workflow demonstrations |
+
+### Running the Notebooks
+
+The notebooks can be run via [NVIDIA Brev](https://www.nvidia.com/en-us/brev/) (recommended), qBraid, AWS Braket, Google Colab, or locally following the [CUDA-Q installation guide](https://nvidia.github.io/cuda-quantum/latest/install.html).
+
+### For Educators
+
+See the [Instructor Guide](https://github.com/NVIDIA/cuda-q-academic/blob/main/Instructor-Guide.md) for teaching methodology and a role-based team project template incorporating agentic AI.
