@@ -1,6 +1,6 @@
 # Learning Cloud Quantum Programming
 
-<video src="https://github.com/lynnlangit/learning-quantum/raw/main/images/bit-vs-qubit.mp4" width=375 align=left controls autoplay loop muted></video>
+<img src="https://github.com/lynnlangit/learning-quantum/blob/main/images/bit-vs-qubit-animated.gif?raw=true" width=375 align=left>
 
 This repo contains my study resources for learning **cloud quantum programming**.    
 
