@@ -73,31 +73,11 @@ Shown below are screenshots from a couple of quantum programming development env
 
 ---
 
-## 2024-2025 Industry Breakthroughs
+## Industry Breakthroughs (2024-2026)
 
-The quantum computing industry achieved major milestones in 2024-2025, marking the transition from research to practical engineering:
+Quantum computing crossed major thresholds in 2024-2026: error correction proven at scale, 94 logical qubits demonstrated beyond break-even, and AI-powered tools accelerating development. Industry consensus targets fault-tolerant systems by 2028-2030.
 
-### Error Correction Threshold Achieved
-- **Google Willow**: First demonstration of exponential error reduction as qubits scale
-- **Microsoft**: 800x error rate improvement, created 24 entangled logical qubits (world record)
-- **IBM**: Achieved 5,000-gate circuit execution on 156-qubit system
-
-### Proprietary Hardware Innovation
-- **AWS Ocelot**: First AWS quantum chip using cat qubits (90% error correction cost reduction)
-- **Microsoft Majorana 1**: World's first topological quantum processor, designed to scale to 1 million qubits on single chip
-
-### Enterprise Readiness
-- All major cloud providers launched quantum-ready programs (AWS Quantum Embark, Microsoft Quantum Ready, IBM advisory services)
-- Focus on hybrid quantum-classical computing integrating AI and HPC
-- Industry consensus: Fault-tolerant quantum computing by 2028-2030
-
-### Current State (2025)
-Modern cloud quantum systems range from 50-156 physical qubits with several platforms now demonstrating logical qubits with error correction. Key systems include:
-- **Google Willow**: 105 qubits with error correction breakthrough
-- **IBM Heron**: 156 qubits running 5,000-gate circuits
-- **Microsoft + Atom Computing**: 24 logical qubits
-- **AWS Ocelot**: 9 cat qubits (proprietary)
-- **IonQ Forte Enterprise**: 36 algorithmic qubits with 99.9% fidelity
+For detailed coverage, see [Breakthroughs](1_concepts/breakthroughs/README.md).
 
 
 ## Quantum Computer Vendors
@@ -157,16 +137,16 @@ The QuanTime website (partnership with National Q-12 Education Partnership group
 
 ## Industry Timeline
 
-Based on 2024-2025 announcements, the industry is converging on this timeline:
+Based on 2024-2026 announcements, the industry is converging on this timeline:
 
 | Period | Expected Progress |
 |--------|------------------|
-| **2025** | 100-500 physical qubits, maturing logical qubit technology |
-| **2026-2027** | 500-5,000 physical qubits, 10-100 logical qubits |
-| **2028-2029** | 1,000-20,000 physical qubits, 100-1,000 logical qubits |
+| **2026** | 108-256 physical qubits; 94 logical qubits demonstrated; AI-for-quantum tooling matures |
+| **2027-2028** | 500-5,000 physical qubits, 100+ logical qubits |
+| **2029-2030** | 1,000-20,000 physical qubits, 1,000+ logical qubits |
 | **2030+** | Fault-tolerant quantum computers, quantum advantage at scale |
 
-## Key Technologies (2025)
+## Key Technologies (2026)
 
 ### Qubit Technologies
 - **Superconducting** (IBM, Google, AWS, Rigetti): Fast gates, cryogenic cooling required
@@ -191,12 +171,15 @@ Based on 2024-2025 announcements, the industry is converging on this timeline:
 - [Azure Quantum Documentation](https://docs.microsoft.com/azure/quantum/)
 - [Qiskit Documentation](https://qiskit.org/documentation/)
 
-### Recent Major Announcements (2024-2025)
+### Recent Major Announcements (2024-2026)
 - [Google Willow Quantum Chip](https://blog.google/technology/research/google-willow-quantum-chip/)
 - [AWS Ocelot Chip](https://www.aboutamazon.com/news/aws/quantum-computing-aws-ocelot-chip)
 - [Microsoft Majorana 1](https://azure.microsoft.com/en-us/blog/quantum/2025/02/19/microsoft-unveils-majorana-1-the-worlds-first-quantum-processor-powered-by-topological-qubits/)
 - [IBM Quantum Roadmap](https://www.ibm.com/quantum/blog/ibm-quantum-roadmap-2025)
 - [Microsoft 24 Logical Qubits](https://azure.microsoft.com/en-us/blog/quantum/2024/11/19/microsoft-and-atom-computing-offer-a-commercial-quantum-machine-with-the-largest-number-of-entangled-logical-qubits-on-record/)
+- [NVIDIA Ising — Quantum AI Models](https://nvidianews.nvidia.com/news/nvidia-launches-ising-the-worlds-first-open-ai-models-to-accelerate-the-path-to-useful-quantum-computers)
+- [Quantinuum 94 Logical Qubits](https://thequantuminsider.com/2026/03/10/quantinuum-researchers-demonstrates-quantum-computations-with-dozens-of-protected-logical-qubits/)
+- [IBM Nighthawk Processor](https://quantum.cloud.ibm.com/announcements/en/product-updates/2026-01-05-nighthawk)
 
 ### This Repository
 Explore the `cloud-vendors` directory for detailed information about each platform, including:
