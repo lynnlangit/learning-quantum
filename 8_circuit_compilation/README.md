@@ -41,7 +41,7 @@ Our own ideas each moved the score by hundredths of a percent at best (see [nega
 | Nov 2 | Product-caching DQI | 23.947 | 233 |
 | Nov 4 | Best-per-task blend | 24.720 | 112 (silver zone) |
 | Nov 5 | New chemistry table + loaders | 24.856 | 142 |
-| Nov 6 | Hybrid: newest invsqrt + chemistry, Kaggle-proven DQI file | 24.941 (predicted) | ~205 |
+| Nov 6 | Hybrid: newest invsqrt + chemistry, Kaggle-proven DQI file | 24.941 | 264 (tied with a pack of ~90 teams on the bronze line) |
 
 The top of the board rose from 26.1 to 29.3 over the same period. Medal lines moved 0.3–1.2% per day as each public build was copied by hundreds of teams.
 
