@@ -37,6 +37,9 @@ Info about quantum runtime environments (and simulators) organized by [cloud ven
 ### 📖 o-reilly-book
 Code examples, slides and link from a [15-week-long bookclub](https://github.com/lynnlangit/learning-quantum/tree/main/4_oreilly-book) covering the referenced book on quantum programming
 
+### 🧮 circuit-compilation
+[Field notes](https://github.com/lynnlangit/learning-quantum/tree/main/8_circuit_compilation) from the Kaggle "Verifiable Quantum Circuit Compilation" competition (2026): what fault-tolerant circuits are charged for, eight lessons with evidence, a ledger of closed ideas, and a glossary
+
 ---
 
 
