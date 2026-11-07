@@ -1,5 +1,7 @@
 # Galois fields, for quantum circuits
 
+<img src="images/galois-fields.png" width=900 alt="Galois fields on a quantum computer: GF(2), GF(4), GF(8) and GF(2^12) built up from bits; addition, constant multiplication and squaring are free CNOT work, while multiplying two elements costs one Toffoli per AND (schoolbook 144, best known 42, lower bound 31 for GF(2^12))">
+
 A **Galois field** (or **finite field**), written GF(q), is a finite set of numbers where you can add, subtract, multiply and divide (except by zero), and all the usual algebra rules hold. They are named after Évariste Galois. In these notes they matter because the DQI task's decoder does all its arithmetic in **GF(2¹²)**, and the cost of that arithmetic decides most of the circuit's price. Back to the [glossary](glossary.md) or the [overview](README.md).
 
 | Field | Elements | How you represent an element | Where it shows up |
