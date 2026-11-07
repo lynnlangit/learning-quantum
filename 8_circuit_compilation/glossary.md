@@ -17,7 +17,7 @@ Terms used in these notes, in plain language. Back to the [overview](README.md).
 | **Phase oracle** | A circuit that multiplies each input \|x⟩ by a phase e<sup>iθ(x)</sup>. The invsqrt task computes θ = 2π/√x. |
 | **DQI** | Decoded Quantum Interferometry, an optimization algorithm whose cost is dominated by a reversible classical decoder (here Reed–Solomon over GF(2¹²)). |
 | **Reed–Solomon decoding** | Correcting errors in a code built from polynomials over a finite field; the decoder solves a "key equation" with field arithmetic. |
-| **GF(2ⁿ)** | A finite field with 2ⁿ elements. Multiplying two elements costs as many Toffolis as the **tensor rank** of the multiplication map. |
+| **GF(2ⁿ)** | A finite field (Galois field) with 2ⁿ elements, each stored in n bits or qubits. Addition is XOR (free); multiplying two elements costs as many Toffolis as the **tensor rank** of the multiplication map. See the full explainer: [Galois fields, for quantum circuits](galois-fields.md). |
 | **Tensor rank** | The fewest products needed to compute a bilinear map. For GF(2¹²) multiplication, today's best is 42. |
 | **Shot / failed shot** | One run of the circuit on one sampled input. In DQI, a failed shot is an input the decoder gets wrong; each one raises the penalty R. |
 | **Salt / seed** | The random seed for measurement outcomes and sampled inputs. Kaggle uses a secret salt, so results can differ from local runs. |
