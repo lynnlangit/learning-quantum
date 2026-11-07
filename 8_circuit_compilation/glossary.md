@@ -22,7 +22,7 @@ Terms used in these notes, in plain language. Back to the [overview](README.md).
 | **Shot / failed shot** | One run of the circuit on one sampled input. In DQI, a failed shot is an input the decoder gets wrong; each one raises the penalty R. |
 | **Salt / seed** | The random seed for measurement outcomes and sampled inputs. Kaggle uses a secret salt, so results can differ from local runs. |
 | **Block encoding** | Embedding a matrix (here a molecular Hamiltonian) in a corner of a unitary so phase estimation can use it. |
-| **DF-THC** | Double-factorized tensor hypercontraction: a compact factorization of the chemistry Hamiltonian. Its quality is measured by λ. |
+| **DF-THC** | Double-factorized tensor hypercontraction: a compact factorization of the chemistry Hamiltonian as a sum of squares of one-body operators built from shared vectors. Its quality is measured by λ. See the full explainer: [DF-THC, for quantum chemistry circuits](df-thc.md). |
 | **λ (lambda), λ<sub>eff</sub>** | The 1-norm of the factorized Hamiltonian; the number of block-encoding calls needed scales with it. |
 | **mHa** | Milli-Hartree, the unit of energy error; each chemistry accuracy limit is 20 mHa. |
 | **Angle loader** | A circuit that looks up the rotation angles for each address (a QROM-like table); its cost is the number of AND products. |

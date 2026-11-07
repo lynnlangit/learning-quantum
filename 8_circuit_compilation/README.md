@@ -10,6 +10,7 @@ The task: make three fault-tolerant quantum circuits cheaper while passing offic
 - 🚫 [Negative results](negative-results.md): ten ideas we measured and closed, and why
 - 📖 [Glossary](glossary.md): Toffoli, magic state, measurement-based uncomputation, DQI, DF-THC and more
 - 🔢 [Galois fields, for quantum circuits](galois-fields.md): finite-field arithmetic from one bit to GF(2¹²), with worked examples and what each operation costs on a quantum computer
+- ⚗️ [DF-THC, for quantum chemistry circuits](df-thc.md): how a molecule's Hamiltonian becomes an affordable circuit, from factorization to angle words to the λ<sub>eff</sub> × T × Q score
 - 🔗 Competition: [kaggle.com/competitions/google-verifiable-quantum-circuit-compilation](https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation)
 
 <br clear=right>
